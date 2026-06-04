@@ -1,0 +1,36 @@
+{
+  "human_calibration": {
+    "all_questions": {
+      "conditioned_winner_pct": 37.333333333333336,
+      "unconditioned_winner_pct": 28.333333333333332,
+      "conditioned_winner_ci_95": [
+        32.333333333333336,
+        42.0
+      ],
+      "unconditioned_winner_ci_95": [
+        24.333333333333336,
+        32.333333333333336
+      ],
+      "paired_signflip_p": 0.01430654525756836,
+      "stars": "*"
+    },
+    "cohorts_disagree": {
+      "conditioned_winner_pct": 32.57142857142857,
+      "unconditioned_winner_pct": 17.142857142857142,
+      "conditioned_winner_ci_95": [
+        25.714285714285715,
+        39.42857142857143
+      ],
+      "unconditioned_winner_ci_95": [
+        12.0,
+        22.285714285714285
+      ],
+      "paired_signflip_p": 0.01430654525756836,
+      "stars": "*"
+    },
+    "source_guardrail": {
+      "conditioned_source_selected_pct": 43.0,
+      "expected_conditioned_source_if_random_within_question_pct": 44.30555555555555
+    }
+  }
+}
