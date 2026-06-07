@@ -1,0 +1,578 @@
+{
+  "rows": [
+    {
+      "pair_id": "TIME_METAPHOR",
+      "variant": "original",
+      "question_id": "A001_TIME_METAPHOR_ORIG",
+      "query": "Write a metaphor involving time.",
+      "anchor_terms": [
+        "time",
+        "metaphor"
+      ],
+      "n_clusters": 271,
+      "noise_pct": 45.7,
+      "anchored_clusters": 271,
+      "cluster_echo_rate": 1.0,
+      "item_echo_rate": 0.9964454976303317,
+      "full_observed_rbo": 0.052824,
+      "full_signal_to_chance": 1.1275,
+      "filtered_observed_rbo": 0.0,
+      "filtered_signal_to_chance": null
+    },
+    {
+      "pair_id": "TIME_METAPHOR",
+      "variant": "stripped",
+      "question_id": "A002_TIME_METAPHOR_STRIPPED",
+      "query": "Give a figurative image for the thing that makes before and after possible.",
+      "anchor_terms": [
+        "time",
+        "metaphor"
+      ],
+      "n_clusters": 330,
+      "noise_pct": 40.6,
+      "anchored_clusters": 24,
+      "cluster_echo_rate": 0.07272727272727272,
+      "item_echo_rate": 0.021040154096903244,
+      "full_observed_rbo": 0.032847,
+      "full_signal_to_chance": 1.1706,
+      "filtered_observed_rbo": 0.03024065148437982,
+      "filtered_signal_to_chance": 1.0887718966185436
+    },
+    {
+      "pair_id": "OVERPOPULATION",
+      "variant": "original",
+      "question_id": "A003_OVERPOPULATION_ORIG",
+      "query": "Write a short note on the problem of overpopulation.",
+      "anchor_terms": [
+        "overpopulation",
+        "population",
+        "people"
+      ],
+      "n_clusters": 267,
+      "noise_pct": 52.1,
+      "anchored_clusters": 179,
+      "cluster_echo_rate": 0.6704119850187266,
+      "item_echo_rate": 0.4117037037037037,
+      "full_observed_rbo": 0.023761,
+      "full_signal_to_chance": 0.735,
+      "filtered_observed_rbo": 0.01601069692122314,
+      "filtered_signal_to_chance": 0.6699383338406752
+    },
+    {
+      "pair_id": "OVERPOPULATION",
+      "variant": "stripped",
+      "question_id": "A004_OVERPOPULATION_STRIPPED",
+      "query": "Write a short note about what can happen when the number of people grows beyond what housing, food, water, jobs, or ecosystems can comfortably support.",
+      "anchor_terms": [
+        "overpopulation",
+        "population",
+        "people"
+      ],
+      "n_clusters": 247,
+      "noise_pct": 50.1,
+      "anchored_clusters": 50,
+      "cluster_echo_rate": 0.20242914979757085,
+      "item_echo_rate": 0.06474074074074074,
+      "full_observed_rbo": 0.055859,
+      "full_signal_to_chance": 0.9917,
+      "filtered_observed_rbo": 0.059042132885983284,
+      "filtered_signal_to_chance": 1.0246154095590698
+    },
+    {
+      "pair_id": "SOVEREIGNTY",
+      "variant": "original",
+      "question_id": "A005_SOVEREIGNTY_ORIG",
+      "query": "Explain what does sovereignty mean as if you're talking to a teenager.",
+      "anchor_terms": [
+        "sovereignty",
+        "sovereign"
+      ],
+      "n_clusters": 224,
+      "noise_pct": 61.1,
+      "anchored_clusters": 160,
+      "cluster_echo_rate": 0.7142857142857143,
+      "item_echo_rate": 0.5302222222222223,
+      "full_observed_rbo": 0.063595,
+      "full_signal_to_chance": 1.1767,
+      "filtered_observed_rbo": 0.060663583998522674,
+      "filtered_signal_to_chance": 1.1884844208617285
+    },
+    {
+      "pair_id": "SOVEREIGNTY",
+      "variant": "stripped",
+      "question_id": "A006_SOVEREIGNTY_STRIPPED",
+      "query": "Explain, for a teenager, what it means when a country or person has the final say over its own rules.",
+      "anchor_terms": [
+        "sovereignty",
+        "sovereign"
+      ],
+      "n_clusters": 257,
+      "noise_pct": 54.6,
+      "anchored_clusters": 71,
+      "cluster_echo_rate": 0.27626459143968873,
+      "item_echo_rate": 0.1428148148148148,
+      "full_observed_rbo": 0.080621,
+      "full_signal_to_chance": 1.91,
+      "filtered_observed_rbo": 0.07796212666018608,
+      "filtered_signal_to_chance": 1.9095483006273317
+    },
+    {
+      "pair_id": "PEANUT_PUN",
+      "variant": "original",
+      "question_id": "A007_PEANUT_PUN_ORIG",
+      "query": "Write a pun about peanut.",
+      "anchor_terms": [
+        "peanut",
+        "pun"
+      ],
+      "n_clusters": 331,
+      "noise_pct": 50.6,
+      "anchored_clusters": 216,
+      "cluster_echo_rate": 0.6525679758308157,
+      "item_echo_rate": 0.5137016738260999,
+      "full_observed_rbo": 0.037075,
+      "full_signal_to_chance": 1.496,
+      "filtered_observed_rbo": 0.0279063106503658,
+      "filtered_signal_to_chance": 1.8970046778513971
+    },
+    {
+      "pair_id": "PEANUT_PUN",
+      "variant": "stripped",
+      "question_id": "A008_PEANUT_PUN_STRIPPED",
+      "query": "Write a short wordplay line about the small legume often made into butter.",
+      "anchor_terms": [
+        "peanut",
+        "pun"
+      ],
+      "n_clusters": 263,
+      "noise_pct": 62.3,
+      "anchored_clusters": 101,
+      "cluster_echo_rate": 0.3840304182509506,
+      "item_echo_rate": 0.30474074074074076,
+      "full_observed_rbo": 0.023059,
+      "full_signal_to_chance": 0.853,
+      "filtered_observed_rbo": 0.014215391364410511,
+      "filtered_signal_to_chance": 0.8809312766143105
+    },
+    {
+      "pair_id": "TEAM_MANAGEMENT",
+      "variant": "original",
+      "question_id": "A009_TEAM_MANAGEMENT_ORIG",
+      "query": "Give me a tip for managing a team of coworkers.",
+      "anchor_terms": [
+        "managing",
+        "manage",
+        "team",
+        "coworkers",
+        "coworker"
+      ],
+      "n_clusters": 304,
+      "noise_pct": 44.9,
+      "anchored_clusters": 155,
+      "cluster_echo_rate": 0.5098684210526315,
+      "item_echo_rate": 0.3032592592592593,
+      "full_observed_rbo": 0.031322,
+      "full_signal_to_chance": 0.9841,
+      "filtered_observed_rbo": 0.02637919440776397,
+      "filtered_signal_to_chance": 0.9426778003219469
+    },
+    {
+      "pair_id": "TEAM_MANAGEMENT",
+      "variant": "stripped",
+      "question_id": "A010_TEAM_MANAGEMENT_STRIPPED",
+      "query": "Give one practical suggestion for helping people at work coordinate well.",
+      "anchor_terms": [
+        "managing",
+        "manage",
+        "team",
+        "coworkers",
+        "coworker"
+      ],
+      "n_clusters": 222,
+      "noise_pct": 38.8,
+      "anchored_clusters": 85,
+      "cluster_echo_rate": 0.38288288288288286,
+      "item_echo_rate": 0.18014814814814814,
+      "full_observed_rbo": 0.130927,
+      "full_signal_to_chance": 1.5745,
+      "filtered_observed_rbo": 0.10527848986400329,
+      "filtered_signal_to_chance": 1.3886494003559329
+    },
+    {
+      "pair_id": "MEANING_OF_LIFE",
+      "variant": "original",
+      "question_id": "A011_MEANING_OF_LIFE_ORIG",
+      "query": "Name one meaning of life.",
+      "anchor_terms": [
+        "meaning",
+        "life"
+      ],
+      "n_clusters": 299,
+      "noise_pct": 54.1,
+      "anchored_clusters": 49,
+      "cluster_echo_rate": 0.16387959866220736,
+      "item_echo_rate": 0.09718518518518518,
+      "full_observed_rbo": 0.042813,
+      "full_signal_to_chance": 1.2092,
+      "filtered_observed_rbo": 0.04486366110830196,
+      "filtered_signal_to_chance": 1.184800786500512
+    },
+    {
+      "pair_id": "MEANING_OF_LIFE",
+      "variant": "stripped",
+      "question_id": "A012_MEANING_OF_LIFE_STRIPPED",
+      "query": "Name one thing that could make being alive feel worthwhile.",
+      "anchor_terms": [
+        "meaning",
+        "life"
+      ],
+      "n_clusters": 300,
+      "noise_pct": 52.3,
+      "anchored_clusters": 30,
+      "cluster_echo_rate": 0.1,
+      "item_echo_rate": 0.039105317730706565,
+      "full_observed_rbo": 0.02893,
+      "full_signal_to_chance": 0.9429,
+      "filtered_observed_rbo": 0.027841837140866323,
+      "filtered_signal_to_chance": 0.9146479615402613
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "TIME_METAPHOR",
+      "anchor_terms": [
+        "time",
+        "metaphor"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "TIME_METAPHOR",
+          "variant": "original",
+          "question_id": "A001_TIME_METAPHOR_ORIG",
+          "query": "Write a metaphor involving time.",
+          "anchor_terms": [
+            "time",
+            "metaphor"
+          ],
+          "n_clusters": 271,
+          "noise_pct": 45.7,
+          "anchored_clusters": 271,
+          "cluster_echo_rate": 1.0,
+          "item_echo_rate": 0.9964454976303317,
+          "full_observed_rbo": 0.052824,
+          "full_signal_to_chance": 1.1275,
+          "filtered_observed_rbo": 0.0,
+          "filtered_signal_to_chance": null
+        },
+        "stripped": {
+          "pair_id": "TIME_METAPHOR",
+          "variant": "stripped",
+          "question_id": "A002_TIME_METAPHOR_STRIPPED",
+          "query": "Give a figurative image for the thing that makes before and after possible.",
+          "anchor_terms": [
+            "time",
+            "metaphor"
+          ],
+          "n_clusters": 330,
+          "noise_pct": 40.6,
+          "anchored_clusters": 24,
+          "cluster_echo_rate": 0.07272727272727272,
+          "item_echo_rate": 0.021040154096903244,
+          "full_observed_rbo": 0.032847,
+          "full_signal_to_chance": 1.1706,
+          "filtered_observed_rbo": 0.03024065148437982,
+          "filtered_signal_to_chance": 1.0887718966185436
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.9272727272727272,
+        "item_echo_rate_stripped_minus_original": -0.9754053435334284,
+        "observed_rbo_stripped_minus_original": -0.019977,
+        "stc_stripped_minus_original": 0.04310000000000014,
+        "filtered_stc_stripped_minus_original": null
+      }
+    },
+    {
+      "pair_id": "OVERPOPULATION",
+      "anchor_terms": [
+        "overpopulation",
+        "population",
+        "people"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "OVERPOPULATION",
+          "variant": "original",
+          "question_id": "A003_OVERPOPULATION_ORIG",
+          "query": "Write a short note on the problem of overpopulation.",
+          "anchor_terms": [
+            "overpopulation",
+            "population",
+            "people"
+          ],
+          "n_clusters": 267,
+          "noise_pct": 52.1,
+          "anchored_clusters": 179,
+          "cluster_echo_rate": 0.6704119850187266,
+          "item_echo_rate": 0.4117037037037037,
+          "full_observed_rbo": 0.023761,
+          "full_signal_to_chance": 0.735,
+          "filtered_observed_rbo": 0.01601069692122314,
+          "filtered_signal_to_chance": 0.6699383338406752
+        },
+        "stripped": {
+          "pair_id": "OVERPOPULATION",
+          "variant": "stripped",
+          "question_id": "A004_OVERPOPULATION_STRIPPED",
+          "query": "Write a short note about what can happen when the number of people grows beyond what housing, food, water, jobs, or ecosystems can comfortably support.",
+          "anchor_terms": [
+            "overpopulation",
+            "population",
+            "people"
+          ],
+          "n_clusters": 247,
+          "noise_pct": 50.1,
+          "anchored_clusters": 50,
+          "cluster_echo_rate": 0.20242914979757085,
+          "item_echo_rate": 0.06474074074074074,
+          "full_observed_rbo": 0.055859,
+          "full_signal_to_chance": 0.9917,
+          "filtered_observed_rbo": 0.059042132885983284,
+          "filtered_signal_to_chance": 1.0246154095590698
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.4679828352211557,
+        "item_echo_rate_stripped_minus_original": -0.3469629629629629,
+        "observed_rbo_stripped_minus_original": 0.032098,
+        "stc_stripped_minus_original": 0.25670000000000004,
+        "filtered_stc_stripped_minus_original": 0.3546770757183946
+      }
+    },
+    {
+      "pair_id": "SOVEREIGNTY",
+      "anchor_terms": [
+        "sovereignty",
+        "sovereign"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "SOVEREIGNTY",
+          "variant": "original",
+          "question_id": "A005_SOVEREIGNTY_ORIG",
+          "query": "Explain what does sovereignty mean as if you're talking to a teenager.",
+          "anchor_terms": [
+            "sovereignty",
+            "sovereign"
+          ],
+          "n_clusters": 224,
+          "noise_pct": 61.1,
+          "anchored_clusters": 160,
+          "cluster_echo_rate": 0.7142857142857143,
+          "item_echo_rate": 0.5302222222222223,
+          "full_observed_rbo": 0.063595,
+          "full_signal_to_chance": 1.1767,
+          "filtered_observed_rbo": 0.060663583998522674,
+          "filtered_signal_to_chance": 1.1884844208617285
+        },
+        "stripped": {
+          "pair_id": "SOVEREIGNTY",
+          "variant": "stripped",
+          "question_id": "A006_SOVEREIGNTY_STRIPPED",
+          "query": "Explain, for a teenager, what it means when a country or person has the final say over its own rules.",
+          "anchor_terms": [
+            "sovereignty",
+            "sovereign"
+          ],
+          "n_clusters": 257,
+          "noise_pct": 54.6,
+          "anchored_clusters": 71,
+          "cluster_echo_rate": 0.27626459143968873,
+          "item_echo_rate": 0.1428148148148148,
+          "full_observed_rbo": 0.080621,
+          "full_signal_to_chance": 1.91,
+          "filtered_observed_rbo": 0.07796212666018608,
+          "filtered_signal_to_chance": 1.9095483006273317
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.43802112284602557,
+        "item_echo_rate_stripped_minus_original": -0.3874074074074074,
+        "observed_rbo_stripped_minus_original": 0.017026,
+        "stc_stripped_minus_original": 0.7332999999999998,
+        "filtered_stc_stripped_minus_original": 0.7210638797656033
+      }
+    },
+    {
+      "pair_id": "PEANUT_PUN",
+      "anchor_terms": [
+        "peanut",
+        "pun"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "PEANUT_PUN",
+          "variant": "original",
+          "question_id": "A007_PEANUT_PUN_ORIG",
+          "query": "Write a pun about peanut.",
+          "anchor_terms": [
+            "peanut",
+            "pun"
+          ],
+          "n_clusters": 331,
+          "noise_pct": 50.6,
+          "anchored_clusters": 216,
+          "cluster_echo_rate": 0.6525679758308157,
+          "item_echo_rate": 0.5137016738260999,
+          "full_observed_rbo": 0.037075,
+          "full_signal_to_chance": 1.496,
+          "filtered_observed_rbo": 0.0279063106503658,
+          "filtered_signal_to_chance": 1.8970046778513971
+        },
+        "stripped": {
+          "pair_id": "PEANUT_PUN",
+          "variant": "stripped",
+          "question_id": "A008_PEANUT_PUN_STRIPPED",
+          "query": "Write a short wordplay line about the small legume often made into butter.",
+          "anchor_terms": [
+            "peanut",
+            "pun"
+          ],
+          "n_clusters": 263,
+          "noise_pct": 62.3,
+          "anchored_clusters": 101,
+          "cluster_echo_rate": 0.3840304182509506,
+          "item_echo_rate": 0.30474074074074076,
+          "full_observed_rbo": 0.023059,
+          "full_signal_to_chance": 0.853,
+          "filtered_observed_rbo": 0.014215391364410511,
+          "filtered_signal_to_chance": 0.8809312766143105
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.26853755757986514,
+        "item_echo_rate_stripped_minus_original": -0.20896093308535912,
+        "observed_rbo_stripped_minus_original": -0.014015999999999997,
+        "stc_stripped_minus_original": -0.643,
+        "filtered_stc_stripped_minus_original": -1.0160734012370867
+      }
+    },
+    {
+      "pair_id": "TEAM_MANAGEMENT",
+      "anchor_terms": [
+        "managing",
+        "manage",
+        "team",
+        "coworkers",
+        "coworker"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "TEAM_MANAGEMENT",
+          "variant": "original",
+          "question_id": "A009_TEAM_MANAGEMENT_ORIG",
+          "query": "Give me a tip for managing a team of coworkers.",
+          "anchor_terms": [
+            "managing",
+            "manage",
+            "team",
+            "coworkers",
+            "coworker"
+          ],
+          "n_clusters": 304,
+          "noise_pct": 44.9,
+          "anchored_clusters": 155,
+          "cluster_echo_rate": 0.5098684210526315,
+          "item_echo_rate": 0.3032592592592593,
+          "full_observed_rbo": 0.031322,
+          "full_signal_to_chance": 0.9841,
+          "filtered_observed_rbo": 0.02637919440776397,
+          "filtered_signal_to_chance": 0.9426778003219469
+        },
+        "stripped": {
+          "pair_id": "TEAM_MANAGEMENT",
+          "variant": "stripped",
+          "question_id": "A010_TEAM_MANAGEMENT_STRIPPED",
+          "query": "Give one practical suggestion for helping people at work coordinate well.",
+          "anchor_terms": [
+            "managing",
+            "manage",
+            "team",
+            "coworkers",
+            "coworker"
+          ],
+          "n_clusters": 222,
+          "noise_pct": 38.8,
+          "anchored_clusters": 85,
+          "cluster_echo_rate": 0.38288288288288286,
+          "item_echo_rate": 0.18014814814814814,
+          "full_observed_rbo": 0.130927,
+          "full_signal_to_chance": 1.5745,
+          "filtered_observed_rbo": 0.10527848986400329,
+          "filtered_signal_to_chance": 1.3886494003559329
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.12698553816974867,
+        "item_echo_rate_stripped_minus_original": -0.12311111111111114,
+        "observed_rbo_stripped_minus_original": 0.09960499999999999,
+        "stc_stripped_minus_original": 0.5904,
+        "filtered_stc_stripped_minus_original": 0.44597160003398595
+      }
+    },
+    {
+      "pair_id": "MEANING_OF_LIFE",
+      "anchor_terms": [
+        "meaning",
+        "life"
+      ],
+      "variants": {
+        "original": {
+          "pair_id": "MEANING_OF_LIFE",
+          "variant": "original",
+          "question_id": "A011_MEANING_OF_LIFE_ORIG",
+          "query": "Name one meaning of life.",
+          "anchor_terms": [
+            "meaning",
+            "life"
+          ],
+          "n_clusters": 299,
+          "noise_pct": 54.1,
+          "anchored_clusters": 49,
+          "cluster_echo_rate": 0.16387959866220736,
+          "item_echo_rate": 0.09718518518518518,
+          "full_observed_rbo": 0.042813,
+          "full_signal_to_chance": 1.2092,
+          "filtered_observed_rbo": 0.04486366110830196,
+          "filtered_signal_to_chance": 1.184800786500512
+        },
+        "stripped": {
+          "pair_id": "MEANING_OF_LIFE",
+          "variant": "stripped",
+          "question_id": "A012_MEANING_OF_LIFE_STRIPPED",
+          "query": "Name one thing that could make being alive feel worthwhile.",
+          "anchor_terms": [
+            "meaning",
+            "life"
+          ],
+          "n_clusters": 300,
+          "noise_pct": 52.3,
+          "anchored_clusters": 30,
+          "cluster_echo_rate": 0.1,
+          "item_echo_rate": 0.039105317730706565,
+          "full_observed_rbo": 0.02893,
+          "full_signal_to_chance": 0.9429,
+          "filtered_observed_rbo": 0.027841837140866323,
+          "filtered_signal_to_chance": 0.9146479615402613
+        }
+      },
+      "delta": {
+        "cluster_echo_rate_stripped_minus_original": -0.06387959866220735,
+        "item_echo_rate_stripped_minus_original": -0.058079867454478615,
+        "observed_rbo_stripped_minus_original": -0.013882999999999996,
+        "stc_stripped_minus_original": -0.2663000000000001,
+        "filtered_stc_stripped_minus_original": -0.2701528249602506
+      }
+    }
+  ]
+}

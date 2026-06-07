@@ -1,0 +1,91 @@
+{
+  "template_summary_by_width_bin": {
+    "all": {
+      "tplA_cross": 0.124483,
+      "tplB_cross": 0.115427,
+      "B_minus_A_cross": -0.009056,
+      "A_B_same_rbo": 0.350146,
+      "B_novelty_vs_A": 0.551729,
+      "n": 100
+    },
+    "very_high": {
+      "tplA_cross": 0.03098,
+      "tplB_cross": 0.035571,
+      "B_minus_A_cross": 0.004591,
+      "A_B_same_rbo": 0.257762,
+      "B_novelty_vs_A": 0.635442,
+      "n": 13
+    },
+    "high": {
+      "tplA_cross": 0.056532,
+      "tplB_cross": 0.058089,
+      "B_minus_A_cross": 0.001557,
+      "A_B_same_rbo": 0.312149,
+      "B_novelty_vs_A": 0.578082,
+      "n": 28
+    },
+    "middle": {
+      "tplA_cross": 0.135063,
+      "tplB_cross": 0.124533,
+      "B_minus_A_cross": -0.010529,
+      "A_B_same_rbo": 0.401984,
+      "B_novelty_vs_A": 0.500745,
+      "n": 35
+    },
+    "narrow": {
+      "tplA_cross": 0.238978,
+      "tplB_cross": 0.212297,
+      "B_minus_A_cross": -0.026681,
+      "A_B_same_rbo": 0.368921,
+      "B_novelty_vs_A": 0.549992,
+      "n": 24
+    }
+  },
+  "signature_summary_by_width_bin": {
+    "all": {
+      "uncond": 0.124483,
+      "same_persona_diff_model": 0.153949,
+      "diff_persona_same_model": 0.360531,
+      "diff_persona_diff_model": 0.139399,
+      "mult": 1.623785,
+      "n": 100
+    },
+    "very_high": {
+      "uncond": 0.03098,
+      "same_persona_diff_model": 0.11038,
+      "diff_persona_same_model": 0.262922,
+      "diff_persona_diff_model": 0.07548,
+      "mult": 3.549192,
+      "n": 13
+    },
+    "high": {
+      "uncond": 0.056532,
+      "same_persona_diff_model": 0.104127,
+      "diff_persona_same_model": 0.342942,
+      "diff_persona_diff_model": 0.091125,
+      "mult": 1.816096,
+      "n": 28
+    },
+    "middle": {
+      "uncond": 0.135063,
+      "same_persona_diff_model": 0.162736,
+      "diff_persona_same_model": 0.401101,
+      "diff_persona_diff_model": 0.150743,
+      "mult": 1.216331,
+      "n": 35
+    },
+    "narrow": {
+      "uncond": 0.238978,
+      "same_persona_diff_model": 0.222858,
+      "diff_persona_same_model": 0.374758,
+      "diff_persona_diff_model": 0.213799,
+      "mult": 0.950696,
+      "n": 24
+    }
+  },
+  "b_increases_cross_model_rbo_questions": 44,
+  "b_novelty_gt_50pct_questions": 65,
+  "same_persona_gt_unconditioned_questions": 82,
+  "model_signature_stronger_than_persona_questions": 97,
+  "same_persona_gt_diff_persona_diff_model_questions": 91
+}

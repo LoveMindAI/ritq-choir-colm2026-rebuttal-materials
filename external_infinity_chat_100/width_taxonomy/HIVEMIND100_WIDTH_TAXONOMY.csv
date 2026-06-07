@@ -1,0 +1,101 @@
+question_id,source_index,query,n_clusters,noise_pct,observed_rbo,signal_to_chance,same_persona_rbo,conditioned_multiplier,width_score
+H029_ROW_022,22,Write a short note on the problem of overpopulation.,267,50.9,0.029951,0.8824,0.179291,5.9861,10.213191
+H007_MEANING_OF_LIFE,48,Name one meaning of life.,282,59.1,0.027356,0.7819,0.140052,5.1196,9.64472
+H002_INTERNET_SOCIETY,4,Write a paragraph about how the internet shaped society.,258,54.9,0.02808,0.6764,0.14753,5.2539,9.586415
+H039_ROW_032,32,"Create a title with the prefix 'best', as a one-liner, using only strings, less than 100 characters.",370,45.3,0.015825,1.1927,0.065413,4.1335,9.540192
+H001_TIME_METAPHOR,65,Write a metaphor involving time.,301,44.0,0.044182,1.1551,0.204172,4.6212,8.832545
+H073_ROW_071,71,"Generate a motto for a social media page focused on success, wealth, and self-help.",394,43.3,0.032558,1.4539,0.1034,3.1759,8.293022
+H086_ROW_084,84,"Write a fear-of-missing-out title including ""You've Never Seen Anything Like This!""",251,63.3,0.030175,0.9446,0.106791,3.5391,8.033017
+H046_ROW_040,40,Can you give an example of a life goal related to self-image?,280,52.6,0.043531,1.2039,0.15424,3.5433,7.852661
+H053_ROW_047,47,Name an economic value of an additional year of schooling.,334,45.9,0.028249,1.1092,0.061133,2.1641,7.272631
+H036_ROW_029,29,"Write a movie title, and write a *literal* opposite of that movie title.",433,21.8,0.020184,1.4374,0.03131,1.5512,7.202353
+H031_ROW_024,24,Generate a one-liner title for a stock photo featuring coffee alongside a book.,309,52.4,0.036981,1.0539,0.088586,2.3955,7.178736
+H023_ROW_015,15,In a few sentences explain what threats do scams pose to individuals?,266,53.2,0.033684,1.2414,0.081457,2.4183,7.084717
+H008_EV_JOKE,1,Generate a joke about electric vehicles.,279,51.6,0.031981,1.0112,0.071566,2.2378,7.029433
+H043_ROW_036,36,Give an example of a linear graph in graph theory.,285,46.3,0.039489,1.2537,0.088052,2.2298,6.882638
+H078_ROW_076,76,"Give me a short phrase to put on my portfolio webpage about being an amateur data analyst, data scientist, and Next.js web page developer.",253,63.3,0.039443,1.0516,0.08834,2.2397,6.747374
+H064_ROW_060,60,Give me a tip for managing a team of coworkers.,314,44.0,0.047072,1.1945,0.100164,2.1279,6.744646
+H087_ROW_085,85,Write a short FOMO title for a video of a shell on the beach,257,63.8,0.034532,1.0059,0.071533,2.0715,6.733061
+H065_ROW_061,61,What is the difference between analysis and design? Can one begin to design without analysis? Why? Be concise.,258,57.7,0.05342,1.2042,0.133965,2.5078,6.676765
+H009_PEANUT_PUN,97,Write a pun about peanut.,316,49.1,0.034486,1.3641,0.056387,1.6351,6.60618
+H030_ROW_023,23,Explain what does sovereignty mean as if you're talking to a teenager.,218,61.4,0.063871,1.2947,0.18962,2.9688,6.585531
+H037_ROW_030,30,Write me 3 short tips for self-development.,291,47.4,0.051904,1.6869,0.109961,2.1185,6.542048
+H010_US_CHINA_ANALOGY,53,Make an analogy of the relationship between US and China.,243,43.9,0.072044,1.4214,0.214971,2.9839,6.536713
+H072_ROW_069,69,Generate a one-liner title for 'Elephant' and 'sticker'.,348,51.2,0.039264,1.3231,0.057002,1.4517,6.455985
+H028_ROW_021,21,Create a slogan for a cosmetic bag.,423,37.5,0.059929,2.5032,0.102832,1.7159,6.447733
+H050_ROW_044,44,Write a May the 4th joke.,273,57.2,0.037063,1.3074,0.049833,1.3446,6.143391
+H044_ROW_037,37,Give me a trivia question about blue birds and its corresponding answer.,273,46.6,0.048993,1.1324,0.075069,1.5322,6.060202
+H059_ROW_055,55,Give a numerical example to illustrate the concept of partial derivative.,226,50.9,0.041212,1.0567,0.065262,1.5836,6.049394
+H080_ROW_078,78,Tell me about cats in three words.,366,46.1,0.054243,1.4548,0.06853,1.2634,6.040891
+H077_ROW_075,75,Generate a description for 'Sticking to Cuteness: The Panda Way.',159,72.3,0.070927,1.0493,0.200027,2.8202,5.948785
+H081_ROW_079,79,Can you give me a powerful rhetorical question for an essay about the harms of social media on teens?,214,65.0,0.049895,1.1265,0.085117,1.7059,5.914324
+H038_ROW_031,31,Write me an email regarding a copyright strike on my YouTube video.,198,67.3,0.045737,0.9421,0.074404,1.6268,5.849208
+H070_ROW_067,67,"Generate a paragraph on why introspection is very important for growth, and provide guidance on listening to yourself more than heeding other people's opinions.",156,72.9,0.08975,1.1999,0.260091,2.898,5.575581
+H049_ROW_043,43,Write a sentence where the last word is 'apple'.,286,48.0,0.0625,1.607,0.071875,1.15,5.53988
+H042_ROW_035,35,Create a sentence using a minimum of 2 R-colored vowels.,254,60.1,0.047297,1.4363,0.039595,0.8372,5.461132
+H082_ROW_080,80,Give me the names of 3 instrumental songs that best match the mood of a rainy night.,282,26.9,0.069184,1.7507,0.083948,1.2134,5.44555
+H019_ROW_011,11,Write in polished language about the psychology in sync with the child narrator and third-person narrator in the novel 'A Portrait of the Artist as a Young Man'.,166,72.8,0.066072,1.1362,0.116272,1.7598,5.369553
+H025_ROW_017,17,What is Bukhara? Provide a paragraph-long explanation in layman's language.,223,48.9,0.073647,1.2494,0.104207,1.415,5.280594
+H063_ROW_059,59,Write a Google ad with 2 sentences and a 30-character limit per sentence for mobile car detailing.,148,76.0,0.056447,0.8359,0.08651,1.5326,5.268946
+H075_ROW_073,73,Write a tweet about: This is a video from this morning's crazy sunrise at the beach.,170,74.4,0.072333,1.2604,0.126395,1.7474,5.267006
+H083_ROW_081,81,Give me the name of a instrumental song that matches the mood of a rainy night.,322,19.4,0.093823,1.841,0.123975,1.3214,5.160183
+H062_ROW_058,58,"Write a headline for a company called ""USBC CONSTITUTION"" that encourages companies to donate their waste for recycling in exchange for money for the donated waste.",215,67.5,0.068307,1.2544,0.071626,1.0486,5.082299
+H041_ROW_034,34,Name a hot English word below 10 letters.,281,8.3,0.092643,1.6221,0.098043,1.0583,4.880255
+H069_ROW_066,66,"If there were double the amount of oxygen in the air, what would happen? Write in 100 words.",250,53.1,0.094048,2.0045,0.100223,1.0657,4.758395
+H099_ROW_098,98,Write a question about the plot of Zootopia.,206,59.3,0.095232,1.7994,0.122873,1.2902,4.71646
+H084_ROW_082,82,Describe Deadpool in a short paragraph. Make sure it's accessible to children.,144,77.9,0.096182,1.7086,0.170121,1.7687,4.673036
+H024_ROW_016,16,Explain nuclear fission like I am five years old.,219,56.4,0.095329,1.9338,0.103421,1.0849,4.634186
+H066_ROW_062,62,"Output a hard question to humanity (super concise and short), independent of theme.",330,45.9,0.104797,2.7059,0.086527,0.8257,4.624207
+H098_ROW_096,96,Write a one- or two-sentence visual description of a game controller.,169,67.0,0.101038,1.548,0.150289,1.4874,4.558845
+H095_ROW_093,93,"Write an educational description of the husky dog breed, approximately 145 words in length.",197,51.2,0.105816,2.0378,0.143055,1.3519,4.520766
+H015_ROW_007,7,"Write in detail the plot of a typical blockbuster action movie, but with real life logic applied.",185,64.0,0.107943,1.6066,0.161451,1.4957,4.515009
+H068_ROW_064,64,Briefly explain the potential uses of biofuels in 2-3 sentences.,220,46.2,0.103909,1.7505,0.105468,1.015,4.43761
+H088_ROW_086,86,"One other way to say: ""Fingers crossed that everything goes well.""",388,31.1,0.115306,2.8919,0.074924,0.6498,4.431983
+H003_NISSAN_R390,20,Create a short summary about the Nissan R390.,251,53.2,0.104135,2.5003,0.08682,0.8337,4.423996
+H074_ROW_072,72,Can you give me an incredible STEM fair idea that is affordable and relate to issues in Vietnam?,220,44.8,0.107573,1.421,0.112168,1.0427,4.388828
+H093_ROW_091,91,Create a description for a marble design resin-made Apple Watch band.,162,67.0,0.108004,1.536,0.144537,1.3383,4.307449
+H014_ROW_006,6,Write me a song about a guy named Jacob working at a call center making jokes.,145,75.9,0.104274,2.4386,0.136738,1.3113,4.263554
+H052_ROW_046,46,Describe Apple Corporation in three sentences to a person who has no idea what cell phones are.,133,71.6,0.111933,1.3308,0.181377,1.6204,4.23119
+H076_ROW_074,74,Write a funny two-sentence birthday card message for a teammate who is 50 years old and loves going to a Toby Carvery restaurant.,100,85.3,0.103734,0.9098,0.162224,1.5638,4.093641
+H097_ROW_095,95,Create a description with 2-3 sentences for an iPhone case collection that is a slim-fitted case with bold designs.,89,84.5,0.102571,1.1972,0.166702,1.6252,4.042761
+H006_WEDDING_VOW,2,Create the first verse of a wedding vow.,190,69.7,0.140738,1.8584,0.179371,1.2745,3.807345
+H004_GLOBAL_WARMING,70,Write a 30-word essay on global warming.,164,63.1,0.136072,1.3415,0.16271,1.1958,3.742829
+H012_ROW_003,3,Write me a 200-word cover letter expressing my interest in working at Dollarton Liquor Store.,160,59.5,0.135383,2.0675,0.160023,1.182,3.729699
+H085_ROW_083,83,Write a personal tweet about how I am walking right now at sunrise to the lighthouse; it's spring but cold like winter.,93,87.1,0.134246,1.1571,0.195553,1.4567,3.480625
+H011_ROW_000,0,Write a short story about a colorful toad goes on an adventure in 50 words.,95,84.0,0.138282,1.3687,0.192678,1.3934,3.402199
+H055_ROW_050,50,Give me a tip to be more organized at work. I'm a high school teacher.,208,44.8,0.174265,1.9058,0.245367,1.408,3.31185
+H092_ROW_090,90,"Write a forum conversation where the Kangurola daycare in Fuengirola closed in late 2019, but in 2024 its signage is still there",159,75.1,0.163096,3.1644,0.190789,1.1698,3.2386
+H021_ROW_013,13,"In Western Demonology, what is the difference between Lucifer and Satan? Use layman language. Keep it a paragraph long.",155,66.6,0.161668,1.6814,0.163064,1.0086,3.174074
+H057_ROW_052,52,Explain computational irreducibility like I'm illiterate.,188,53.6,0.171026,2.0618,0.172934,1.0112,3.132114
+H060_ROW_056,56,Help me draft a paragraph as an expert consultant explaining TOEFL vs IELTS for international students.,180,54.9,0.184233,1.8531,0.260179,1.4122,3.041631
+H100_ROW_099,99,Name a Zootopia character and provide 2 emojis to represent that character.,304,17.3,0.201761,2.6258,0.257162,1.2746,2.937449
+H089_ROW_087,87,Write 3 to 4 lines about India.,179,41.8,0.18135,1.5809,0.154147,0.85,2.856747
+H047_ROW_041,41,Rave about the significance of rivers in a paragraph.,167,49.9,0.193032,1.9406,0.28125,1.457,2.856031
+H034_ROW_027,27,Discuss what an ecosystem is. Explain how it is maintained in nature and how it survives in one sentence.,176,66.7,0.176617,2.2923,0.117515,0.6654,2.848517
+H005_HAN_ECONOMY,38,Write me a 1-paragraph essay about the development of the economy during the Han Dynasty.,200,52.9,0.196976,2.307,0.252841,1.2836,2.814708
+H071_ROW_068,68,Write a sentence about Sunday's fog by the ocean.,157,75.2,0.186342,2.0963,0.195336,1.0483,2.780819
+H051_ROW_045,45,Write an essay on the importance of the Roman Empire and its impact on future generations. Max: 100 words.,228,44.7,0.19764,2.7975,0.20788,1.0518,2.780027
+H027_ROW_019,19,Which is the hottest English 5-letter word?,323,15.7,0.216877,3.0085,0.152439,0.7029,2.456282
+H058_ROW_054,54,Provide a few sentences on Sisu Cinema Robotics.,196,65.0,0.216049,4.595,0.199253,0.9223,2.332772
+H079_ROW_077,77,"Create a short 1-paragraph story about a boy running on a beach. He is Asian, 12 years old, and the time of day is 4 in the afternoon.",95,81.1,0.201847,1.8016,0.182874,0.906,2.223807
+H091_ROW_089,89,"Come up with two better sentences for the following sentence: 'Well, we know that China has a history of about 5,000 years, so they would have many interesting stories for us, as my parents told me.'",66,75.1,0.196426,2.4658,0.236235,1.2027,2.214755
+H056_ROW_051,51,Explain computational irreducibility like I'm 5.,190,52.6,0.22733,2.5959,0.22687,0.998,2.147029
+H090_ROW_088,88,Write 100-300 words on how stress affects the body and mind.,219,41.1,0.252996,2.6605,0.214751,0.8488,1.706349
+H035_ROW_028,28,Rephrase: I didn’t enjoy it.,297,13.6,0.260729,2.3485,0.182577,0.7003,1.622695
+H016_ROW_008,8,Write a short story about a female teacher who has a big accident while knitting in class with a hilarious ending.,86,85.7,0.249075,1.7219,0.281972,1.1321,1.530749
+H032_ROW_025,25,"Create a title with the prefix 'Best', about millennials, nostalgia, 80s, 90s, 2000s, and TikTok, one-liner, less than 100 characters.",129,62.3,0.254141,2.542,0.220227,0.8666,1.525679
+H048_ROW_042,42,Write me a distinguished paragraph highlighting important points for this topic: Achieve More: Mastering the Art of Goal-Setting.,215,43.1,0.270558,3.0949,0.149423,0.5523,1.332371
+H094_ROW_092,92,Write a fictional blog post where the UK government forces nightclubs to close every night at 3 a.m. and explain why. Keep it to be one paragraph.,9,26.5,0.217639,9.7244,0.22443,1.0312,1.020436
+H026_ROW_018,18,Translate my emojis into a hilarious quote: “👋. 🚫👤🏠! 🏃💨–❌🔙!”,6,38.0,0.205686,8.0908,0.219121,1.0653,0.94481
+H096_ROW_094,94,Paraphrase this: I tried to call him and send him a message on WhatsApp. Let's wait until the end of the week for the IT Department to sign the clearance.,62,74.8,0.28701,2.3403,0.259055,0.9026,0.857816
+H033_ROW_026,26,"Write in 2-3 sentences about a group of friends who hired a bus from Vetoba Travels, Goa, to tour Morjim Beach, Goa. Suggest a few hashtags.",2,8.8,0.121403,2.1361,0.128967,1.0623,0.844583
+H054_ROW_049,49,"Write an one-paragraph kid's story with a prince, a princess, and a dragon. When all hope is lost, the prince orders a magic sword from Amazon and slays the dragon. The other parts of the story are up to you.",2,0.1,0.132092,3.0229,0.138,1.0447,0.803084
+H061_ROW_057,57,Come up a short blurb to introduce a religion called The Next Exodus Society.,4,5.8,0.240695,19.1767,0.263629,1.0953,0.594382
+H013_ROW_005,5,Write me a paragraph about the time Brandon got a hole in one in frisbee golf. Include somewhat imaginative details.,2,8.8,0.195855,12.5115,0.23822,1.2163,0.581929
+H022_ROW_014,14,Answer this in a few sentences: Why would a company use inventory to cover up inefficiencies in their supply chains? Is this a good idea or a bad idea?,2,2.3,0.205158,9.4756,0.239271,1.1663,0.543016
+H040_ROW_033,33,Paraphrase this: We're checking if the domain 'aspris.ae' is included in our scope.,157,55.2,0.318167,3.222,0.188928,0.5938,0.506017
+H018_ROW_010,10,Please write a science fiction story about me being the last man in the world while everyone else is a woman.,4,14.6,0.268321,18.5696,0.239441,0.8924,0.431452
+H020_ROW_012,12,"Write a very comedically cliched, over-the-top wrestling promo calling out members of the BYOB Traveling Spaceship.",5,20.0,0.279233,18.7015,0.280812,1.0057,0.422997
+H045_ROW_039,39,"In three sentences, describe a girl wandering around in Vietnam.",124,59.0,0.324797,2.5053,0.249292,0.7675,0.392151
+H017_ROW_009,9,"If Game of Thrones Season 8 had a scene where Gendry and Arya had a snowball fight, how would it fit into the show? And how would it benefit their character arcs?",2,1.4,0.246027,17.7113,0.269534,1.0955,0.385951
+H067_ROW_063,63,Provide an example of the name of an optimization technique used in machine learning.,193,4.1,0.347357,2.5107,0.363278,1.0458,0.046711

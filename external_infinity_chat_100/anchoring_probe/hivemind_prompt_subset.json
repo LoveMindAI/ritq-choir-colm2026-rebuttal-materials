@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "A001_TIME_METAPHOR_ORIG",
+    "source_index": 65,
+    "query": "Write a metaphor involving time.",
+    "reason": "Prompt anchoring probe: TIME_METAPHOR original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "TIME_METAPHOR",
+    "variant": "original",
+    "anchor_terms": [
+      "time",
+      "metaphor"
+    ],
+    "source_row": {
+      "query": "Write a metaphor involving time."
+    }
+  },
+  {
+    "question_id": "A002_TIME_METAPHOR_STRIPPED",
+    "source_index": 65,
+    "query": "Give a figurative image for the thing that makes before and after possible.",
+    "reason": "Prompt anchoring probe: TIME_METAPHOR stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "TIME_METAPHOR",
+    "variant": "stripped",
+    "anchor_terms": [
+      "time",
+      "metaphor"
+    ],
+    "source_row": {
+      "query": "Give a figurative image for the thing that makes before and after possible."
+    }
+  },
+  {
+    "question_id": "A003_OVERPOPULATION_ORIG",
+    "source_index": 22,
+    "query": "Write a short note on the problem of overpopulation.",
+    "reason": "Prompt anchoring probe: OVERPOPULATION original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "OVERPOPULATION",
+    "variant": "original",
+    "anchor_terms": [
+      "overpopulation",
+      "population",
+      "people"
+    ],
+    "source_row": {
+      "query": "Write a short note on the problem of overpopulation."
+    }
+  },
+  {
+    "question_id": "A004_OVERPOPULATION_STRIPPED",
+    "source_index": 22,
+    "query": "Write a short note about what can happen when the number of people grows beyond what housing, food, water, jobs, or ecosystems can comfortably support.",
+    "reason": "Prompt anchoring probe: OVERPOPULATION stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "OVERPOPULATION",
+    "variant": "stripped",
+    "anchor_terms": [
+      "overpopulation",
+      "population",
+      "people"
+    ],
+    "source_row": {
+      "query": "Write a short note about what can happen when the number of people grows beyond what housing, food, water, jobs, or ecosystems can comfortably support."
+    }
+  },
+  {
+    "question_id": "A005_SOVEREIGNTY_ORIG",
+    "source_index": 23,
+    "query": "Explain what does sovereignty mean as if you're talking to a teenager.",
+    "reason": "Prompt anchoring probe: SOVEREIGNTY original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "SOVEREIGNTY",
+    "variant": "original",
+    "anchor_terms": [
+      "sovereignty",
+      "sovereign"
+    ],
+    "source_row": {
+      "query": "Explain what does sovereignty mean as if you're talking to a teenager."
+    }
+  },
+  {
+    "question_id": "A006_SOVEREIGNTY_STRIPPED",
+    "source_index": 23,
+    "query": "Explain, for a teenager, what it means when a country or person has the final say over its own rules.",
+    "reason": "Prompt anchoring probe: SOVEREIGNTY stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "SOVEREIGNTY",
+    "variant": "stripped",
+    "anchor_terms": [
+      "sovereignty",
+      "sovereign"
+    ],
+    "source_row": {
+      "query": "Explain, for a teenager, what it means when a country or person has the final say over its own rules."
+    }
+  },
+  {
+    "question_id": "A007_PEANUT_PUN_ORIG",
+    "source_index": 97,
+    "query": "Write a pun about peanut.",
+    "reason": "Prompt anchoring probe: PEANUT_PUN original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "PEANUT_PUN",
+    "variant": "original",
+    "anchor_terms": [
+      "peanut",
+      "pun"
+    ],
+    "source_row": {
+      "query": "Write a pun about peanut."
+    }
+  },
+  {
+    "question_id": "A008_PEANUT_PUN_STRIPPED",
+    "source_index": 97,
+    "query": "Write a short wordplay line about the small legume often made into butter.",
+    "reason": "Prompt anchoring probe: PEANUT_PUN stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "PEANUT_PUN",
+    "variant": "stripped",
+    "anchor_terms": [
+      "peanut",
+      "pun"
+    ],
+    "source_row": {
+      "query": "Write a short wordplay line about the small legume often made into butter."
+    }
+  },
+  {
+    "question_id": "A009_TEAM_MANAGEMENT_ORIG",
+    "source_index": 60,
+    "query": "Give me a tip for managing a team of coworkers.",
+    "reason": "Prompt anchoring probe: TEAM_MANAGEMENT original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "TEAM_MANAGEMENT",
+    "variant": "original",
+    "anchor_terms": [
+      "managing",
+      "manage",
+      "team",
+      "coworkers",
+      "coworker"
+    ],
+    "source_row": {
+      "query": "Give me a tip for managing a team of coworkers."
+    }
+  },
+  {
+    "question_id": "A010_TEAM_MANAGEMENT_STRIPPED",
+    "source_index": 60,
+    "query": "Give one practical suggestion for helping people at work coordinate well.",
+    "reason": "Prompt anchoring probe: TEAM_MANAGEMENT stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "TEAM_MANAGEMENT",
+    "variant": "stripped",
+    "anchor_terms": [
+      "managing",
+      "manage",
+      "team",
+      "coworkers",
+      "coworker"
+    ],
+    "source_row": {
+      "query": "Give one practical suggestion for helping people at work coordinate well."
+    }
+  },
+  {
+    "question_id": "A011_MEANING_OF_LIFE_ORIG",
+    "source_index": 48,
+    "query": "Name one meaning of life.",
+    "reason": "Prompt anchoring probe: MEANING_OF_LIFE original.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "MEANING_OF_LIFE",
+    "variant": "original",
+    "anchor_terms": [
+      "meaning",
+      "life"
+    ],
+    "source_row": {
+      "query": "Name one meaning of life."
+    }
+  },
+  {
+    "question_id": "A012_MEANING_OF_LIFE_STRIPPED",
+    "source_index": 48,
+    "query": "Name one thing that could make being alive feel worthwhile.",
+    "reason": "Prompt anchoring probe: MEANING_OF_LIFE stripped.",
+    "paper_anchor": "Hivemind matched cue-stripping probe",
+    "pair_id": "MEANING_OF_LIFE",
+    "variant": "stripped",
+    "anchor_terms": [
+      "meaning",
+      "life"
+    ],
+    "source_row": {
+      "query": "Name one thing that could make being alive feel worthwhile."
+    }
+  }
+]

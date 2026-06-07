@@ -1,0 +1,1720 @@
+[
+  {
+    "qid": "H029_ROW_022",
+    "query": "Write a short note on the problem of overpopulation.",
+    "query_tokens": [
+      "note",
+      "overpopulation"
+    ],
+    "echo_rate": 0.2088888888888889,
+    "weighted_echo": 0.23145299145299156,
+    "width": 10.213191,
+    "stc": 0.8824,
+    "mult": 5.9861
+  },
+  {
+    "qid": "H007_MEANING_OF_LIFE",
+    "query": "Name one meaning of life.",
+    "query_tokens": [
+      "life",
+      "meaning"
+    ],
+    "echo_rate": 0.035555555555555556,
+    "weighted_echo": 0.022905982905982916,
+    "width": 9.64472,
+    "stc": 0.7819,
+    "mult": 5.1196
+  },
+  {
+    "qid": "H002_INTERNET_SOCIETY",
+    "query": "Write a paragraph about how the internet shaped society.",
+    "query_tokens": [
+      "internet",
+      "shaped",
+      "society"
+    ],
+    "echo_rate": 0.17333333333333334,
+    "weighted_echo": 0.18188034188034194,
+    "width": 9.586415,
+    "stc": 0.6764,
+    "mult": 5.2539
+  },
+  {
+    "qid": "H039_ROW_032",
+    "query": "Create a title with the prefix 'best', as a one-liner, using only strings, less than 100 characters.",
+    "query_tokens": [
+      "best'",
+      "characters",
+      "liner",
+      "prefix",
+      "strings"
+    ],
+    "echo_rate": 0.035555555555555556,
+    "weighted_echo": 0.04273504273504275,
+    "width": 9.540192,
+    "stc": 1.1927,
+    "mult": 4.1335
+  },
+  {
+    "qid": "H001_TIME_METAPHOR",
+    "query": "Write a metaphor involving time.",
+    "query_tokens": [
+      "metaphor"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 8.832545,
+    "stc": 1.1551,
+    "mult": 4.6212
+  },
+  {
+    "qid": "H073_ROW_071",
+    "query": "Generate a motto for a social media page focused on success, wealth, and self-help.",
+    "query_tokens": [
+      "focused",
+      "generate",
+      "help",
+      "media",
+      "motto",
+      "page",
+      "self",
+      "social",
+      "success",
+      "wealth"
+    ],
+    "echo_rate": 0.27555555555555555,
+    "weighted_echo": 0.27384615384615385,
+    "width": 8.293022,
+    "stc": 1.4539,
+    "mult": 3.1759
+  },
+  {
+    "qid": "H086_ROW_084",
+    "query": "Write a fear-of-missing-out title including \"You've Never Seen Anything Like This!\"",
+    "query_tokens": [
+      "anything",
+      "fear",
+      "missing",
+      "never",
+      "out",
+      "seen",
+      "you've"
+    ],
+    "echo_rate": 1.0,
+    "weighted_echo": 1.0000000000000002,
+    "width": 8.033017,
+    "stc": 0.9446,
+    "mult": 3.5391
+  },
+  {
+    "qid": "H046_ROW_040",
+    "query": "Can you give an example of a life goal related to self-image?",
+    "query_tokens": [
+      "goal",
+      "image",
+      "life",
+      "related",
+      "self"
+    ],
+    "echo_rate": 0.4311111111111111,
+    "weighted_echo": 0.4164102564102564,
+    "width": 7.852661,
+    "stc": 1.2039,
+    "mult": 3.5433
+  },
+  {
+    "qid": "H053_ROW_047",
+    "query": "Name an economic value of an additional year of schooling.",
+    "query_tokens": [
+      "additional",
+      "economic",
+      "schooling",
+      "value",
+      "year"
+    ],
+    "echo_rate": 0.057777777777777775,
+    "weighted_echo": 0.06940170940170944,
+    "width": 7.272631,
+    "stc": 1.1092,
+    "mult": 2.1641
+  },
+  {
+    "qid": "H036_ROW_029",
+    "query": "Write a movie title, and write a *literal* opposite of that movie title.",
+    "query_tokens": [
+      "literal",
+      "movie",
+      "opposite"
+    ],
+    "echo_rate": 0.07555555555555556,
+    "weighted_echo": 0.08136752136752137,
+    "width": 7.202353,
+    "stc": 1.4374,
+    "mult": 1.5512
+  },
+  {
+    "qid": "H031_ROW_024",
+    "query": "Generate a one-liner title for a stock photo featuring coffee alongside a book.",
+    "query_tokens": [
+      "alongside",
+      "book",
+      "coffee",
+      "featuring",
+      "generate",
+      "liner",
+      "photo",
+      "stock"
+    ],
+    "echo_rate": 0.3022222222222222,
+    "weighted_echo": 0.3497435897435899,
+    "width": 7.178736,
+    "stc": 1.0539,
+    "mult": 2.3955
+  },
+  {
+    "qid": "H023_ROW_015",
+    "query": "In a few sentences explain what threats do scams pose to individuals?",
+    "query_tokens": [
+      "individuals",
+      "pose",
+      "scams",
+      "threats"
+    ],
+    "echo_rate": 0.3422222222222222,
+    "weighted_echo": 0.3278632478632479,
+    "width": 7.084717,
+    "stc": 1.2414,
+    "mult": 2.4183
+  },
+  {
+    "qid": "H008_EV_JOKE",
+    "query": "Generate a joke about electric vehicles.",
+    "query_tokens": [
+      "electric",
+      "generate",
+      "joke",
+      "vehicles"
+    ],
+    "echo_rate": 0.56,
+    "weighted_echo": 0.575726495726496,
+    "width": 7.029433,
+    "stc": 1.0112,
+    "mult": 2.2378
+  },
+  {
+    "qid": "H043_ROW_036",
+    "query": "Give an example of a linear graph in graph theory.",
+    "query_tokens": [
+      "graph",
+      "linear",
+      "theory"
+    ],
+    "echo_rate": 0.8425925925925926,
+    "weighted_echo": 0.8328205128205132,
+    "width": 6.882638,
+    "stc": 1.2537,
+    "mult": 2.2298
+  },
+  {
+    "qid": "H078_ROW_076",
+    "query": "Give me a short phrase to put on my portfolio webpage about being an amateur data analyst, data scientist, and Next.js web page developer.",
+    "query_tokens": [
+      "amateur",
+      "analyst",
+      "data",
+      "developer",
+      "next",
+      "page",
+      "phrase",
+      "portfolio",
+      "put",
+      "scientist",
+      "web",
+      "webpage"
+    ],
+    "echo_rate": 0.9111111111111111,
+    "weighted_echo": 0.9172649572649575,
+    "width": 6.747374,
+    "stc": 1.0516,
+    "mult": 2.2397
+  },
+  {
+    "qid": "H064_ROW_060",
+    "query": "Give me a tip for managing a team of coworkers.",
+    "query_tokens": [
+      "coworkers",
+      "managing",
+      "team",
+      "tip"
+    ],
+    "echo_rate": 0.27555555555555555,
+    "weighted_echo": 0.2868376068376069,
+    "width": 6.744646,
+    "stc": 1.1945,
+    "mult": 2.1279
+  },
+  {
+    "qid": "H087_ROW_085",
+    "query": "Write a short FOMO title for a video of a shell on the beach",
+    "query_tokens": [
+      "beach",
+      "fomo",
+      "shell",
+      "video"
+    ],
+    "echo_rate": 0.6755555555555556,
+    "weighted_echo": 0.6803418803418806,
+    "width": 6.733061,
+    "stc": 1.0059,
+    "mult": 2.0715
+  },
+  {
+    "qid": "H065_ROW_061",
+    "query": "What is the difference between analysis and design? Can one begin to design without analysis? Why? Be concise.",
+    "query_tokens": [
+      "analysis",
+      "concise",
+      "design",
+      "difference",
+      "without"
+    ],
+    "echo_rate": 0.9955555555555555,
+    "weighted_echo": 0.9976068376068379,
+    "width": 6.676765,
+    "stc": 1.2042,
+    "mult": 2.5078
+  },
+  {
+    "qid": "H009_PEANUT_PUN",
+    "query": "Write a pun about peanut.",
+    "query_tokens": [
+      "peanut",
+      "pun"
+    ],
+    "echo_rate": 0.44,
+    "weighted_echo": 0.436923076923077,
+    "width": 6.60618,
+    "stc": 1.3641,
+    "mult": 1.6351
+  },
+  {
+    "qid": "H030_ROW_023",
+    "query": "Explain what does sovereignty mean as if you're talking to a teenager.",
+    "query_tokens": [
+      "mean",
+      "sovereignty",
+      "talking",
+      "teenager",
+      "you're"
+    ],
+    "echo_rate": 0.3688888888888889,
+    "weighted_echo": 0.341880341880342,
+    "width": 6.585531,
+    "stc": 1.2947,
+    "mult": 2.9688
+  },
+  {
+    "qid": "H037_ROW_030",
+    "query": "Write me 3 short tips for self-development.",
+    "query_tokens": [
+      "development",
+      "self",
+      "tips"
+    ],
+    "echo_rate": 0.044444444444444446,
+    "weighted_echo": 0.05982905982905985,
+    "width": 6.542048,
+    "stc": 1.6869,
+    "mult": 2.1185
+  },
+  {
+    "qid": "H010_US_CHINA_ANALOGY",
+    "query": "Make an analogy of the relationship between US and China.",
+    "query_tokens": [
+      "analogy",
+      "china",
+      "relationship"
+    ],
+    "echo_rate": 0.057777777777777775,
+    "weighted_echo": 0.06529914529914532,
+    "width": 6.536713,
+    "stc": 1.4214,
+    "mult": 2.9839
+  },
+  {
+    "qid": "H072_ROW_069",
+    "query": "Generate a one-liner title for 'Elephant' and 'sticker'.",
+    "query_tokens": [
+      "elephant'",
+      "generate",
+      "liner",
+      "sticker'"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 6.455985,
+    "stc": 1.3231,
+    "mult": 1.4517
+  },
+  {
+    "qid": "H028_ROW_021",
+    "query": "Create a slogan for a cosmetic bag.",
+    "query_tokens": [
+      "bag",
+      "cosmetic",
+      "slogan"
+    ],
+    "echo_rate": 0.06666666666666667,
+    "weighted_echo": 0.06803418803418805,
+    "width": 6.447733,
+    "stc": 2.5032,
+    "mult": 1.7159
+  },
+  {
+    "qid": "H050_ROW_044",
+    "query": "Write a May the 4th joke.",
+    "query_tokens": [
+      "joke",
+      "may"
+    ],
+    "echo_rate": 0.44,
+    "weighted_echo": 0.43350427350427356,
+    "width": 6.143391,
+    "stc": 1.3074,
+    "mult": 1.3446
+  },
+  {
+    "qid": "H044_ROW_037",
+    "query": "Give me a trivia question about blue birds and its corresponding answer.",
+    "query_tokens": [
+      "answer",
+      "birds",
+      "blue",
+      "corresponding",
+      "question",
+      "trivia"
+    ],
+    "echo_rate": 0.68,
+    "weighted_echo": 0.6851282051282052,
+    "width": 6.060202,
+    "stc": 1.1324,
+    "mult": 1.5322
+  },
+  {
+    "qid": "H059_ROW_055",
+    "query": "Give a numerical example to illustrate the concept of partial derivative.",
+    "query_tokens": [
+      "concept",
+      "derivative",
+      "illustrate",
+      "numerical",
+      "partial"
+    ],
+    "echo_rate": 0.5855855855855856,
+    "weighted_echo": 0.6051282051282053,
+    "width": 6.049394,
+    "stc": 1.0567,
+    "mult": 1.5836
+  },
+  {
+    "qid": "H080_ROW_078",
+    "query": "Tell me about cats in three words.",
+    "query_tokens": [
+      "cats",
+      "tell",
+      "three"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 6.040891,
+    "stc": 1.4548,
+    "mult": 1.2634
+  },
+  {
+    "qid": "H077_ROW_075",
+    "query": "Generate a description for 'Sticking to Cuteness: The Panda Way.'",
+    "query_tokens": [
+      "cuteness",
+      "description",
+      "generate",
+      "panda",
+      "sticking"
+    ],
+    "echo_rate": 0.43555555555555553,
+    "weighted_echo": 0.4263247863247865,
+    "width": 5.948785,
+    "stc": 1.0493,
+    "mult": 2.8202
+  },
+  {
+    "qid": "H081_ROW_079",
+    "query": "Can you give me a powerful rhetorical question for an essay about the harms of social media on teens?",
+    "query_tokens": [
+      "essay",
+      "harms",
+      "media",
+      "powerful",
+      "question",
+      "rhetorical",
+      "social",
+      "teens"
+    ],
+    "echo_rate": 0.21777777777777776,
+    "weighted_echo": 0.235897435897436,
+    "width": 5.914324,
+    "stc": 1.1265,
+    "mult": 1.7059
+  },
+  {
+    "qid": "H038_ROW_031",
+    "query": "Write me an email regarding a copyright strike on my YouTube video.",
+    "query_tokens": [
+      "copyright",
+      "email",
+      "regarding",
+      "strike",
+      "video",
+      "youtube"
+    ],
+    "echo_rate": 0.6533333333333333,
+    "weighted_echo": 0.6854700854700857,
+    "width": 5.849208,
+    "stc": 0.9421,
+    "mult": 1.6268
+  },
+  {
+    "qid": "H070_ROW_067",
+    "query": "Generate a paragraph on why introspection is very important for growth, and provide guidance on listening to yourself more than heeding other people's opinions.",
+    "query_tokens": [
+      "generate",
+      "growth",
+      "guidance",
+      "heeding",
+      "important",
+      "introspection",
+      "listening",
+      "opinions",
+      "people's",
+      "yourself"
+    ],
+    "echo_rate": 0.6044444444444445,
+    "weighted_echo": 0.5907692307692313,
+    "width": 5.575581,
+    "stc": 1.1999,
+    "mult": 2.898
+  },
+  {
+    "qid": "H049_ROW_043",
+    "query": "Write a sentence where the last word is 'apple'.",
+    "query_tokens": [
+      "apple'",
+      "last",
+      "word"
+    ],
+    "echo_rate": 0.03111111111111111,
+    "weighted_echo": 0.029743589743589753,
+    "width": 5.53988,
+    "stc": 1.607,
+    "mult": 1.15
+  },
+  {
+    "qid": "H042_ROW_035",
+    "query": "Create a sentence using a minimum of 2 R-colored vowels.",
+    "query_tokens": [
+      "colored",
+      "minimum",
+      "vowels"
+    ],
+    "echo_rate": 0.0044444444444444444,
+    "weighted_echo": 0.007863247863247866,
+    "width": 5.461132,
+    "stc": 1.4363,
+    "mult": 0.8372
+  },
+  {
+    "qid": "H082_ROW_080",
+    "query": "Give me the names of 3 instrumental songs that best match the mood of a rainy night.",
+    "query_tokens": [
+      "instrumental",
+      "match",
+      "mood",
+      "names",
+      "night",
+      "rainy",
+      "songs"
+    ],
+    "echo_rate": 0.13333333333333333,
+    "weighted_echo": 0.10461538461538464,
+    "width": 5.44555,
+    "stc": 1.7507,
+    "mult": 1.2134
+  },
+  {
+    "qid": "H019_ROW_011",
+    "query": "Write in polished language about the psychology in sync with the child narrator and third-person narrator in the novel 'A Portrait of the Artist as a Young Man'.",
+    "query_tokens": [
+      "artist",
+      "child",
+      "language",
+      "man'",
+      "narrator",
+      "novel",
+      "person",
+      "polished",
+      "portrait",
+      "psychology",
+      "sync",
+      "third",
+      "young"
+    ],
+    "echo_rate": 0.4577777777777778,
+    "weighted_echo": 0.4526495726495728,
+    "width": 5.369553,
+    "stc": 1.1362,
+    "mult": 1.7598
+  },
+  {
+    "qid": "H025_ROW_017",
+    "query": "What is Bukhara? Provide a paragraph-long explanation in layman's language.",
+    "query_tokens": [
+      "bukhara",
+      "explanation",
+      "language",
+      "layman's",
+      "long"
+    ],
+    "echo_rate": 0.4088888888888889,
+    "weighted_echo": 0.43350427350427356,
+    "width": 5.280594,
+    "stc": 1.2494,
+    "mult": 1.415
+  },
+  {
+    "qid": "H063_ROW_059",
+    "query": "Write a Google ad with 2 sentences and a 30-character limit per sentence for mobile car detailing.",
+    "query_tokens": [
+      "car",
+      "character",
+      "detailing",
+      "google",
+      "limit",
+      "mobile",
+      "per"
+    ],
+    "echo_rate": 0.6577777777777778,
+    "weighted_echo": 0.6502564102564102,
+    "width": 5.268946,
+    "stc": 0.8359,
+    "mult": 1.5326
+  },
+  {
+    "qid": "H075_ROW_073",
+    "query": "Write a tweet about: This is a video from this morning's crazy sunrise at the beach.",
+    "query_tokens": [
+      "beach",
+      "crazy",
+      "morning's",
+      "sunrise",
+      "tweet",
+      "video"
+    ],
+    "echo_rate": 0.539906103286385,
+    "weighted_echo": 0.5148717948717952,
+    "width": 5.267006,
+    "stc": 1.2604,
+    "mult": 1.7474
+  },
+  {
+    "qid": "H083_ROW_081",
+    "query": "Give me the name of a instrumental song that matches the mood of a rainy night.",
+    "query_tokens": [
+      "instrumental",
+      "matches",
+      "mood",
+      "night",
+      "rainy",
+      "song"
+    ],
+    "echo_rate": 0.12,
+    "weighted_echo": 0.09094017094017097,
+    "width": 5.160183,
+    "stc": 1.841,
+    "mult": 1.3214
+  },
+  {
+    "qid": "H062_ROW_058",
+    "query": "Write a headline for a company called \"USBC CONSTITUTION\" that encourages companies to donate their waste for recycling in exchange for money for the donated waste.",
+    "query_tokens": [
+      "companies",
+      "company",
+      "constitution",
+      "donate",
+      "donated",
+      "encourages",
+      "exchange",
+      "headline",
+      "money",
+      "recycling",
+      "usbc",
+      "waste"
+    ],
+    "echo_rate": 0.92,
+    "weighted_echo": 0.9217094017094019,
+    "width": 5.082299,
+    "stc": 1.2544,
+    "mult": 1.0486
+  },
+  {
+    "qid": "H041_ROW_034",
+    "query": "Name a hot English word below 10 letters.",
+    "query_tokens": [
+      "english",
+      "hot",
+      "letters",
+      "word"
+    ],
+    "echo_rate": 0.013333333333333334,
+    "weighted_echo": 0.005470085470085472,
+    "width": 4.880255,
+    "stc": 1.6221,
+    "mult": 1.0583
+  },
+  {
+    "qid": "H069_ROW_066",
+    "query": "If there were double the amount of oxygen in the air, what would happen? Write in 100 words.",
+    "query_tokens": [
+      "air",
+      "amount",
+      "double",
+      "happen",
+      "oxygen"
+    ],
+    "echo_rate": 0.23555555555555555,
+    "weighted_echo": 0.23111111111111107,
+    "width": 4.758395,
+    "stc": 2.0045,
+    "mult": 1.0657
+  },
+  {
+    "qid": "H099_ROW_098",
+    "query": "Write a question about the plot of Zootopia.",
+    "query_tokens": [
+      "plot",
+      "question",
+      "zootopia"
+    ],
+    "echo_rate": 0.2088888888888889,
+    "weighted_echo": 0.22735042735042743,
+    "width": 4.71646,
+    "stc": 1.7994,
+    "mult": 1.2902
+  },
+  {
+    "qid": "H084_ROW_082",
+    "query": "Describe Deadpool in a short paragraph. Make sure it's accessible to children.",
+    "query_tokens": [
+      "accessible",
+      "children",
+      "deadpool",
+      "describe",
+      "it's",
+      "sure"
+    ],
+    "echo_rate": 0.46261682242990654,
+    "weighted_echo": 0.478632478632479,
+    "width": 4.673036,
+    "stc": 1.7086,
+    "mult": 1.7687
+  },
+  {
+    "qid": "H024_ROW_016",
+    "query": "Explain nuclear fission like I am five years old.",
+    "query_tokens": [
+      "fission",
+      "five",
+      "nuclear",
+      "old",
+      "years"
+    ],
+    "echo_rate": 0.07555555555555556,
+    "weighted_echo": 0.05846153846153848,
+    "width": 4.634186,
+    "stc": 1.9338,
+    "mult": 1.0849
+  },
+  {
+    "qid": "H066_ROW_062",
+    "query": "Output a hard question to humanity (super concise and short), independent of theme.",
+    "query_tokens": [
+      "concise",
+      "hard",
+      "humanity",
+      "independent",
+      "output",
+      "question",
+      "theme"
+    ],
+    "echo_rate": 0.05333333333333334,
+    "weighted_echo": 0.05059829059829061,
+    "width": 4.624207,
+    "stc": 2.7059,
+    "mult": 0.8257
+  },
+  {
+    "qid": "H098_ROW_096",
+    "query": "Write a one- or two-sentence visual description of a game controller.",
+    "query_tokens": [
+      "controller",
+      "description",
+      "game",
+      "two",
+      "visual"
+    ],
+    "echo_rate": 0.49777777777777776,
+    "weighted_echo": 0.507008547008547,
+    "width": 4.558845,
+    "stc": 1.548,
+    "mult": 1.4874
+  },
+  {
+    "qid": "H095_ROW_093",
+    "query": "Write an educational description of the husky dog breed, approximately 145 words in length.",
+    "query_tokens": [
+      "approximately",
+      "breed",
+      "description",
+      "dog",
+      "educational",
+      "husky",
+      "length"
+    ],
+    "echo_rate": 0.35714285714285715,
+    "weighted_echo": 0.38256410256410267,
+    "width": 4.520766,
+    "stc": 2.0378,
+    "mult": 1.3519
+  },
+  {
+    "qid": "H015_ROW_007",
+    "query": "Write in detail the plot of a typical blockbuster action movie, but with real life logic applied.",
+    "query_tokens": [
+      "action",
+      "applied",
+      "blockbuster",
+      "detail",
+      "life",
+      "logic",
+      "movie",
+      "plot",
+      "real",
+      "typical"
+    ],
+    "echo_rate": 0.08444444444444445,
+    "weighted_echo": 0.08410256410256411,
+    "width": 4.515009,
+    "stc": 1.6066,
+    "mult": 1.4957
+  },
+  {
+    "qid": "H068_ROW_064",
+    "query": "Briefly explain the potential uses of biofuels in 2-3 sentences.",
+    "query_tokens": [
+      "biofuels",
+      "briefly",
+      "potential",
+      "uses"
+    ],
+    "echo_rate": 0.4577777777777778,
+    "weighted_echo": 0.4427350427350427,
+    "width": 4.43761,
+    "stc": 1.7505,
+    "mult": 1.015
+  },
+  {
+    "qid": "H088_ROW_086",
+    "query": "One other way to say: \"Fingers crossed that everything goes well.\"",
+    "query_tokens": [
+      "crossed",
+      "everything",
+      "fingers",
+      "goes"
+    ],
+    "echo_rate": 0.18222222222222223,
+    "weighted_echo": 0.19042735042735048,
+    "width": 4.431983,
+    "stc": 2.8919,
+    "mult": 0.6498
+  },
+  {
+    "qid": "H003_NISSAN_R390",
+    "query": "Create a short summary about the Nissan R390.",
+    "query_tokens": [
+      "nissan",
+      "summary"
+    ],
+    "echo_rate": 0.14666666666666667,
+    "weighted_echo": 0.15111111111111114,
+    "width": 4.423996,
+    "stc": 2.5003,
+    "mult": 0.8337
+  },
+  {
+    "qid": "H074_ROW_072",
+    "query": "Can you give me an incredible STEM fair idea that is affordable and relate to issues in Vietnam?",
+    "query_tokens": [
+      "affordable",
+      "fair",
+      "idea",
+      "incredible",
+      "issues",
+      "relate",
+      "stem",
+      "vietnam"
+    ],
+    "echo_rate": 0.044444444444444446,
+    "weighted_echo": 0.033162393162393174,
+    "width": 4.388828,
+    "stc": 1.421,
+    "mult": 1.0427
+  },
+  {
+    "qid": "H093_ROW_091",
+    "query": "Create a description for a marble design resin-made Apple Watch band.",
+    "query_tokens": [
+      "apple",
+      "band",
+      "description",
+      "design",
+      "made",
+      "marble",
+      "resin",
+      "watch"
+    ],
+    "echo_rate": 0.8099547511312217,
+    "weighted_echo": 0.8211965811965816,
+    "width": 4.307449,
+    "stc": 1.536,
+    "mult": 1.3383
+  },
+  {
+    "qid": "H014_ROW_006",
+    "query": "Write me a song about a guy named Jacob working at a call center making jokes.",
+    "query_tokens": [
+      "call",
+      "center",
+      "guy",
+      "jacob",
+      "jokes",
+      "making",
+      "named",
+      "song",
+      "working"
+    ],
+    "echo_rate": 0.5955555555555555,
+    "weighted_echo": 0.6051282051282052,
+    "width": 4.263554,
+    "stc": 2.4386,
+    "mult": 1.3113
+  },
+  {
+    "qid": "H052_ROW_046",
+    "query": "Describe Apple Corporation in three sentences to a person who has no idea what cell phones are.",
+    "query_tokens": [
+      "apple",
+      "cell",
+      "corporation",
+      "describe",
+      "idea",
+      "person",
+      "phones",
+      "three"
+    ],
+    "echo_rate": 0.5454545454545454,
+    "weighted_echo": 0.5241025641025642,
+    "width": 4.23119,
+    "stc": 1.3308,
+    "mult": 1.6204
+  },
+  {
+    "qid": "H076_ROW_074",
+    "query": "Write a funny two-sentence birthday card message for a teammate who is 50 years old and loves going to a Toby Carvery restaurant.",
+    "query_tokens": [
+      "birthday",
+      "card",
+      "carvery",
+      "funny",
+      "going",
+      "loves",
+      "message",
+      "old",
+      "restaurant",
+      "teammate",
+      "toby",
+      "two",
+      "years"
+    ],
+    "echo_rate": 0.7911111111111111,
+    "weighted_echo": 0.781538461538462,
+    "width": 4.093641,
+    "stc": 0.9098,
+    "mult": 1.5638
+  },
+  {
+    "qid": "H097_ROW_095",
+    "query": "Create a description with 2-3 sentences for an iPhone case collection that is a slim-fitted case with bold designs.",
+    "query_tokens": [
+      "bold",
+      "case",
+      "collection",
+      "description",
+      "designs",
+      "fitted",
+      "iphone",
+      "slim"
+    ],
+    "echo_rate": 0.8018867924528302,
+    "weighted_echo": 0.7883760683760687,
+    "width": 4.042761,
+    "stc": 1.1972,
+    "mult": 1.6252
+  },
+  {
+    "qid": "H006_WEDDING_VOW",
+    "query": "Create the first verse of a wedding vow.",
+    "query_tokens": [
+      "verse",
+      "vow",
+      "wedding"
+    ],
+    "echo_rate": 0.2,
+    "weighted_echo": 0.19247863247863253,
+    "width": 3.807345,
+    "stc": 1.8584,
+    "mult": 1.2745
+  },
+  {
+    "qid": "H004_GLOBAL_WARMING",
+    "query": "Write a 30-word essay on global warming.",
+    "query_tokens": [
+      "essay",
+      "global",
+      "warming",
+      "word"
+    ],
+    "echo_rate": 0.7288888888888889,
+    "weighted_echo": 0.7316239316239317,
+    "width": 3.742829,
+    "stc": 1.3415,
+    "mult": 1.1958
+  },
+  {
+    "qid": "H012_ROW_003",
+    "query": "Write me a 200-word cover letter expressing my interest in working at Dollarton Liquor Store.",
+    "query_tokens": [
+      "cover",
+      "dollarton",
+      "expressing",
+      "interest",
+      "letter",
+      "liquor",
+      "store",
+      "word",
+      "working"
+    ],
+    "echo_rate": 0.2731707317073171,
+    "weighted_echo": 0.24786324786324793,
+    "width": 3.729699,
+    "stc": 2.0675,
+    "mult": 1.182
+  },
+  {
+    "qid": "H085_ROW_083",
+    "query": "Write a personal tweet about how I am walking right now at sunrise to the lighthouse; it's spring but cold like winter.",
+    "query_tokens": [
+      "cold",
+      "it's",
+      "lighthouse",
+      "personal",
+      "right",
+      "spring",
+      "sunrise",
+      "tweet",
+      "walking",
+      "winter"
+    ],
+    "echo_rate": 0.9684684684684685,
+    "weighted_echo": 0.9757264957264957,
+    "width": 3.480625,
+    "stc": 1.1571,
+    "mult": 1.4567
+  },
+  {
+    "qid": "H011_ROW_000",
+    "query": "Write a short story about a colorful toad goes on an adventure in 50 words.",
+    "query_tokens": [
+      "adventure",
+      "colorful",
+      "goes",
+      "story",
+      "toad"
+    ],
+    "echo_rate": 0.8733031674208145,
+    "weighted_echo": 0.8902564102564108,
+    "width": 3.402199,
+    "stc": 1.3687,
+    "mult": 1.3934
+  },
+  {
+    "qid": "H055_ROW_050",
+    "query": "Give me a tip to be more organized at work. I'm a high school teacher.",
+    "query_tokens": [
+      "high",
+      "i'm",
+      "organized",
+      "school",
+      "teacher",
+      "tip",
+      "work"
+    ],
+    "echo_rate": 0.1288888888888889,
+    "weighted_echo": 0.13128205128205134,
+    "width": 3.31185,
+    "stc": 1.9058,
+    "mult": 1.408
+  },
+  {
+    "qid": "H092_ROW_090",
+    "query": "Write a forum conversation where the Kangurola daycare in Fuengirola closed in late 2019, but in 2024 its signage is still there",
+    "query_tokens": [
+      "closed",
+      "conversation",
+      "daycare",
+      "forum",
+      "fuengirola",
+      "kangurola",
+      "late",
+      "signage",
+      "still"
+    ],
+    "echo_rate": 0.4088888888888889,
+    "weighted_echo": 0.4160683760683761,
+    "width": 3.2386,
+    "stc": 3.1644,
+    "mult": 1.1698
+  },
+  {
+    "qid": "H021_ROW_013",
+    "query": "In Western Demonology, what is the difference between Lucifer and Satan? Use layman language. Keep it a paragraph long.",
+    "query_tokens": [
+      "demonology",
+      "difference",
+      "language",
+      "layman",
+      "long",
+      "lucifer",
+      "satan",
+      "western"
+    ],
+    "echo_rate": 0.9333333333333333,
+    "weighted_echo": 0.945641025641026,
+    "width": 3.174074,
+    "stc": 1.6814,
+    "mult": 1.0086
+  },
+  {
+    "qid": "H057_ROW_052",
+    "query": "Explain computational irreducibility like I'm illiterate.",
+    "query_tokens": [
+      "computational",
+      "i'm",
+      "illiterate",
+      "irreducibility"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 3.132114,
+    "stc": 2.0618,
+    "mult": 1.0112
+  },
+  {
+    "qid": "H060_ROW_056",
+    "query": "Help me draft a paragraph as an expert consultant explaining TOEFL vs IELTS for international students.",
+    "query_tokens": [
+      "consultant",
+      "draft",
+      "expert",
+      "explaining",
+      "help",
+      "ielts",
+      "international",
+      "students",
+      "toefl"
+    ],
+    "echo_rate": 0.9288888888888889,
+    "weighted_echo": 0.943589743589744,
+    "width": 3.041631,
+    "stc": 1.8531,
+    "mult": 1.4122
+  },
+  {
+    "qid": "H100_ROW_099",
+    "query": "Name a Zootopia character and provide 2 emojis to represent that character.",
+    "query_tokens": [
+      "character",
+      "emojis",
+      "represent",
+      "zootopia"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 2.937449,
+    "stc": 2.6258,
+    "mult": 1.2746
+  },
+  {
+    "qid": "H089_ROW_087",
+    "query": "Write 3 to 4 lines about India.",
+    "query_tokens": [
+      "india",
+      "lines"
+    ],
+    "echo_rate": 0.3688888888888889,
+    "weighted_echo": 0.3815384615384617,
+    "width": 2.856747,
+    "stc": 1.5809,
+    "mult": 0.85
+  },
+  {
+    "qid": "H047_ROW_041",
+    "query": "Rave about the significance of rivers in a paragraph.",
+    "query_tokens": [
+      "rave",
+      "rivers",
+      "significance"
+    ],
+    "echo_rate": 0.52,
+    "weighted_echo": 0.5623931623931626,
+    "width": 2.856031,
+    "stc": 1.9406,
+    "mult": 1.457
+  },
+  {
+    "qid": "H034_ROW_027",
+    "query": "Discuss what an ecosystem is. Explain how it is maintained in nature and how it survives in one sentence.",
+    "query_tokens": [
+      "discuss",
+      "ecosystem",
+      "maintained",
+      "nature",
+      "survives"
+    ],
+    "echo_rate": 0.6977777777777778,
+    "weighted_echo": 0.6888888888888891,
+    "width": 2.848517,
+    "stc": 2.2923,
+    "mult": 0.6654
+  },
+  {
+    "qid": "H005_HAN_ECONOMY",
+    "query": "Write me a 1-paragraph essay about the development of the economy during the Han Dynasty.",
+    "query_tokens": [
+      "development",
+      "during",
+      "dynasty",
+      "economy",
+      "essay",
+      "han"
+    ],
+    "echo_rate": 0.39111111111111113,
+    "weighted_echo": 0.3794871794871796,
+    "width": 2.814708,
+    "stc": 2.307,
+    "mult": 1.2836
+  },
+  {
+    "qid": "H071_ROW_068",
+    "query": "Write a sentence about Sunday's fog by the ocean.",
+    "query_tokens": [
+      "fog",
+      "ocean",
+      "sunday's"
+    ],
+    "echo_rate": 0.9155555555555556,
+    "weighted_echo": 0.9155555555555558,
+    "width": 2.780819,
+    "stc": 2.0963,
+    "mult": 1.0483
+  },
+  {
+    "qid": "H051_ROW_045",
+    "query": "Write an essay on the importance of the Roman Empire and its impact on future generations. Max: 100 words.",
+    "query_tokens": [
+      "empire",
+      "essay",
+      "future",
+      "generations",
+      "impact",
+      "importance",
+      "max",
+      "roman"
+    ],
+    "echo_rate": 0.5466666666666666,
+    "weighted_echo": 0.5593162393162395,
+    "width": 2.780027,
+    "stc": 2.7975,
+    "mult": 1.0518
+  },
+  {
+    "qid": "H027_ROW_019",
+    "query": "Which is the hottest English 5-letter word?",
+    "query_tokens": [
+      "english",
+      "hottest",
+      "letter",
+      "word"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 2.456282,
+    "stc": 3.0085,
+    "mult": 0.7029
+  },
+  {
+    "qid": "H058_ROW_054",
+    "query": "Provide a few sentences on Sisu Cinema Robotics.",
+    "query_tokens": [
+      "cinema",
+      "robotics",
+      "sisu"
+    ],
+    "echo_rate": 0.39555555555555555,
+    "weighted_echo": 0.4109401709401711,
+    "width": 2.332772,
+    "stc": 4.595,
+    "mult": 0.9223
+  },
+  {
+    "qid": "H079_ROW_077",
+    "query": "Create a short 1-paragraph story about a boy running on a beach. He is Asian, 12 years old, and the time of day is 4 in the afternoon.",
+    "query_tokens": [
+      "afternoon",
+      "asian",
+      "beach",
+      "boy",
+      "day",
+      "old",
+      "running",
+      "story",
+      "years"
+    ],
+    "echo_rate": 0.7466666666666667,
+    "weighted_echo": 0.7784615384615385,
+    "width": 2.223807,
+    "stc": 1.8016,
+    "mult": 0.906
+  },
+  {
+    "qid": "H091_ROW_089",
+    "query": "Come up with two better sentences for the following sentence: 'Well, we know that China has a history of about 5,000 years, so they would have many interesting stories for us, as my parents told me.'",
+    "query_tokens": [
+      "better",
+      "china",
+      "history",
+      "interesting",
+      "know",
+      "many",
+      "parents",
+      "stories",
+      "they",
+      "told",
+      "two",
+      "years"
+    ],
+    "echo_rate": 0.9337748344370861,
+    "weighted_echo": 0.743589743589744,
+    "width": 2.214755,
+    "stc": 2.4658,
+    "mult": 1.2027
+  },
+  {
+    "qid": "H056_ROW_051",
+    "query": "Explain computational irreducibility like I'm 5.",
+    "query_tokens": [
+      "computational",
+      "i'm",
+      "irreducibility"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 2.147029,
+    "stc": 2.5959,
+    "mult": 0.998
+  },
+  {
+    "qid": "H090_ROW_088",
+    "query": "Write 100-300 words on how stress affects the body and mind.",
+    "query_tokens": [
+      "affects",
+      "body",
+      "mind",
+      "stress"
+    ],
+    "echo_rate": 0.5866666666666667,
+    "weighted_echo": 0.614017094017094,
+    "width": 1.706349,
+    "stc": 2.6605,
+    "mult": 0.8488
+  },
+  {
+    "qid": "H035_ROW_028",
+    "query": "Rephrase: I didn\u2019t enjoy it.",
+    "query_tokens": [
+      "didn",
+      "enjoy"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 1.622695,
+    "stc": 2.3485,
+    "mult": 0.7003
+  },
+  {
+    "qid": "H016_ROW_008",
+    "query": "Write a short story about a female teacher who has a big accident while knitting in class with a hilarious ending.",
+    "query_tokens": [
+      "accident",
+      "big",
+      "class",
+      "ending",
+      "female",
+      "hilarious",
+      "knitting",
+      "story",
+      "teacher",
+      "while"
+    ],
+    "echo_rate": 0.5244444444444445,
+    "weighted_echo": 0.5271794871794874,
+    "width": 1.530749,
+    "stc": 1.7219,
+    "mult": 1.1321
+  },
+  {
+    "qid": "H032_ROW_025",
+    "query": "Create a title with the prefix 'Best', about millennials, nostalgia, 80s, 90s, 2000s, and TikTok, one-liner, less than 100 characters.",
+    "query_tokens": [
+      "best'",
+      "characters",
+      "liner",
+      "millennials",
+      "nostalgia",
+      "prefix",
+      "tiktok"
+    ],
+    "echo_rate": 0.9259259259259259,
+    "weighted_echo": 0.9169230769230775,
+    "width": 1.525679,
+    "stc": 2.542,
+    "mult": 0.8666
+  },
+  {
+    "qid": "H048_ROW_042",
+    "query": "Write me a distinguished paragraph highlighting important points for this topic: Achieve More: Mastering the Art of Goal-Setting.",
+    "query_tokens": [
+      "achieve",
+      "art",
+      "distinguished",
+      "goal",
+      "highlighting",
+      "important",
+      "mastering",
+      "points",
+      "setting",
+      "topic"
+    ],
+    "echo_rate": 0.3511111111111111,
+    "weighted_echo": 0.3275213675213675,
+    "width": 1.332371,
+    "stc": 3.0949,
+    "mult": 0.5523
+  },
+  {
+    "qid": "H094_ROW_092",
+    "query": "Write a fictional blog post where the UK government forces nightclubs to close every night at 3 a.m. and explain why. Keep it to be one paragraph.",
+    "query_tokens": [
+      "blog",
+      "close",
+      "every",
+      "fictional",
+      "forces",
+      "government",
+      "night",
+      "nightclubs",
+      "post"
+    ],
+    "echo_rate": 0.44537815126050423,
+    "weighted_echo": 0.29470085470085483,
+    "width": 1.020436,
+    "stc": 9.7244,
+    "mult": 1.0312
+  },
+  {
+    "qid": "H026_ROW_018",
+    "query": "Translate my emojis into a hilarious quote: \u201c\ud83d\udc4b. \ud83d\udeab\ud83d\udc64\ud83c\udfe0! \ud83c\udfc3\ud83d\udca8\u2013\u274c\ud83d\udd19!\u201d",
+    "query_tokens": [
+      "emojis",
+      "hilarious",
+      "quote",
+      "translate"
+    ],
+    "echo_rate": 0.0,
+    "weighted_echo": 0.0,
+    "width": 0.94481,
+    "stc": 8.0908,
+    "mult": 1.0653
+  },
+  {
+    "qid": "H096_ROW_094",
+    "query": "Paraphrase this: I tried to call him and send him a message on WhatsApp. Let's wait until the end of the week for the IT Department to sign the clearance.",
+    "query_tokens": [
+      "call",
+      "clearance",
+      "department",
+      "end",
+      "let's",
+      "message",
+      "paraphrase",
+      "send",
+      "sign",
+      "tried",
+      "until",
+      "wait",
+      "week",
+      "whatsapp"
+    ],
+    "echo_rate": 0.9813664596273292,
+    "weighted_echo": 0.8167521367521371,
+    "width": 0.857816,
+    "stc": 2.3403,
+    "mult": 0.9026
+  },
+  {
+    "qid": "H033_ROW_026",
+    "query": "Write in 2-3 sentences about a group of friends who hired a bus from Vetoba Travels, Goa, to tour Morjim Beach, Goa. Suggest a few hashtags.",
+    "query_tokens": [
+      "beach",
+      "bus",
+      "friends",
+      "goa",
+      "hashtags",
+      "hired",
+      "morjim",
+      "suggest",
+      "tour",
+      "travels",
+      "vetoba"
+    ],
+    "echo_rate": 0.9259259259259259,
+    "weighted_echo": 0.1938461538461539,
+    "width": 0.844583,
+    "stc": 2.1361,
+    "mult": 1.0623
+  },
+  {
+    "qid": "H054_ROW_049",
+    "query": "Write an one-paragraph kid's story with a prince, a princess, and a dragon. When all hope is lost, the prince orders a magic sword from Amazon and slays the dragon. The other parts of the story are up to you.",
+    "query_tokens": [
+      "amazon",
+      "dragon",
+      "hope",
+      "kid's",
+      "lost",
+      "magic",
+      "orders",
+      "parts",
+      "prince",
+      "princess",
+      "slays",
+      "story",
+      "sword"
+    ],
+    "echo_rate": 0.6511627906976745,
+    "weighted_echo": 0.1832478632478633,
+    "width": 0.803084,
+    "stc": 3.0229,
+    "mult": 1.0447
+  },
+  {
+    "qid": "H061_ROW_057",
+    "query": "Come up a short blurb to introduce a religion called The Next Exodus Society.",
+    "query_tokens": [
+      "blurb",
+      "exodus",
+      "introduce",
+      "next",
+      "religion",
+      "society"
+    ],
+    "echo_rate": 0.18181818181818182,
+    "weighted_echo": 0.17675213675213683,
+    "width": 0.594382,
+    "stc": 19.1767,
+    "mult": 1.0953
+  },
+  {
+    "qid": "H013_ROW_005",
+    "query": "Write me a paragraph about the time Brandon got a hole in one in frisbee golf. Include somewhat imaginative details.",
+    "query_tokens": [
+      "brandon",
+      "details",
+      "frisbee",
+      "golf",
+      "got",
+      "hole",
+      "imaginative",
+      "somewhat"
+    ],
+    "echo_rate": 0.25333333333333335,
+    "weighted_echo": 0.18427350427350433,
+    "width": 0.581929,
+    "stc": 12.5115,
+    "mult": 1.2163
+  },
+  {
+    "qid": "H022_ROW_014",
+    "query": "Answer this in a few sentences: Why would a company use inventory to cover up inefficiencies in their supply chains? Is this a good idea or a bad idea?",
+    "query_tokens": [
+      "answer",
+      "bad",
+      "chains",
+      "company",
+      "cover",
+      "idea",
+      "inefficiencies",
+      "inventory",
+      "supply"
+    ],
+    "echo_rate": 0.42696629213483145,
+    "weighted_echo": 0.24752136752136764,
+    "width": 0.543016,
+    "stc": 9.4756,
+    "mult": 1.1663
+  },
+  {
+    "qid": "H040_ROW_033",
+    "query": "Paraphrase this: We're checking if the domain 'aspris.ae' is included in our scope.",
+    "query_tokens": [
+      "ae'",
+      "aspris",
+      "checking",
+      "domain",
+      "included",
+      "paraphrase",
+      "scope",
+      "we're"
+    ],
+    "echo_rate": 1.0,
+    "weighted_echo": 1.0000000000000002,
+    "width": 0.506017,
+    "stc": 3.222,
+    "mult": 0.5938
+  },
+  {
+    "qid": "H018_ROW_010",
+    "query": "Please write a science fiction story about me being the last man in the world while everyone else is a woman.",
+    "query_tokens": [
+      "everyone",
+      "fiction",
+      "last",
+      "man",
+      "science",
+      "story",
+      "while",
+      "woman",
+      "world"
+    ],
+    "echo_rate": 0.34054054054054056,
+    "weighted_echo": 0.28205128205128216,
+    "width": 0.431452,
+    "stc": 18.5696,
+    "mult": 0.8924
+  },
+  {
+    "qid": "H020_ROW_012",
+    "query": "Write a very comedically cliched, over-the-top wrestling promo calling out members of the BYOB Traveling Spaceship.",
+    "query_tokens": [
+      "byob",
+      "calling",
+      "cliched",
+      "comedically",
+      "members",
+      "out",
+      "over",
+      "promo",
+      "spaceship",
+      "traveling",
+      "wrestling"
+    ],
+    "echo_rate": 0.34134615384615385,
+    "weighted_echo": 0.3637606837606839,
+    "width": 0.422997,
+    "stc": 18.7015,
+    "mult": 1.0057
+  },
+  {
+    "qid": "H045_ROW_039",
+    "query": "In three sentences, describe a girl wandering around in Vietnam.",
+    "query_tokens": [
+      "around",
+      "describe",
+      "girl",
+      "three",
+      "vietnam",
+      "wandering"
+    ],
+    "echo_rate": 0.22869955156950672,
+    "weighted_echo": 0.2307692307692309,
+    "width": 0.392151,
+    "stc": 2.5053,
+    "mult": 0.7675
+  },
+  {
+    "qid": "H017_ROW_009",
+    "query": "If Game of Thrones Season 8 had a scene where Gendry and Arya had a snowball fight, how would it fit into the show? And how would it benefit their character arcs?",
+    "query_tokens": [
+      "arcs",
+      "arya",
+      "benefit",
+      "character",
+      "fight",
+      "fit",
+      "game",
+      "gendry",
+      "scene",
+      "season",
+      "show",
+      "snowball",
+      "thrones"
+    ],
+    "echo_rate": 0.40372670807453415,
+    "weighted_echo": 0.3319658119658122,
+    "width": 0.385951,
+    "stc": 17.7113,
+    "mult": 1.0955
+  },
+  {
+    "qid": "H067_ROW_063",
+    "query": "Provide an example of the name of an optimization technique used in machine learning.",
+    "query_tokens": [
+      "learning",
+      "machine",
+      "optimization",
+      "technique"
+    ],
+    "echo_rate": 0.06666666666666667,
+    "weighted_echo": 0.038974358974359,
+    "width": 0.046711,
+    "stc": 2.5107,
+    "mult": 1.0458
+  }
+]

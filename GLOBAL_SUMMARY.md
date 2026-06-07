@@ -40,6 +40,20 @@ The rebuttal-facing corpus treats OLMo/Sarvam as a full model replacement rather
 
 - `supporting_results/RESULTS_AT_A_GLANCE.md` summarises the replacement framing.
 
+## What We Added for Question-Inventory and Related-Work Concerns
+
+Reviewer comments also asked whether CHOIR depended too heavily on the paper's own question inventory and how the work relates to recent homogeneity/diversity papers. In response, we ran a curated external prompt-bank check on Infinity-Chat 100, the representative prompt set used by Jiang et al. in *Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)*.
+
+- `external_infinity_chat_100/README.md` gives the scope and headline interpretation.
+- `external_infinity_chat_100/DESIGN_MANIFEST.md` summarises the model ensemble, generation design, and run scale.
+- `external_infinity_chat_100/width_taxonomy/` gives the prompt-width taxonomy and prompt-echo quicklook.
+- `external_infinity_chat_100/parity_analysis/` gives codebook permutation, recoverability, leakage, and sensitivity summaries.
+- `external_infinity_chat_100/contest_subset/` gives the targeted 12-prompt ranking result.
+- `external_infinity_chat_100/taxonomy_alignment/` compares the paper's diagnostic prompts and Infinity-Chat 100 prompts under the published taxonomy.
+- `external_infinity_chat_100/anchoring_probe/` gives the six-pair original-versus-cue-stripped prompt-anchoring probe.
+
+This external packet is not intended to replace the submitted corpus. It supports the narrower framing that CHOIR is a portable elicitation and concept-salience method, while the paper's question inventory is a study instrument rather than a canonical benchmark.
+
 ## Reviewer Reply Files
 
 The complete response set is in `rebuttal_responses/ALL_REBUTTAL_RESPONSES.md`. Individual replies are also broken out into reviewer-tagged files:

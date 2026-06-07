@@ -1,0 +1,14 @@
+# Approved 12-question Hivemind contest subset, 2026-06-07.
+# Includes the sovereignty prompt in place of the extra introspection prompt.
+H001_TIME_METAPHOR
+H007_MEANING_OF_LIFE
+H002_INTERNET_SOCIETY
+H029_ROW_022
+H010_US_CHINA_ANALOGY
+H046_ROW_040
+H030_ROW_023
+H064_ROW_060
+H008_EV_JOKE
+H009_PEANUT_PUN
+H015_ROW_007
+H006_WEDDING_VOW

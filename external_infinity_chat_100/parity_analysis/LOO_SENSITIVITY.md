@@ -1,0 +1,110 @@
+# Leave-One-Model-Out Sensitivity - Hivemind-100
+
+This recomputes signal-to-chance after dropping each model in turn from the Template A, lowest-temperature surface.
+
+Questions analysed: **100**
+
+| Question | Baseline STC | Max abs delta under LOO | Model producing max change | Direction |
+|---|---:|---:|---|---:|
+| H013_ROW_005 | 12.51x | 4.397 | qwen3.5-397b | +4.397 |
+| H018_ROW_010 | 18.57x | 3.377 | gemini-3-flash | +3.377 |
+| H017_ROW_009 | 17.71x | 2.738 | gemini-3-flash | +2.738 |
+| H020_ROW_012 | 18.70x | 2.608 | gemini-3-flash | +2.608 |
+| H094_ROW_092 | 9.72x | 1.950 | gemma-4-31b-it | +1.950 |
+| H061_ROW_057 | 19.18x | 1.483 | qwen3.6-27b | +1.483 |
+| H026_ROW_018 | 8.09x | 1.336 | kimi-k2 | -1.336 |
+| H022_ROW_014 | 9.48x | 1.211 | deepseek-v3.2 | -1.211 |
+| H092_ROW_090 | 3.16x | 1.045 | deepseek-v3.2 | +1.045 |
+| H054_ROW_049 | 3.02x | 0.816 | gemini-3-flash | +0.816 |
+| H028_ROW_021 | 2.50x | 0.730 | qwen3.6-27b | -0.730 |
+| H058_ROW_054 | 4.59x | 0.728 | gemma-4-31b-it | +0.728 |
+| H088_ROW_086 | 2.89x | 0.624 | qwen3.5-397b | -0.624 |
+| H066_ROW_062 | 2.71x | 0.531 | gemma-4-31b-it | -0.531 |
+| H091_ROW_089 | 2.47x | 0.523 | kimi-k2 | +0.523 |
+| H003_NISSAN_R390 | 2.50x | 0.507 | qwen3.6-27b | -0.507 |
+| H037_ROW_030 | 1.69x | 0.489 | deepseek-v3.2 | +0.489 |
+| H033_ROW_026 | 2.14x | 0.468 | deepseek-v3.2 | -0.468 |
+| H095_ROW_093 | 2.04x | 0.439 | qwen3.5-397b | +0.439 |
+| H056_ROW_051 | 2.60x | 0.432 | gemma-4-31b-it | -0.432 |
+| H083_ROW_081 | 1.84x | 0.385 | qwen3.5-397b | +0.385 |
+| H080_ROW_078 | 1.45x | 0.377 | qwen3.5-397b | -0.377 |
+| H032_ROW_025 | 2.54x | 0.375 | deepseek-v3.2 | +0.375 |
+| H043_ROW_036 | 1.25x | 0.372 | qwen3.6-27b | -0.372 |
+| H009_PEANUT_PUN | 1.36x | 0.365 | gemini-3-flash | -0.365 |
+| H040_ROW_033 | 3.22x | 0.360 | mistral-large-3 | +0.360 |
+| H012_ROW_003 | 2.07x | 0.359 | qwen3.5-397b | +0.359 |
+| H041_ROW_034 | 1.62x | 0.357 | kimi-k2 | +0.357 |
+| H046_ROW_040 | 1.20x | 0.350 | gemini-3-flash | -0.350 |
+| H073_ROW_071 | 1.45x | 0.347 | gemma-4-31b-it | -0.347 |
+| H068_ROW_064 | 1.75x | 0.347 | deepseek-v3.2 | +0.347 |
+| H069_ROW_066 | 2.00x | 0.342 | qwen3.5-397b | +0.342 |
+| H036_ROW_029 | 1.44x | 0.330 | deepseek-v3.2 | -0.330 |
+| H078_ROW_076 | 1.05x | 0.330 | gemma-4-31b-it | -0.330 |
+| H050_ROW_044 | 1.31x | 0.327 | gemini-3-flash | -0.327 |
+| H057_ROW_052 | 2.06x | 0.321 | claude-sonnet-4-6 | +0.321 |
+| H048_ROW_042 | 3.09x | 0.317 | mistral-large-3 | +0.317 |
+| H042_ROW_035 | 1.44x | 0.315 | claude-sonnet-4-6 | +0.315 |
+| H084_ROW_082 | 1.71x | 0.311 | kimi-k2 | -0.311 |
+| H075_ROW_073 | 1.26x | 0.311 | gemini-3-flash | -0.311 |
+| H039_ROW_032 | 1.19x | 0.302 | mistral-large-3 | +0.302 |
+| H067_ROW_063 | 2.51x | 0.299 | qwen3.5-397b | -0.299 |
+| H062_ROW_058 | 1.25x | 0.297 | mistral-large-3 | -0.297 |
+| H049_ROW_043 | 1.61x | 0.294 | gemini-3-flash | +0.294 |
+| H005_HAN_ECONOMY | 2.31x | 0.283 | claude-sonnet-4-6 | +0.283 |
+| H079_ROW_077 | 1.80x | 0.283 | mistral-large-3 | +0.283 |
+| H064_ROW_060 | 1.19x | 0.278 | deepseek-v3.2 | -0.278 |
+| H030_ROW_023 | 1.29x | 0.278 | kimi-k2 | +0.278 |
+| H100_ROW_099 | 2.63x | 0.272 | gemma-4-31b-it | -0.272 |
+| H072_ROW_069 | 1.32x | 0.271 | qwen3.5-397b | -0.271 |
+| H027_ROW_019 | 3.01x | 0.269 | claude-sonnet-4-6 | +0.269 |
+| H071_ROW_068 | 2.10x | 0.257 | gpt-4.1 | +0.257 |
+| H060_ROW_056 | 1.85x | 0.249 | qwen3.6-27b | +0.249 |
+| H014_ROW_006 | 2.44x | 0.243 | qwen3.6-27b | +0.243 |
+| H015_ROW_007 | 1.61x | 0.241 | deepseek-v3.2 | -0.241 |
+| H074_ROW_072 | 1.42x | 0.229 | gpt-4.1 | +0.229 |
+| H034_ROW_027 | 2.29x | 0.220 | gemini-3-flash | -0.220 |
+| H051_ROW_045 | 2.80x | 0.218 | qwen3.5-397b | +0.218 |
+| H047_ROW_041 | 1.94x | 0.218 | kimi-k2 | -0.218 |
+| H055_ROW_050 | 1.91x | 0.215 | kimi-k2 | +0.215 |
+| H023_ROW_015 | 1.24x | 0.215 | mistral-large-3 | -0.215 |
+| H082_ROW_080 | 1.75x | 0.211 | claude-sonnet-4-6 | +0.211 |
+| H024_ROW_016 | 1.93x | 0.210 | gemma-4-31b-it | +0.210 |
+| H098_ROW_096 | 1.55x | 0.209 | claude-sonnet-4-6 | -0.209 |
+| H096_ROW_094 | 2.34x | 0.208 | mistral-large-3 | +0.208 |
+| H038_ROW_031 | 0.94x | 0.205 | deepseek-v3.2 | -0.205 |
+| H086_ROW_084 | 0.94x | 0.199 | claude-sonnet-4-6 | +0.199 |
+| H059_ROW_055 | 1.06x | 0.198 | gemma-4-31b-it | -0.198 |
+| H006_WEDDING_VOW | 1.86x | 0.194 | qwen3.5-397b | -0.194 |
+| H008_EV_JOKE | 1.01x | 0.193 | claude-sonnet-4-6 | +0.193 |
+| H001_TIME_METAPHOR | 1.16x | 0.191 | mistral-large-3 | +0.191 |
+| H099_ROW_098 | 1.80x | 0.188 | qwen3.5-397b | +0.188 |
+| H016_ROW_008 | 1.72x | 0.187 | gemma-4-31b-it | +0.187 |
+| H031_ROW_024 | 1.05x | 0.182 | qwen3.5-397b | +0.182 |
+| H090_ROW_088 | 2.66x | 0.182 | mistral-large-3 | -0.182 |
+| H093_ROW_091 | 1.54x | 0.178 | kimi-k2 | -0.178 |
+| H097_ROW_095 | 1.20x | 0.172 | gemma-4-31b-it | +0.172 |
+| H089_ROW_087 | 1.58x | 0.171 | qwen3.5-397b | -0.171 |
+| H044_ROW_037 | 1.13x | 0.170 | deepseek-v3.2 | -0.170 |
+| H010_US_CHINA_ANALOGY | 1.42x | 0.170 | gemini-3-flash | +0.170 |
+| H021_ROW_013 | 1.68x | 0.165 | claude-sonnet-4-6 | +0.165 |
+| H052_ROW_046 | 1.33x | 0.163 | gemini-3-flash | -0.163 |
+| H053_ROW_047 | 1.11x | 0.162 | claude-sonnet-4-6 | +0.162 |
+| H007_MEANING_OF_LIFE | 0.78x | 0.160 | qwen3.6-27b | -0.160 |
+| H065_ROW_061 | 1.20x | 0.156 | mistral-large-3 | -0.156 |
+| H035_ROW_028 | 2.35x | 0.154 | gemini-3-flash | -0.154 |
+| H077_ROW_075 | 1.05x | 0.152 | gpt-4.1 | +0.152 |
+| H087_ROW_085 | 1.01x | 0.149 | gpt-4.1 | +0.149 |
+| H002_INTERNET_SOCIETY | 0.68x | 0.149 | qwen3.5-397b | -0.149 |
+| H070_ROW_067 | 1.20x | 0.143 | qwen3.5-397b | -0.143 |
+| H081_ROW_079 | 1.13x | 0.142 | mistral-large-3 | +0.142 |
+| H029_ROW_022 | 0.88x | 0.137 | kimi-k2 | +0.137 |
+| H025_ROW_017 | 1.25x | 0.137 | gpt-4.1 | -0.137 |
+| H019_ROW_011 | 1.14x | 0.124 | deepseek-v3.2 | -0.124 |
+| H004_GLOBAL_WARMING | 1.34x | 0.113 | deepseek-v3.2 | +0.113 |
+| H011_ROW_000 | 1.37x | 0.111 | qwen3.5-397b | -0.111 |
+| H085_ROW_083 | 1.16x | 0.103 | qwen3.6-27b | -0.103 |
+| H063_ROW_059 | 0.84x | 0.087 | qwen3.5-397b | -0.087 |
+| H045_ROW_039 | 2.51x | 0.067 | kimi-k2 | -0.067 |
+| H076_ROW_074 | 0.91x | 0.065 | qwen3.5-397b | +0.065 |
+
+Reading: large swings identify questions where one model has unusual leverage; small swings mean the STC result is ensemble-level rather than an artefact of a single model.

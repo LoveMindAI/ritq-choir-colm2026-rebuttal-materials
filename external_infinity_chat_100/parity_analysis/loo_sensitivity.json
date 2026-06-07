@@ -1,0 +1,5108 @@
+{
+  "description": "Leave-one-model-out sensitivity on Template A lowest-temperature STC.",
+  "n_shuffle": 200,
+  "summary": [
+    {
+      "question_id": "H013_ROW_005",
+      "baseline_stc": 12.5115,
+      "max_abs_delta": 4.397118656500391,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 4.397118656500391,
+      "n_models": 9
+    },
+    {
+      "question_id": "H018_ROW_010",
+      "baseline_stc": 18.5696,
+      "max_abs_delta": 3.3772635964106748,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 3.3772635964106748,
+      "n_models": 9
+    },
+    {
+      "question_id": "H017_ROW_009",
+      "baseline_stc": 17.7113,
+      "max_abs_delta": 2.73754656294296,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 2.73754656294296,
+      "n_models": 9
+    },
+    {
+      "question_id": "H020_ROW_012",
+      "baseline_stc": 18.7015,
+      "max_abs_delta": 2.6078784632294827,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 2.6078784632294827,
+      "n_models": 9
+    },
+    {
+      "question_id": "H094_ROW_092",
+      "baseline_stc": 9.7244,
+      "max_abs_delta": 1.9499289361611059,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": 1.9499289361611059,
+      "n_models": 9
+    },
+    {
+      "question_id": "H061_ROW_057",
+      "baseline_stc": 19.1767,
+      "max_abs_delta": 1.48280626296825,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": 1.48280626296825,
+      "n_models": 9
+    },
+    {
+      "question_id": "H026_ROW_018",
+      "baseline_stc": 8.0908,
+      "max_abs_delta": 1.3356782383386703,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": -1.3356782383386703,
+      "n_models": 9
+    },
+    {
+      "question_id": "H022_ROW_014",
+      "baseline_stc": 9.4756,
+      "max_abs_delta": 1.2109459310109205,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -1.2109459310109205,
+      "n_models": 9
+    },
+    {
+      "question_id": "H092_ROW_090",
+      "baseline_stc": 3.1644,
+      "max_abs_delta": 1.0445769994628216,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": 1.0445769994628216,
+      "n_models": 9
+    },
+    {
+      "question_id": "H054_ROW_049",
+      "baseline_stc": 3.0229,
+      "max_abs_delta": 0.8162178322295128,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 0.8162178322295128,
+      "n_models": 9
+    },
+    {
+      "question_id": "H028_ROW_021",
+      "baseline_stc": 2.5032,
+      "max_abs_delta": 0.7299725681891223,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": -0.7299725681891223,
+      "n_models": 9
+    },
+    {
+      "question_id": "H058_ROW_054",
+      "baseline_stc": 4.595,
+      "max_abs_delta": 0.7281849577324042,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": 0.7281849577324042,
+      "n_models": 9
+    },
+    {
+      "question_id": "H088_ROW_086",
+      "baseline_stc": 2.8919,
+      "max_abs_delta": 0.623662769265398,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.623662769265398,
+      "n_models": 9
+    },
+    {
+      "question_id": "H066_ROW_062",
+      "baseline_stc": 2.7059,
+      "max_abs_delta": 0.531028927225047,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.531028927225047,
+      "n_models": 9
+    },
+    {
+      "question_id": "H091_ROW_089",
+      "baseline_stc": 2.4658,
+      "max_abs_delta": 0.5234539392459232,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": 0.5234539392459232,
+      "n_models": 9
+    },
+    {
+      "question_id": "H003_NISSAN_R390",
+      "baseline_stc": 2.5003,
+      "max_abs_delta": 0.5069196436836607,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": -0.5069196436836607,
+      "n_models": 9
+    },
+    {
+      "question_id": "H037_ROW_030",
+      "baseline_stc": 1.6869,
+      "max_abs_delta": 0.48901530715827013,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": 0.48901530715827013,
+      "n_models": 9
+    },
+    {
+      "question_id": "H033_ROW_026",
+      "baseline_stc": 2.1361,
+      "max_abs_delta": 0.46766690966370295,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.46766690966370295,
+      "n_models": 9
+    },
+    {
+      "question_id": "H095_ROW_093",
+      "baseline_stc": 2.0378,
+      "max_abs_delta": 0.43923120696311946,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.43923120696311946,
+      "n_models": 9
+    },
+    {
+      "question_id": "H056_ROW_051",
+      "baseline_stc": 2.5959,
+      "max_abs_delta": 0.43220830739088445,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.43220830739088445,
+      "n_models": 9
+    },
+    {
+      "question_id": "H083_ROW_081",
+      "baseline_stc": 1.841,
+      "max_abs_delta": 0.3845142718130272,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.3845142718130272,
+      "n_models": 9
+    },
+    {
+      "question_id": "H080_ROW_078",
+      "baseline_stc": 1.4548,
+      "max_abs_delta": 0.37660979282754736,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.37660979282754736,
+      "n_models": 9
+    },
+    {
+      "question_id": "H032_ROW_025",
+      "baseline_stc": 2.542,
+      "max_abs_delta": 0.374846332232202,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": 0.374846332232202,
+      "n_models": 9
+    },
+    {
+      "question_id": "H043_ROW_036",
+      "baseline_stc": 1.2537,
+      "max_abs_delta": 0.37161240408650054,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": -0.37161240408650054,
+      "n_models": 9
+    },
+    {
+      "question_id": "H009_PEANUT_PUN",
+      "baseline_stc": 1.3641,
+      "max_abs_delta": 0.36546708629517244,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.36546708629517244,
+      "n_models": 9
+    },
+    {
+      "question_id": "H040_ROW_033",
+      "baseline_stc": 3.222,
+      "max_abs_delta": 0.35983104983696634,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.35983104983696634,
+      "n_models": 9
+    },
+    {
+      "question_id": "H012_ROW_003",
+      "baseline_stc": 2.0675,
+      "max_abs_delta": 0.35890283193940675,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.35890283193940675,
+      "n_models": 9
+    },
+    {
+      "question_id": "H041_ROW_034",
+      "baseline_stc": 1.6221,
+      "max_abs_delta": 0.35717213479424115,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": 0.35717213479424115,
+      "n_models": 9
+    },
+    {
+      "question_id": "H046_ROW_040",
+      "baseline_stc": 1.2039,
+      "max_abs_delta": 0.3499019854305049,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.3499019854305049,
+      "n_models": 9
+    },
+    {
+      "question_id": "H073_ROW_071",
+      "baseline_stc": 1.4539,
+      "max_abs_delta": 0.34739522051419436,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.34739522051419436,
+      "n_models": 9
+    },
+    {
+      "question_id": "H068_ROW_064",
+      "baseline_stc": 1.7505,
+      "max_abs_delta": 0.34717554287154173,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": 0.34717554287154173,
+      "n_models": 9
+    },
+    {
+      "question_id": "H069_ROW_066",
+      "baseline_stc": 2.0045,
+      "max_abs_delta": 0.3418097342981792,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.3418097342981792,
+      "n_models": 9
+    },
+    {
+      "question_id": "H036_ROW_029",
+      "baseline_stc": 1.4374,
+      "max_abs_delta": 0.33032954345302357,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.33032954345302357,
+      "n_models": 9
+    },
+    {
+      "question_id": "H078_ROW_076",
+      "baseline_stc": 1.0516,
+      "max_abs_delta": 0.3295393213676213,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.3295393213676213,
+      "n_models": 9
+    },
+    {
+      "question_id": "H050_ROW_044",
+      "baseline_stc": 1.3074,
+      "max_abs_delta": 0.327445154984882,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.327445154984882,
+      "n_models": 9
+    },
+    {
+      "question_id": "H057_ROW_052",
+      "baseline_stc": 2.0618,
+      "max_abs_delta": 0.32128639241118995,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.32128639241118995,
+      "n_models": 9
+    },
+    {
+      "question_id": "H048_ROW_042",
+      "baseline_stc": 3.0949,
+      "max_abs_delta": 0.3174481945342351,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.3174481945342351,
+      "n_models": 9
+    },
+    {
+      "question_id": "H042_ROW_035",
+      "baseline_stc": 1.4363,
+      "max_abs_delta": 0.31471239367123305,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.31471239367123305,
+      "n_models": 9
+    },
+    {
+      "question_id": "H084_ROW_082",
+      "baseline_stc": 1.7086,
+      "max_abs_delta": 0.311410218383259,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": -0.311410218383259,
+      "n_models": 9
+    },
+    {
+      "question_id": "H075_ROW_073",
+      "baseline_stc": 1.2604,
+      "max_abs_delta": 0.31126595622742326,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.31126595622742326,
+      "n_models": 9
+    },
+    {
+      "question_id": "H039_ROW_032",
+      "baseline_stc": 1.1927,
+      "max_abs_delta": 0.3022023445728399,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.3022023445728399,
+      "n_models": 9
+    },
+    {
+      "question_id": "H067_ROW_063",
+      "baseline_stc": 2.5107,
+      "max_abs_delta": 0.29941330244643627,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.29941330244643627,
+      "n_models": 9
+    },
+    {
+      "question_id": "H062_ROW_058",
+      "baseline_stc": 1.2544,
+      "max_abs_delta": 0.29667864196793226,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": -0.29667864196793226,
+      "n_models": 9
+    },
+    {
+      "question_id": "H049_ROW_043",
+      "baseline_stc": 1.607,
+      "max_abs_delta": 0.29383525145231904,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 0.29383525145231904,
+      "n_models": 9
+    },
+    {
+      "question_id": "H005_HAN_ECONOMY",
+      "baseline_stc": 2.307,
+      "max_abs_delta": 0.2832912641545504,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.2832912641545504,
+      "n_models": 9
+    },
+    {
+      "question_id": "H079_ROW_077",
+      "baseline_stc": 1.8016,
+      "max_abs_delta": 0.2826756623486921,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.2826756623486921,
+      "n_models": 9
+    },
+    {
+      "question_id": "H064_ROW_060",
+      "baseline_stc": 1.1945,
+      "max_abs_delta": 0.2779137048817154,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.2779137048817154,
+      "n_models": 9
+    },
+    {
+      "question_id": "H030_ROW_023",
+      "baseline_stc": 1.2947,
+      "max_abs_delta": 0.2776925400464243,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": 0.2776925400464243,
+      "n_models": 9
+    },
+    {
+      "question_id": "H100_ROW_099",
+      "baseline_stc": 2.6258,
+      "max_abs_delta": 0.2717389537804942,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.2717389537804942,
+      "n_models": 9
+    },
+    {
+      "question_id": "H072_ROW_069",
+      "baseline_stc": 1.3231,
+      "max_abs_delta": 0.27092537888165746,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.27092537888165746,
+      "n_models": 9
+    },
+    {
+      "question_id": "H027_ROW_019",
+      "baseline_stc": 3.0085,
+      "max_abs_delta": 0.26892417538804514,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.26892417538804514,
+      "n_models": 9
+    },
+    {
+      "question_id": "H071_ROW_068",
+      "baseline_stc": 2.0963,
+      "max_abs_delta": 0.25725792383094825,
+      "argmax_model": "gpt-4.1",
+      "argmax_delta": 0.25725792383094825,
+      "n_models": 9
+    },
+    {
+      "question_id": "H060_ROW_056",
+      "baseline_stc": 1.8531,
+      "max_abs_delta": 0.24896920120937516,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": 0.24896920120937516,
+      "n_models": 9
+    },
+    {
+      "question_id": "H014_ROW_006",
+      "baseline_stc": 2.4386,
+      "max_abs_delta": 0.24308789015522914,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": 0.24308789015522914,
+      "n_models": 9
+    },
+    {
+      "question_id": "H015_ROW_007",
+      "baseline_stc": 1.6066,
+      "max_abs_delta": 0.24086090151171824,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.24086090151171824,
+      "n_models": 9
+    },
+    {
+      "question_id": "H074_ROW_072",
+      "baseline_stc": 1.421,
+      "max_abs_delta": 0.22917695274081806,
+      "argmax_model": "gpt-4.1",
+      "argmax_delta": 0.22917695274081806,
+      "n_models": 9
+    },
+    {
+      "question_id": "H034_ROW_027",
+      "baseline_stc": 2.2923,
+      "max_abs_delta": 0.220420157954341,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.220420157954341,
+      "n_models": 9
+    },
+    {
+      "question_id": "H051_ROW_045",
+      "baseline_stc": 2.7975,
+      "max_abs_delta": 0.2180319101070105,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.2180319101070105,
+      "n_models": 9
+    },
+    {
+      "question_id": "H047_ROW_041",
+      "baseline_stc": 1.9406,
+      "max_abs_delta": 0.21788467537907286,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": -0.21788467537907286,
+      "n_models": 9
+    },
+    {
+      "question_id": "H055_ROW_050",
+      "baseline_stc": 1.9058,
+      "max_abs_delta": 0.21507151388889123,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": 0.21507151388889123,
+      "n_models": 9
+    },
+    {
+      "question_id": "H023_ROW_015",
+      "baseline_stc": 1.2414,
+      "max_abs_delta": 0.21472526460128916,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": -0.21472526460128916,
+      "n_models": 9
+    },
+    {
+      "question_id": "H082_ROW_080",
+      "baseline_stc": 1.7507,
+      "max_abs_delta": 0.21108837284087922,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.21108837284087922,
+      "n_models": 9
+    },
+    {
+      "question_id": "H024_ROW_016",
+      "baseline_stc": 1.9338,
+      "max_abs_delta": 0.21024548231020135,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": 0.21024548231020135,
+      "n_models": 9
+    },
+    {
+      "question_id": "H098_ROW_096",
+      "baseline_stc": 1.548,
+      "max_abs_delta": 0.20903769995327126,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": -0.20903769995327126,
+      "n_models": 9
+    },
+    {
+      "question_id": "H096_ROW_094",
+      "baseline_stc": 2.3403,
+      "max_abs_delta": 0.2078031873996351,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.2078031873996351,
+      "n_models": 9
+    },
+    {
+      "question_id": "H038_ROW_031",
+      "baseline_stc": 0.9421,
+      "max_abs_delta": 0.2051343229404392,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.2051343229404392,
+      "n_models": 9
+    },
+    {
+      "question_id": "H086_ROW_084",
+      "baseline_stc": 0.9446,
+      "max_abs_delta": 0.1994682309717989,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.1994682309717989,
+      "n_models": 9
+    },
+    {
+      "question_id": "H059_ROW_055",
+      "baseline_stc": 1.0567,
+      "max_abs_delta": 0.19767899544220435,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": -0.19767899544220435,
+      "n_models": 9
+    },
+    {
+      "question_id": "H006_WEDDING_VOW",
+      "baseline_stc": 1.8584,
+      "max_abs_delta": 0.19434343511599517,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.19434343511599517,
+      "n_models": 9
+    },
+    {
+      "question_id": "H008_EV_JOKE",
+      "baseline_stc": 1.0112,
+      "max_abs_delta": 0.1926605182263701,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.1926605182263701,
+      "n_models": 9
+    },
+    {
+      "question_id": "H001_TIME_METAPHOR",
+      "baseline_stc": 1.1551,
+      "max_abs_delta": 0.19062698762511499,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.19062698762511499,
+      "n_models": 9
+    },
+    {
+      "question_id": "H099_ROW_098",
+      "baseline_stc": 1.7994,
+      "max_abs_delta": 0.18769443812598063,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.18769443812598063,
+      "n_models": 9
+    },
+    {
+      "question_id": "H016_ROW_008",
+      "baseline_stc": 1.7219,
+      "max_abs_delta": 0.18707595322905024,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": 0.18707595322905024,
+      "n_models": 9
+    },
+    {
+      "question_id": "H031_ROW_024",
+      "baseline_stc": 1.0539,
+      "max_abs_delta": 0.18198174143168555,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.18198174143168555,
+      "n_models": 9
+    },
+    {
+      "question_id": "H090_ROW_088",
+      "baseline_stc": 2.6605,
+      "max_abs_delta": 0.18168388752121123,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": -0.18168388752121123,
+      "n_models": 9
+    },
+    {
+      "question_id": "H093_ROW_091",
+      "baseline_stc": 1.536,
+      "max_abs_delta": 0.1776212185922843,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": -0.1776212185922843,
+      "n_models": 9
+    },
+    {
+      "question_id": "H097_ROW_095",
+      "baseline_stc": 1.1972,
+      "max_abs_delta": 0.17172154929718997,
+      "argmax_model": "gemma-4-31b-it",
+      "argmax_delta": 0.17172154929718997,
+      "n_models": 9
+    },
+    {
+      "question_id": "H089_ROW_087",
+      "baseline_stc": 1.5809,
+      "max_abs_delta": 0.17137054243007088,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.17137054243007088,
+      "n_models": 9
+    },
+    {
+      "question_id": "H044_ROW_037",
+      "baseline_stc": 1.1324,
+      "max_abs_delta": 0.1703241908132831,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.1703241908132831,
+      "n_models": 9
+    },
+    {
+      "question_id": "H010_US_CHINA_ANALOGY",
+      "baseline_stc": 1.4214,
+      "max_abs_delta": 0.17027879270232638,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": 0.17027879270232638,
+      "n_models": 9
+    },
+    {
+      "question_id": "H021_ROW_013",
+      "baseline_stc": 1.6814,
+      "max_abs_delta": 0.1652966319001281,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.1652966319001281,
+      "n_models": 9
+    },
+    {
+      "question_id": "H052_ROW_046",
+      "baseline_stc": 1.3308,
+      "max_abs_delta": 0.163098569020933,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.163098569020933,
+      "n_models": 9
+    },
+    {
+      "question_id": "H053_ROW_047",
+      "baseline_stc": 1.1092,
+      "max_abs_delta": 0.161783296951026,
+      "argmax_model": "claude-sonnet-4-6",
+      "argmax_delta": 0.161783296951026,
+      "n_models": 9
+    },
+    {
+      "question_id": "H007_MEANING_OF_LIFE",
+      "baseline_stc": 0.7819,
+      "max_abs_delta": 0.16029715041946357,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": -0.16029715041946357,
+      "n_models": 9
+    },
+    {
+      "question_id": "H065_ROW_061",
+      "baseline_stc": 1.2042,
+      "max_abs_delta": 0.15564585644149465,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": -0.15564585644149465,
+      "n_models": 9
+    },
+    {
+      "question_id": "H035_ROW_028",
+      "baseline_stc": 2.3485,
+      "max_abs_delta": 0.1543134789725027,
+      "argmax_model": "gemini-3-flash",
+      "argmax_delta": -0.1543134789725027,
+      "n_models": 9
+    },
+    {
+      "question_id": "H077_ROW_075",
+      "baseline_stc": 1.0493,
+      "max_abs_delta": 0.1517338169708231,
+      "argmax_model": "gpt-4.1",
+      "argmax_delta": 0.1517338169708231,
+      "n_models": 9
+    },
+    {
+      "question_id": "H087_ROW_085",
+      "baseline_stc": 1.0059,
+      "max_abs_delta": 0.14919349948771732,
+      "argmax_model": "gpt-4.1",
+      "argmax_delta": 0.14919349948771732,
+      "n_models": 9
+    },
+    {
+      "question_id": "H002_INTERNET_SOCIETY",
+      "baseline_stc": 0.6764,
+      "max_abs_delta": 0.14865536166056648,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.14865536166056648,
+      "n_models": 9
+    },
+    {
+      "question_id": "H070_ROW_067",
+      "baseline_stc": 1.1999,
+      "max_abs_delta": 0.1426796627850151,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.1426796627850151,
+      "n_models": 9
+    },
+    {
+      "question_id": "H081_ROW_079",
+      "baseline_stc": 1.1265,
+      "max_abs_delta": 0.14239378901232702,
+      "argmax_model": "mistral-large-3",
+      "argmax_delta": 0.14239378901232702,
+      "n_models": 9
+    },
+    {
+      "question_id": "H029_ROW_022",
+      "baseline_stc": 0.8824,
+      "max_abs_delta": 0.13741340566896632,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": 0.13741340566896632,
+      "n_models": 9
+    },
+    {
+      "question_id": "H025_ROW_017",
+      "baseline_stc": 1.2494,
+      "max_abs_delta": 0.13724317544961662,
+      "argmax_model": "gpt-4.1",
+      "argmax_delta": -0.13724317544961662,
+      "n_models": 9
+    },
+    {
+      "question_id": "H019_ROW_011",
+      "baseline_stc": 1.1362,
+      "max_abs_delta": 0.12367093695861153,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": -0.12367093695861153,
+      "n_models": 9
+    },
+    {
+      "question_id": "H004_GLOBAL_WARMING",
+      "baseline_stc": 1.3415,
+      "max_abs_delta": 0.11267924589140677,
+      "argmax_model": "deepseek-v3.2",
+      "argmax_delta": 0.11267924589140677,
+      "n_models": 9
+    },
+    {
+      "question_id": "H011_ROW_000",
+      "baseline_stc": 1.3687,
+      "max_abs_delta": 0.11065032655540219,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.11065032655540219,
+      "n_models": 9
+    },
+    {
+      "question_id": "H085_ROW_083",
+      "baseline_stc": 1.1571,
+      "max_abs_delta": 0.10305613317415552,
+      "argmax_model": "qwen3.6-27b",
+      "argmax_delta": -0.10305613317415552,
+      "n_models": 9
+    },
+    {
+      "question_id": "H063_ROW_059",
+      "baseline_stc": 0.8359,
+      "max_abs_delta": 0.08716614741801143,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": -0.08716614741801143,
+      "n_models": 9
+    },
+    {
+      "question_id": "H045_ROW_039",
+      "baseline_stc": 2.5053,
+      "max_abs_delta": 0.06746195269053556,
+      "argmax_model": "kimi-k2",
+      "argmax_delta": -0.06746195269053556,
+      "n_models": 9
+    },
+    {
+      "question_id": "H076_ROW_074",
+      "baseline_stc": 0.9098,
+      "max_abs_delta": 0.06530802209133801,
+      "argmax_model": "qwen3.5-397b",
+      "argmax_delta": 0.06530802209133801,
+      "n_models": 9
+    }
+  ],
+  "detail": {
+    "H001_TIME_METAPHOR": {
+      "baseline_observed": 0.04418164468141916,
+      "baseline_chance": 0.037816709731985754,
+      "baseline_stc": 1.1551,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.2121668237665775,
+          "delta": 0.05706682376657746
+        },
+        "deepseek-v3.2": {
+          "stc": 1.0617506110224708,
+          "delta": -0.0933493889775292
+        },
+        "gemini-3-flash": {
+          "stc": 1.1380082741680033,
+          "delta": -0.017091725831996696
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2718445994072514,
+          "delta": 0.11674459940725135
+        },
+        "gpt-4.1": {
+          "stc": 1.2668527423467122,
+          "delta": 0.11175274234671217
+        },
+        "kimi-k2": {
+          "stc": 0.9930958926904294,
+          "delta": -0.1620041073095706
+        },
+        "mistral-large-3": {
+          "stc": 1.345726987625115,
+          "delta": 0.19062698762511499
+        },
+        "qwen3.5-397b": {
+          "stc": 1.3281450661385776,
+          "delta": 0.17304506613857762
+        },
+        "qwen3.6-27b": {
+          "stc": 1.0950862523711242,
+          "delta": -0.06001374762887579
+        }
+      }
+    },
+    "H002_INTERNET_SOCIETY": {
+      "baseline_observed": 0.028080389050576565,
+      "baseline_chance": 0.04161841700069611,
+      "baseline_stc": 0.6764,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.7294233376626462,
+          "delta": 0.05302333766264622
+        },
+        "deepseek-v3.2": {
+          "stc": 0.7367282112967447,
+          "delta": 0.060328211296744705
+        },
+        "gemini-3-flash": {
+          "stc": 0.6129838599508854,
+          "delta": -0.06341614004911456
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.6977278467391884,
+          "delta": 0.021327846739188416
+        },
+        "gpt-4.1": {
+          "stc": 0.697461152048416,
+          "delta": 0.021061152048415965
+        },
+        "kimi-k2": {
+          "stc": 0.6874109925918742,
+          "delta": 0.011010992591874214
+        },
+        "mistral-large-3": {
+          "stc": 0.7355617571140447,
+          "delta": 0.0591617571140447
+        },
+        "qwen3.5-397b": {
+          "stc": 0.5277446383394335,
+          "delta": -0.14865536166056648
+        },
+        "qwen3.6-27b": {
+          "stc": 0.6744089055442302,
+          "delta": -0.0019910944557698373
+        }
+      }
+    },
+    "H003_NISSAN_R390": {
+      "baseline_observed": 0.10413509285079196,
+      "baseline_chance": 0.04099420137205913,
+      "baseline_stc": 2.5003,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.1722405622733687,
+          "delta": -0.3280594377266315
+        },
+        "deepseek-v3.2": {
+          "stc": 2.6609028094519065,
+          "delta": 0.1606028094519063
+        },
+        "gemini-3-flash": {
+          "stc": 2.7838256816559337,
+          "delta": 0.2835256816559335
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.5665029332613356,
+          "delta": 0.06620293326133542
+        },
+        "gpt-4.1": {
+          "stc": 2.2668045699137216,
+          "delta": -0.2334954300862786
+        },
+        "kimi-k2": {
+          "stc": 2.8735409897733555,
+          "delta": 0.3732409897733553
+        },
+        "mistral-large-3": {
+          "stc": 2.6327865831529302,
+          "delta": 0.13248658315293005
+        },
+        "qwen3.5-397b": {
+          "stc": 2.425131838842185,
+          "delta": -0.07516816115781522
+        },
+        "qwen3.6-27b": {
+          "stc": 1.9933803563163395,
+          "delta": -0.5069196436836607
+        }
+      }
+    },
+    "H004_GLOBAL_WARMING": {
+      "baseline_observed": 0.13607248050335602,
+      "baseline_chance": 0.09917029657922569,
+      "baseline_stc": 1.3415,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4075755015301301,
+          "delta": 0.0660755015301302
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4541792458914067,
+          "delta": 0.11267924589140677
+        },
+        "gemini-3-flash": {
+          "stc": 1.2446552987609314,
+          "delta": -0.09684470123906852
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.3219061998328587,
+          "delta": -0.019593800167141184
+        },
+        "gpt-4.1": {
+          "stc": 1.296866607786608,
+          "delta": -0.04463339221339191
+        },
+        "kimi-k2": {
+          "stc": 1.3604402547433543,
+          "delta": 0.018940254743354368
+        },
+        "mistral-large-3": {
+          "stc": 1.3282573928346266,
+          "delta": -0.013242607165373288
+        },
+        "qwen3.5-397b": {
+          "stc": 1.349426804167567,
+          "delta": 0.00792680416756708
+        },
+        "qwen3.6-27b": {
+          "stc": 1.3058625380995517,
+          "delta": -0.03563746190044825
+        }
+      }
+    },
+    "H005_HAN_ECONOMY": {
+      "baseline_observed": 0.19697609715165942,
+      "baseline_chance": 0.08529143505449598,
+      "baseline_stc": 2.307,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.5902912641545504,
+          "delta": 0.2832912641545504
+        },
+        "deepseek-v3.2": {
+          "stc": 2.218750649575686,
+          "delta": -0.08824935042431381
+        },
+        "gemini-3-flash": {
+          "stc": 2.335113458429551,
+          "delta": 0.02811345842955104
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1718642572596716,
+          "delta": -0.13513574274032836
+        },
+        "gpt-4.1": {
+          "stc": 2.3555034675971744,
+          "delta": 0.0485034675971745
+        },
+        "kimi-k2": {
+          "stc": 2.402804901967247,
+          "delta": 0.09580490196724689
+        },
+        "mistral-large-3": {
+          "stc": 2.218521034388727,
+          "delta": -0.088478965611273
+        },
+        "qwen3.5-397b": {
+          "stc": 2.2887947375405417,
+          "delta": -0.018205262459458194
+        },
+        "qwen3.6-27b": {
+          "stc": 2.0266884699350536,
+          "delta": -0.28031153006494636
+        }
+      }
+    },
+    "H006_WEDDING_VOW": {
+      "baseline_observed": 0.14073776982528532,
+      "baseline_chance": 0.07691920666815188,
+      "baseline_stc": 1.8584,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.8588987508780566,
+          "delta": 0.0004987508780565086
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8319998015825083,
+          "delta": -0.02640019841749175
+        },
+        "gemini-3-flash": {
+          "stc": 1.8699636987627068,
+          "delta": 0.011563698762706798
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.7292407763110034,
+          "delta": -0.12915922368899668
+        },
+        "gpt-4.1": {
+          "stc": 1.738088566681064,
+          "delta": -0.12031143331893612
+        },
+        "kimi-k2": {
+          "stc": 1.9502285111162967,
+          "delta": 0.09182851111629664
+        },
+        "mistral-large-3": {
+          "stc": 1.9328335438890998,
+          "delta": 0.07443354388909973
+        },
+        "qwen3.5-397b": {
+          "stc": 1.6640565648840049,
+          "delta": -0.19434343511599517
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8258447120630463,
+          "delta": -0.032555287936953725
+        }
+      }
+    },
+    "H007_MEANING_OF_LIFE": {
+      "baseline_observed": 0.027356292409522337,
+      "baseline_chance": 0.0357722025757458,
+      "baseline_stc": 0.7819,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.8534621762678418,
+          "delta": 0.07156217626784178
+        },
+        "deepseek-v3.2": {
+          "stc": 0.7951258074709351,
+          "delta": 0.013225807470935047
+        },
+        "gemini-3-flash": {
+          "stc": 0.8476234287504132,
+          "delta": 0.06572342875041315
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.8097171595657768,
+          "delta": 0.027817159565776794
+        },
+        "gpt-4.1": {
+          "stc": 0.7835441219022996,
+          "delta": 0.0016441219022995668
+        },
+        "kimi-k2": {
+          "stc": 0.8005378358003886,
+          "delta": 0.01863783580038858
+        },
+        "mistral-large-3": {
+          "stc": 0.7831335250124147,
+          "delta": 0.0012335250124146935
+        },
+        "qwen3.5-397b": {
+          "stc": 0.6299671309231014,
+          "delta": -0.15193286907689862
+        },
+        "qwen3.6-27b": {
+          "stc": 0.6216028495805365,
+          "delta": -0.16029715041946357
+        }
+      }
+    },
+    "H008_EV_JOKE": {
+      "baseline_observed": 0.031981159708379336,
+      "baseline_chance": 0.03127442883607484,
+      "baseline_stc": 1.0112,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.2038605182263702,
+          "delta": 0.1926605182263701
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1132932876504285,
+          "delta": 0.10209328765042835
+        },
+        "gemini-3-flash": {
+          "stc": 0.9911911277473292,
+          "delta": -0.020008872252670895
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.9763571224025454,
+          "delta": -0.03484287759745475
+        },
+        "gpt-4.1": {
+          "stc": 1.0597349498693072,
+          "delta": 0.048534949869307065
+        },
+        "kimi-k2": {
+          "stc": 1.0606043781158057,
+          "delta": 0.04940437811580556
+        },
+        "mistral-large-3": {
+          "stc": 1.0251701190269649,
+          "delta": 0.013970119026964767
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0101653977199123,
+          "delta": -0.0010346022800877819
+        },
+        "qwen3.6-27b": {
+          "stc": 0.8835083993445562,
+          "delta": -0.12769160065544394
+        }
+      }
+    },
+    "H009_PEANUT_PUN": {
+      "baseline_observed": 0.03448638018335605,
+      "baseline_chance": 0.02528700395587827,
+      "baseline_stc": 1.3641,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.5064119983068223,
+          "delta": 0.14231199830682217
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4499873570773147,
+          "delta": 0.08588735707731465
+        },
+        "gemini-3-flash": {
+          "stc": 0.9986329137048277,
+          "delta": -0.36546708629517244
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.0059297162422058,
+          "delta": -0.35817028375779425
+        },
+        "gpt-4.1": {
+          "stc": 1.480608942285772,
+          "delta": 0.11650894228577191
+        },
+        "kimi-k2": {
+          "stc": 1.186260696927018,
+          "delta": -0.17783930307298212
+        },
+        "mistral-large-3": {
+          "stc": 1.4439678879380045,
+          "delta": 0.07986788793800437
+        },
+        "qwen3.5-397b": {
+          "stc": 1.6719320569702953,
+          "delta": 0.30783205697029525
+        },
+        "qwen3.6-27b": {
+          "stc": 1.5847085578429498,
+          "delta": 0.22060855784294975
+        }
+      }
+    },
+    "H010_US_CHINA_ANALOGY": {
+      "baseline_observed": 0.07204408094965847,
+      "baseline_chance": 0.05060980243123016,
+      "baseline_stc": 1.4214,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.2584636282812007,
+          "delta": -0.16293637171879927
+        },
+        "deepseek-v3.2": {
+          "stc": 1.522593715576659,
+          "delta": 0.1011937155766589
+        },
+        "gemini-3-flash": {
+          "stc": 1.5916787927023264,
+          "delta": 0.17027879270232638
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.278722375614935,
+          "delta": -0.14267762438506493
+        },
+        "gpt-4.1": {
+          "stc": 1.262535854410422,
+          "delta": -0.15886414558957807
+        },
+        "kimi-k2": {
+          "stc": 1.5647448456053632,
+          "delta": 0.1433448456053632
+        },
+        "mistral-large-3": {
+          "stc": 1.5648222848766333,
+          "delta": 0.14342228487663333
+        },
+        "qwen3.5-397b": {
+          "stc": 1.564841546947532,
+          "delta": 0.14344154694753208
+        },
+        "qwen3.6-27b": {
+          "stc": 1.4883593377722442,
+          "delta": 0.06695933777224417
+        }
+      }
+    },
+    "H011_ROW_000": {
+      "baseline_observed": 0.13828202274521856,
+      "baseline_chance": 0.10234882450319091,
+      "baseline_stc": 1.3687,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3034805357469015,
+          "delta": -0.06521946425309855
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3148930721776293,
+          "delta": -0.05380692782237073
+        },
+        "gemini-3-flash": {
+          "stc": 1.3459134742055439,
+          "delta": -0.02278652579445617
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.3826845314236722,
+          "delta": 0.013984531423672175
+        },
+        "gpt-4.1": {
+          "stc": 1.3919586043069412,
+          "delta": 0.023258604306941155
+        },
+        "kimi-k2": {
+          "stc": 1.3035719641405106,
+          "delta": -0.06512803585948945
+        },
+        "mistral-large-3": {
+          "stc": 1.3461980706652414,
+          "delta": -0.022501929334758586
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2580496734445978,
+          "delta": -0.11065032655540219
+        },
+        "qwen3.6-27b": {
+          "stc": 1.4770533617504116,
+          "delta": 0.10835336175041155
+        }
+      }
+    },
+    "H012_ROW_003": {
+      "baseline_observed": 0.13538314984658492,
+      "baseline_chance": 0.06569098709302543,
+      "baseline_stc": 2.0675,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.8670162959577803,
+          "delta": -0.2004837040422196
+        },
+        "deepseek-v3.2": {
+          "stc": 2.1912657051675355,
+          "delta": 0.1237657051675356
+        },
+        "gemini-3-flash": {
+          "stc": 1.858619388848381,
+          "delta": -0.20888061115161882
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.08011420777717,
+          "delta": 0.012614207777170261
+        },
+        "gpt-4.1": {
+          "stc": 2.0869851848343846,
+          "delta": 0.01948518483438466
+        },
+        "kimi-k2": {
+          "stc": 1.8836788589542193,
+          "delta": -0.18382114104578062
+        },
+        "mistral-large-3": {
+          "stc": 2.184934142082166,
+          "delta": 0.11743414208216629
+        },
+        "qwen3.5-397b": {
+          "stc": 2.4264028319394066,
+          "delta": 0.35890283193940675
+        },
+        "qwen3.6-27b": {
+          "stc": 2.122168475176032,
+          "delta": 0.05466847517603224
+        }
+      }
+    },
+    "H013_ROW_005": {
+      "baseline_observed": 0.19585488015674027,
+      "baseline_chance": 0.015011767216807952,
+      "baseline_stc": 12.5115,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 11.694161176355308,
+          "delta": -0.8173388236446915
+        },
+        "deepseek-v3.2": {
+          "stc": 11.072985437186544,
+          "delta": -1.438514562813456
+        },
+        "gemini-3-flash": {
+          "stc": 14.671633018731727,
+          "delta": 2.1601330187317274
+        },
+        "gemma-4-31b-it": {
+          "stc": 16.435777871090334,
+          "delta": 3.924277871090334
+        },
+        "gpt-4.1": {
+          "stc": 11.069299173316475,
+          "delta": -1.442200826683525
+        },
+        "kimi-k2": {
+          "stc": 12.312686286674557,
+          "delta": -0.19881371332544262
+        },
+        "mistral-large-3": {
+          "stc": 10.796513543655804,
+          "delta": -1.7149864563441959
+        },
+        "qwen3.5-397b": {
+          "stc": 16.90861865650039,
+          "delta": 4.397118656500391
+        },
+        "qwen3.6-27b": {
+          "stc": 11.553516298700496,
+          "delta": -0.9579837012995043
+        }
+      }
+    },
+    "H014_ROW_006": {
+      "baseline_observed": 0.10427408715401493,
+      "baseline_chance": 0.04345227863167004,
+      "baseline_stc": 2.4386,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.205213287335642,
+          "delta": -0.23338671266435806
+        },
+        "deepseek-v3.2": {
+          "stc": 2.4620754865621097,
+          "delta": 0.023475486562109626
+        },
+        "gemini-3-flash": {
+          "stc": 2.238788219782293,
+          "delta": -0.1998117802177073
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.546986687110141,
+          "delta": 0.1083866871101411
+        },
+        "gpt-4.1": {
+          "stc": 2.3065388981937756,
+          "delta": -0.13206110180622455
+        },
+        "kimi-k2": {
+          "stc": 2.2660424277220703,
+          "delta": -0.17255757227792978
+        },
+        "mistral-large-3": {
+          "stc": 2.547924717067517,
+          "delta": 0.1093247170675169
+        },
+        "qwen3.5-397b": {
+          "stc": 2.540693096136038,
+          "delta": 0.10209309613603779
+        },
+        "qwen3.6-27b": {
+          "stc": 2.6816878901552292,
+          "delta": 0.24308789015522914
+        }
+      }
+    },
+    "H015_ROW_007": {
+      "baseline_observed": 0.10794324577032618,
+      "baseline_chance": 0.06831020147852407,
+      "baseline_stc": 1.6066,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.6317958371107195,
+          "delta": 0.025195837110719488
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3657390984882818,
+          "delta": -0.24086090151171824
+        },
+        "gemini-3-flash": {
+          "stc": 1.466059746080362,
+          "delta": -0.1405402539196381
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.555769884840294,
+          "delta": -0.050830115159705924
+        },
+        "gpt-4.1": {
+          "stc": 1.5689074830201792,
+          "delta": -0.03769251697982079
+        },
+        "kimi-k2": {
+          "stc": 1.6692147647538467,
+          "delta": 0.06261476475384664
+        },
+        "mistral-large-3": {
+          "stc": 1.6842633310070068,
+          "delta": 0.07766333100700673
+        },
+        "qwen3.5-397b": {
+          "stc": 1.5507846474375129,
+          "delta": -0.05581535256248715
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7520606833130121,
+          "delta": 0.1454606833130121
+        }
+      }
+    },
+    "H016_ROW_008": {
+      "baseline_observed": 0.24907530981854087,
+      "baseline_chance": 0.14602735086206686,
+      "baseline_stc": 1.7219,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.5998123434254492,
+          "delta": -0.12208765657455078
+        },
+        "deepseek-v3.2": {
+          "stc": 1.6187726192358292,
+          "delta": -0.10312738076417083
+        },
+        "gemini-3-flash": {
+          "stc": 1.7984980736819842,
+          "delta": 0.07659807368198424
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.9089759532290502,
+          "delta": 0.18707595322905024
+        },
+        "gpt-4.1": {
+          "stc": 1.679955282285545,
+          "delta": -0.04194471771445496
+        },
+        "kimi-k2": {
+          "stc": 1.813064226276261,
+          "delta": 0.09116422627626108
+        },
+        "mistral-large-3": {
+          "stc": 1.9081169944296297,
+          "delta": 0.1862169944296297
+        },
+        "qwen3.5-397b": {
+          "stc": 1.6632568864211532,
+          "delta": -0.05864311357884677
+        },
+        "qwen3.6-27b": {
+          "stc": 1.5778616130777712,
+          "delta": -0.1440383869222288
+        }
+      }
+    },
+    "H017_ROW_009": {
+      "baseline_observed": 0.2460269328999727,
+      "baseline_chance": 0.014488054229115815,
+      "baseline_stc": 17.7113,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 15.740220775584902,
+          "delta": -1.9710792244150994
+        },
+        "deepseek-v3.2": {
+          "stc": 18.293492290785952,
+          "delta": 0.5821922907859509
+        },
+        "gemini-3-flash": {
+          "stc": 20.44884656294296,
+          "delta": 2.73754656294296
+        },
+        "gemma-4-31b-it": {
+          "stc": 16.677479240503114,
+          "delta": -1.0338207594968871
+        },
+        "gpt-4.1": {
+          "stc": 17.71319259402107,
+          "delta": 0.001892594021068561
+        },
+        "kimi-k2": {
+          "stc": 16.76933670318942,
+          "delta": -0.9419632968105809
+        },
+        "mistral-large-3": {
+          "stc": 18.567880910615436,
+          "delta": 0.8565809106154347
+        },
+        "qwen3.5-397b": {
+          "stc": 18.761723081632695,
+          "delta": 1.0504230816326938
+        },
+        "qwen3.6-27b": {
+          "stc": 19.027262139147382,
+          "delta": 1.3159621391473806
+        }
+      }
+    },
+    "H018_ROW_010": {
+      "baseline_observed": 0.26832120828731854,
+      "baseline_chance": 0.014139141850676178,
+      "baseline_stc": 18.5696,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 20.103355022332515,
+          "delta": 1.5337550223325138
+        },
+        "deepseek-v3.2": {
+          "stc": 18.99234456364686,
+          "delta": 0.42274456364685875
+        },
+        "gemini-3-flash": {
+          "stc": 21.946863596410676,
+          "delta": 3.3772635964106748
+        },
+        "gemma-4-31b-it": {
+          "stc": 19.388983887100068,
+          "delta": 0.8193838871000665
+        },
+        "gpt-4.1": {
+          "stc": 18.687124149533634,
+          "delta": 0.117524149533633
+        },
+        "kimi-k2": {
+          "stc": 18.845723785817107,
+          "delta": 0.2761237858171057
+        },
+        "mistral-large-3": {
+          "stc": 19.850771045801142,
+          "delta": 1.2811710458011412
+        },
+        "qwen3.5-397b": {
+          "stc": 18.866906647479606,
+          "delta": 0.2973066474796049
+        },
+        "qwen3.6-27b": {
+          "stc": 19.180976935740734,
+          "delta": 0.6113769357407328
+        }
+      }
+    },
+    "H019_ROW_011": {
+      "baseline_observed": 0.06607190198778257,
+      "baseline_chance": 0.05872223299140266,
+      "baseline_stc": 1.1362,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.1853848004064618,
+          "delta": 0.04918480040646167
+        },
+        "deepseek-v3.2": {
+          "stc": 1.0125290630413886,
+          "delta": -0.12367093695861153
+        },
+        "gemini-3-flash": {
+          "stc": 1.1143577449344104,
+          "delta": -0.021842255065589677
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.18989457548082,
+          "delta": 0.053694575480819795
+        },
+        "gpt-4.1": {
+          "stc": 1.1014175535103594,
+          "delta": -0.034782446489640684
+        },
+        "kimi-k2": {
+          "stc": 1.135114182793598,
+          "delta": -0.0010858172064021065
+        },
+        "mistral-large-3": {
+          "stc": 1.1221394889154293,
+          "delta": -0.014060511084570848
+        },
+        "qwen3.5-397b": {
+          "stc": 1.127982578352756,
+          "delta": -0.00821742164724415
+        },
+        "qwen3.6-27b": {
+          "stc": 1.1754446005342762,
+          "delta": 0.03924460053427614
+        }
+      }
+    },
+    "H020_ROW_012": {
+      "baseline_observed": 0.2792333911560359,
+      "baseline_chance": 0.01371050234597761,
+      "baseline_stc": 18.7015,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 19.461204235493348,
+          "delta": 0.7597042354933485
+        },
+        "deepseek-v3.2": {
+          "stc": 20.08801526842336,
+          "delta": 1.3865152684233593
+        },
+        "gemini-3-flash": {
+          "stc": 21.309378463229482,
+          "delta": 2.6078784632294827
+        },
+        "gemma-4-31b-it": {
+          "stc": 20.16728191124804,
+          "delta": 1.4657819112480404
+        },
+        "gpt-4.1": {
+          "stc": 19.037184790678214,
+          "delta": 0.335684790678215
+        },
+        "kimi-k2": {
+          "stc": 20.191942547104443,
+          "delta": 1.4904425471044433
+        },
+        "mistral-large-3": {
+          "stc": 20.01497339999817,
+          "delta": 1.3134733999981698
+        },
+        "qwen3.5-397b": {
+          "stc": 20.126247825267434,
+          "delta": 1.4247478252674348
+        },
+        "qwen3.6-27b": {
+          "stc": 21.108353004842836,
+          "delta": 2.406853004842837
+        }
+      }
+    },
+    "H021_ROW_013": {
+      "baseline_observed": 0.16166815543054894,
+      "baseline_chance": 0.09663639988196476,
+      "baseline_stc": 1.6814,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.8466966319001281,
+          "delta": 0.1652966319001281
+        },
+        "deepseek-v3.2": {
+          "stc": 1.6566167663244897,
+          "delta": -0.024783233675510274
+        },
+        "gemini-3-flash": {
+          "stc": 1.521012290887444,
+          "delta": -0.16038770911255606
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8167920893794594,
+          "delta": 0.13539208937945935
+        },
+        "gpt-4.1": {
+          "stc": 1.71057761724924,
+          "delta": 0.02917761724923995
+        },
+        "kimi-k2": {
+          "stc": 1.545741608663648,
+          "delta": -0.13565839133635205
+        },
+        "mistral-large-3": {
+          "stc": 1.5475829717266705,
+          "delta": -0.13381702827332953
+        },
+        "qwen3.5-397b": {
+          "stc": 1.743867228877968,
+          "delta": 0.06246722887796796
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7670036072516315,
+          "delta": 0.08560360725163152
+        }
+      }
+    },
+    "H022_ROW_014": {
+      "baseline_observed": 0.2051582348111881,
+      "baseline_chance": 0.020968092723615363,
+      "baseline_stc": 9.4756,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 9.880440667190015,
+          "delta": 0.4048406671900153
+        },
+        "deepseek-v3.2": {
+          "stc": 8.26465406898908,
+          "delta": -1.2109459310109205
+        },
+        "gemini-3-flash": {
+          "stc": 10.607073271637438,
+          "delta": 1.1314732716374376
+        },
+        "gemma-4-31b-it": {
+          "stc": 8.522487820795195,
+          "delta": -0.9531121792048047
+        },
+        "gpt-4.1": {
+          "stc": 10.230916006422651,
+          "delta": 0.7553160064226514
+        },
+        "kimi-k2": {
+          "stc": 10.31713248182456,
+          "delta": 0.8415324818245598
+        },
+        "mistral-large-3": {
+          "stc": 10.638521563459753,
+          "delta": 1.1629215634597525
+        },
+        "qwen3.5-397b": {
+          "stc": 9.592142584520598,
+          "delta": 0.11654258452059807
+        },
+        "qwen3.6-27b": {
+          "stc": 8.663366713162173,
+          "delta": -0.8122332868378273
+        }
+      }
+    },
+    "H023_ROW_015": {
+      "baseline_observed": 0.03368415831155,
+      "baseline_chance": 0.027275992964259022,
+      "baseline_stc": 1.2414,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3429386422895866,
+          "delta": 0.10153864228958653
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1073568364038522,
+          "delta": -0.13404316359614787
+        },
+        "gemini-3-flash": {
+          "stc": 1.1735572548117672,
+          "delta": -0.06784274518823286
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2637416002248654,
+          "delta": 0.02234160022486531
+        },
+        "gpt-4.1": {
+          "stc": 1.2890087113521822,
+          "delta": 0.04760871135218214
+        },
+        "kimi-k2": {
+          "stc": 1.1339742145003306,
+          "delta": -0.10742578549966941
+        },
+        "mistral-large-3": {
+          "stc": 1.026674735398711,
+          "delta": -0.21472526460128916
+        },
+        "qwen3.5-397b": {
+          "stc": 1.3947683467899903,
+          "delta": 0.15336834678999023
+        },
+        "qwen3.6-27b": {
+          "stc": 1.3305459882307595,
+          "delta": 0.08914598823075948
+        }
+      }
+    },
+    "H024_ROW_016": {
+      "baseline_observed": 0.09532918485962329,
+      "baseline_chance": 0.05005471821508565,
+      "baseline_stc": 1.9338,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.7817346968169692,
+          "delta": -0.1520653031830308
+        },
+        "deepseek-v3.2": {
+          "stc": 1.739040073500999,
+          "delta": -0.19475992649900098
+        },
+        "gemini-3-flash": {
+          "stc": 2.0093411674204407,
+          "delta": 0.0755411674204407
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1440454823102013,
+          "delta": 0.21024548231020135
+        },
+        "gpt-4.1": {
+          "stc": 2.061465204127829,
+          "delta": 0.127665204127829
+        },
+        "kimi-k2": {
+          "stc": 1.7994554661082176,
+          "delta": -0.13434453389178236
+        },
+        "mistral-large-3": {
+          "stc": 1.735147676351743,
+          "delta": -0.1986523236482569
+        },
+        "qwen3.5-397b": {
+          "stc": 1.9484358196439613,
+          "delta": 0.014635819643961323
+        },
+        "qwen3.6-27b": {
+          "stc": 2.0955371708979045,
+          "delta": 0.16173717089790451
+        }
+      }
+    },
+    "H025_ROW_017": {
+      "baseline_observed": 0.07364681083678405,
+      "baseline_chance": 0.059281438075768744,
+      "baseline_stc": 1.2494,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.1771064486007956,
+          "delta": -0.07229355139920446
+        },
+        "deepseek-v3.2": {
+          "stc": 1.128217562332496,
+          "delta": -0.12118243766750414
+        },
+        "gemini-3-flash": {
+          "stc": 1.3041940369836469,
+          "delta": 0.05479403698364682
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.3287286236563318,
+          "delta": 0.07932862365633175
+        },
+        "gpt-4.1": {
+          "stc": 1.1121568245503834,
+          "delta": -0.13724317544961662
+        },
+        "kimi-k2": {
+          "stc": 1.2682830528187143,
+          "delta": 0.018883052818714274
+        },
+        "mistral-large-3": {
+          "stc": 1.3450599650829547,
+          "delta": 0.0956599650829546
+        },
+        "qwen3.5-397b": {
+          "stc": 1.1768261401405322,
+          "delta": -0.07257385985946785
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2516717057492333,
+          "delta": 0.0022717057492331882
+        }
+      }
+    },
+    "H026_ROW_018": {
+      "baseline_observed": 0.2056857835421789,
+      "baseline_chance": 0.025012843806007986,
+      "baseline_stc": 8.0908,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 8.674966057868113,
+          "delta": 0.5841660578681136
+        },
+        "deepseek-v3.2": {
+          "stc": 7.637914293151609,
+          "delta": -0.4528857068483907
+        },
+        "gemini-3-flash": {
+          "stc": 8.554612400028283,
+          "delta": 0.4638124000282833
+        },
+        "gemma-4-31b-it": {
+          "stc": 8.368182339855359,
+          "delta": 0.2773823398553592
+        },
+        "gpt-4.1": {
+          "stc": 7.799915905368555,
+          "delta": -0.29088409463144504
+        },
+        "kimi-k2": {
+          "stc": 6.7551217616613295,
+          "delta": -1.3356782383386703
+        },
+        "mistral-large-3": {
+          "stc": 7.055081164849214,
+          "delta": -1.035718835150786
+        },
+        "qwen3.5-397b": {
+          "stc": 8.519480274153675,
+          "delta": 0.4286802741536757
+        },
+        "qwen3.6-27b": {
+          "stc": 7.305630593373653,
+          "delta": -0.7851694066263466
+        }
+      }
+    },
+    "H027_ROW_019": {
+      "baseline_observed": 0.21687727534260282,
+      "baseline_chance": 0.07079734010315424,
+      "baseline_stc": 3.0085,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 3.2774241753880453,
+          "delta": 0.26892417538804514
+        },
+        "deepseek-v3.2": {
+          "stc": 2.9061111855182196,
+          "delta": -0.10238881448178061
+        },
+        "gemini-3-flash": {
+          "stc": 3.230944345170509,
+          "delta": 0.22244434517050893
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.085363019957171,
+          "delta": 0.07686301995717093
+        },
+        "gpt-4.1": {
+          "stc": 2.8838479679746585,
+          "delta": -0.1246520320253417
+        },
+        "kimi-k2": {
+          "stc": 3.116129400867546,
+          "delta": 0.10762940086754602
+        },
+        "mistral-large-3": {
+          "stc": 3.0669292927216016,
+          "delta": 0.05842929272160147
+        },
+        "qwen3.5-397b": {
+          "stc": 2.9631580221897673,
+          "delta": -0.04534197781023286
+        },
+        "qwen3.6-27b": {
+          "stc": 2.9197347961944184,
+          "delta": -0.08876520380558173
+        }
+      }
+    },
+    "H028_ROW_021": {
+      "baseline_observed": 0.05992921822906156,
+      "baseline_chance": 0.02421801505467478,
+      "baseline_stc": 2.5032,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.137772889255104,
+          "delta": -0.3654271107448963
+        },
+        "deepseek-v3.2": {
+          "stc": 2.766898615467355,
+          "delta": 0.26369861546735507
+        },
+        "gemini-3-flash": {
+          "stc": 2.3613427124945447,
+          "delta": -0.14185728750545534
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.810626779499756,
+          "delta": 0.30742677949975583
+        },
+        "gpt-4.1": {
+          "stc": 2.474888451724152,
+          "delta": -0.028311548275848253
+        },
+        "kimi-k2": {
+          "stc": 2.6410509498818304,
+          "delta": 0.13785094988183033
+        },
+        "mistral-large-3": {
+          "stc": 2.668145029884587,
+          "delta": 0.1649450298845867
+        },
+        "qwen3.5-397b": {
+          "stc": 2.692411974605123,
+          "delta": 0.18921197460512307
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7732274318108778,
+          "delta": -0.7299725681891223
+        }
+      }
+    },
+    "H029_ROW_022": {
+      "baseline_observed": 0.029951492964441842,
+      "baseline_chance": 0.03414262283673055,
+      "baseline_stc": 0.8824,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.8865165940828582,
+          "delta": 0.004116594082858249
+        },
+        "deepseek-v3.2": {
+          "stc": 0.8766005450101424,
+          "delta": -0.0057994549898575665
+        },
+        "gemini-3-flash": {
+          "stc": 0.7653071704802928,
+          "delta": -0.11709282951970712
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.7600665003314941,
+          "delta": -0.12233349966850582
+        },
+        "gpt-4.1": {
+          "stc": 0.9011962905310866,
+          "delta": 0.018796290531086668
+        },
+        "kimi-k2": {
+          "stc": 1.0198134056689663,
+          "delta": 0.13741340566896632
+        },
+        "mistral-large-3": {
+          "stc": 0.8856230132823534,
+          "delta": 0.0032230132823534152
+        },
+        "qwen3.5-397b": {
+          "stc": 0.8820795340644334,
+          "delta": -0.00032046593556656067
+        },
+        "qwen3.6-27b": {
+          "stc": 0.8474196672057842,
+          "delta": -0.03498033279421575
+        }
+      }
+    },
+    "H030_ROW_023": {
+      "baseline_observed": 0.06387105457396301,
+      "baseline_chance": 0.04973349490178552,
+      "baseline_stc": 1.2947,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.193688935299021,
+          "delta": -0.10101106470097898
+        },
+        "deepseek-v3.2": {
+          "stc": 1.2969813366283227,
+          "delta": 0.00228133662832275
+        },
+        "gemini-3-flash": {
+          "stc": 1.3154261438472583,
+          "delta": 0.02072614384725835
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2780370512490271,
+          "delta": -0.01666294875097285
+        },
+        "gpt-4.1": {
+          "stc": 1.2038349680272267,
+          "delta": -0.09086503197277329
+        },
+        "kimi-k2": {
+          "stc": 1.5723925400464243,
+          "delta": 0.2776925400464243
+        },
+        "mistral-large-3": {
+          "stc": 1.1845169742201795,
+          "delta": -0.11018302577982042
+        },
+        "qwen3.5-397b": {
+          "stc": 1.241705694706083,
+          "delta": -0.05299430529391702
+        },
+        "qwen3.6-27b": {
+          "stc": 1.1900999934147938,
+          "delta": -0.10460000658520618
+        }
+      }
+    },
+    "H031_ROW_024": {
+      "baseline_observed": 0.03698089369190024,
+      "baseline_chance": 0.03515845488786501,
+      "baseline_stc": 1.0539,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.0285757591374545,
+          "delta": -0.02532424086254559
+        },
+        "deepseek-v3.2": {
+          "stc": 1.062900674155772,
+          "delta": 0.009000674155771993
+        },
+        "gemini-3-flash": {
+          "stc": 0.8764672194687476,
+          "delta": -0.17743278053125244
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.0699599519899108,
+          "delta": 0.016059951989910726
+        },
+        "gpt-4.1": {
+          "stc": 1.0976610801128484,
+          "delta": 0.043761080112848294
+        },
+        "kimi-k2": {
+          "stc": 0.9832129672625451,
+          "delta": -0.07068703273745491
+        },
+        "mistral-large-3": {
+          "stc": 1.0794102779662174,
+          "delta": 0.0255102779662173
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2358817414316856,
+          "delta": 0.18198174143168555
+        },
+        "qwen3.6-27b": {
+          "stc": 1.1079418840243798,
+          "delta": 0.054041884024379705
+        }
+      }
+    },
+    "H032_ROW_025": {
+      "baseline_observed": 0.2541406446022907,
+      "baseline_chance": 0.09984349545868351,
+      "baseline_stc": 2.542,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.3064759236650643,
+          "delta": -0.23552407633493555
+        },
+        "deepseek-v3.2": {
+          "stc": 2.916846332232202,
+          "delta": 0.374846332232202
+        },
+        "gemini-3-flash": {
+          "stc": 2.4763827151116766,
+          "delta": -0.06561728488832319
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.3424415429822645,
+          "delta": -0.19955845701773534
+        },
+        "gpt-4.1": {
+          "stc": 2.3841334804902874,
+          "delta": -0.15786651950971242
+        },
+        "kimi-k2": {
+          "stc": 2.7871226725379272,
+          "delta": 0.2451226725379274
+        },
+        "mistral-large-3": {
+          "stc": 2.875213342953391,
+          "delta": 0.3332133429533912
+        },
+        "qwen3.5-397b": {
+          "stc": 2.5279074147730944,
+          "delta": -0.014092585226905374
+        },
+        "qwen3.6-27b": {
+          "stc": 2.4481064711839777,
+          "delta": -0.09389352881602209
+        }
+      }
+    },
+    "H033_ROW_026": {
+      "baseline_observed": 0.12140287733134913,
+      "baseline_chance": 0.05742192909281304,
+      "baseline_stc": 2.1361,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.4048831822185206,
+          "delta": 0.2687831822185207
+        },
+        "deepseek-v3.2": {
+          "stc": 1.668433090336297,
+          "delta": -0.46766690966370295
+        },
+        "gemini-3-flash": {
+          "stc": 2.450667446679502,
+          "delta": 0.3145674466795021
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.4032293472964614,
+          "delta": 0.26712934729646154
+        },
+        "gpt-4.1": {
+          "stc": 2.3415899897838397,
+          "delta": 0.2054899897838398
+        },
+        "kimi-k2": {
+          "stc": 1.7642004055147584,
+          "delta": -0.37189959448524146
+        },
+        "mistral-large-3": {
+          "stc": 1.6711354171465043,
+          "delta": -0.4649645828534956
+        },
+        "qwen3.5-397b": {
+          "stc": 2.3589542887925052,
+          "delta": 0.22285428879250535
+        },
+        "qwen3.6-27b": {
+          "stc": 2.3595796836970795,
+          "delta": 0.2234796836970796
+        }
+      }
+    },
+    "H034_ROW_027": {
+      "baseline_observed": 0.1766167013403125,
+      "baseline_chance": 0.0768448167796004,
+      "baseline_stc": 2.2923,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.2071285656265305,
+          "delta": -0.08517143437346952
+        },
+        "deepseek-v3.2": {
+          "stc": 2.464203435265314,
+          "delta": 0.17190343526531393
+        },
+        "gemini-3-flash": {
+          "stc": 2.071879842045659,
+          "delta": -0.220420157954341
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1511223188267783,
+          "delta": -0.14117768117322171
+        },
+        "gpt-4.1": {
+          "stc": 2.387294152336418,
+          "delta": 0.09499415233641795
+        },
+        "kimi-k2": {
+          "stc": 2.4169213049535734,
+          "delta": 0.12462130495357338
+        },
+        "mistral-large-3": {
+          "stc": 2.310258439552198,
+          "delta": 0.01795843955219789
+        },
+        "qwen3.5-397b": {
+          "stc": 2.29070241907777,
+          "delta": -0.0015975809222301685
+        },
+        "qwen3.6-27b": {
+          "stc": 2.3719862899744366,
+          "delta": 0.07968628997443661
+        }
+      }
+    },
+    "H035_ROW_028": {
+      "baseline_observed": 0.2607287966722403,
+      "baseline_chance": 0.11277643246096737,
+      "baseline_stc": 2.3485,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.2006770889312373,
+          "delta": -0.14782291106876277
+        },
+        "deepseek-v3.2": {
+          "stc": 2.3106259559947526,
+          "delta": -0.03787404400524741
+        },
+        "gemini-3-flash": {
+          "stc": 2.1941865210274973,
+          "delta": -0.1543134789725027
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.393822497416834,
+          "delta": 0.04532249741683403
+        },
+        "gpt-4.1": {
+          "stc": 2.47600501097901,
+          "delta": 0.1275050109790099
+        },
+        "kimi-k2": {
+          "stc": 2.308267377279831,
+          "delta": -0.04023262272016925
+        },
+        "mistral-large-3": {
+          "stc": 2.420794231529062,
+          "delta": 0.072294231529062
+        },
+        "qwen3.5-397b": {
+          "stc": 2.4749482989568055,
+          "delta": 0.12644829895680543
+        },
+        "qwen3.6-27b": {
+          "stc": 2.3328739612947462,
+          "delta": -0.01562603870525381
+        }
+      }
+    },
+    "H036_ROW_029": {
+      "baseline_observed": 0.020184318992374734,
+      "baseline_chance": 0.013525891909441139,
+      "baseline_stc": 1.4374,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4747684908002416,
+          "delta": 0.03736849080024163
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1070704565469764,
+          "delta": -0.33032954345302357
+        },
+        "gemini-3-flash": {
+          "stc": 1.111915005488605,
+          "delta": -0.3254849945113951
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.4752137265847343,
+          "delta": 0.03781372658473425
+        },
+        "gpt-4.1": {
+          "stc": 1.2049579106405546,
+          "delta": -0.23244208935944544
+        },
+        "kimi-k2": {
+          "stc": 1.4190676357736272,
+          "delta": -0.018332364226372855
+        },
+        "mistral-large-3": {
+          "stc": 1.7630373570044542,
+          "delta": 0.3256373570044542
+        },
+        "qwen3.5-397b": {
+          "stc": 1.6183595538598792,
+          "delta": 0.18095955385987916
+        },
+        "qwen3.6-27b": {
+          "stc": 1.6394863311362518,
+          "delta": 0.20208633113625174
+        }
+      }
+    },
+    "H037_ROW_030": {
+      "baseline_observed": 0.05190447581567943,
+      "baseline_chance": 0.030221977243888642,
+      "baseline_stc": 1.6869,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.1541514661585217,
+          "delta": 0.46725146615852164
+        },
+        "deepseek-v3.2": {
+          "stc": 2.17591530715827,
+          "delta": 0.48901530715827013
+        },
+        "gemini-3-flash": {
+          "stc": 1.5728867299729847,
+          "delta": -0.11401327002701533
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.464225282363677,
+          "delta": -0.22267471763632307
+        },
+        "gpt-4.1": {
+          "stc": 1.83452528788923,
+          "delta": 0.1476252878892299
+        },
+        "kimi-k2": {
+          "stc": 1.511309444751892,
+          "delta": -0.17559055524810807
+        },
+        "mistral-large-3": {
+          "stc": 1.253233920121552,
+          "delta": -0.43366607987844796
+        },
+        "qwen3.5-397b": {
+          "stc": 1.5728007961863737,
+          "delta": -0.11409920381362637
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8898495186458557,
+          "delta": 0.20294951864585564
+        }
+      }
+    },
+    "H038_ROW_031": {
+      "baseline_observed": 0.045737327023316135,
+      "baseline_chance": 0.04935370296844385,
+      "baseline_stc": 0.9421,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.00612756205861,
+          "delta": 0.06402756205861004
+        },
+        "deepseek-v3.2": {
+          "stc": 0.7369656770595608,
+          "delta": -0.2051343229404392
+        },
+        "gemini-3-flash": {
+          "stc": 0.8084290057379407,
+          "delta": -0.1336709942620593
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.9250627638747679,
+          "delta": -0.017037236125232114
+        },
+        "gpt-4.1": {
+          "stc": 0.9787334496111852,
+          "delta": 0.0366334496111852
+        },
+        "kimi-k2": {
+          "stc": 1.0796811265272246,
+          "delta": 0.13758112652722454
+        },
+        "mistral-large-3": {
+          "stc": 1.100192048413593,
+          "delta": 0.15809204841359292
+        },
+        "qwen3.5-397b": {
+          "stc": 0.9396277745926446,
+          "delta": -0.0024722254073554772
+        },
+        "qwen3.6-27b": {
+          "stc": 0.8800249876846102,
+          "delta": -0.06207501231538981
+        }
+      }
+    },
+    "H039_ROW_032": {
+      "baseline_observed": 0.015825114304630652,
+      "baseline_chance": 0.012615253267683393,
+      "baseline_stc": 1.1927,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.288371780741459,
+          "delta": 0.09567178074145888
+        },
+        "deepseek-v3.2": {
+          "stc": 1.207504737682924,
+          "delta": 0.014804737682923896
+        },
+        "gemini-3-flash": {
+          "stc": 0.9802714297170368,
+          "delta": -0.21242857028296325
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.341663940343928,
+          "delta": 0.14896394034392801
+        },
+        "gpt-4.1": {
+          "stc": 1.319820592929499,
+          "delta": 0.12712059292949895
+        },
+        "kimi-k2": {
+          "stc": 1.1852079943301357,
+          "delta": -0.00749200566986441
+        },
+        "mistral-large-3": {
+          "stc": 1.49490234457284,
+          "delta": 0.3022023445728399
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0571904427940735,
+          "delta": -0.1355095572059266
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2714100134396498,
+          "delta": 0.07871001343964967
+        }
+      }
+    },
+    "H040_ROW_033": {
+      "baseline_observed": 0.3181671719332395,
+      "baseline_chance": 0.09681417086084679,
+      "baseline_stc": 3.222,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 3.141114424610738,
+          "delta": -0.08088557538926189
+        },
+        "deepseek-v3.2": {
+          "stc": 3.3469928480960927,
+          "delta": 0.12499284809609268
+        },
+        "gemini-3-flash": {
+          "stc": 3.2776774211266093,
+          "delta": 0.05567742112660934
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.2854396932104337,
+          "delta": 0.06343969321043375
+        },
+        "gpt-4.1": {
+          "stc": 3.005895305019024,
+          "delta": -0.21610469498097595
+        },
+        "kimi-k2": {
+          "stc": 3.092641800789847,
+          "delta": -0.12935819921015312
+        },
+        "mistral-large-3": {
+          "stc": 3.5818310498369663,
+          "delta": 0.35983104983696634
+        },
+        "qwen3.5-397b": {
+          "stc": 3.1349069295153447,
+          "delta": -0.08709307048465531
+        },
+        "qwen3.6-27b": {
+          "stc": 3.331228016652966,
+          "delta": 0.109228016652966
+        }
+      }
+    },
+    "H041_ROW_034": {
+      "baseline_observed": 0.09264269073492289,
+      "baseline_chance": 0.056798705740444835,
+      "baseline_stc": 1.6221,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3858971033393594,
+          "delta": -0.23620289666064065
+        },
+        "deepseek-v3.2": {
+          "stc": 1.524150271792878,
+          "delta": -0.097949728207122
+        },
+        "gemini-3-flash": {
+          "stc": 1.6169732182661003,
+          "delta": -0.005126781733899799
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.821715987836373,
+          "delta": 0.1996159878363728
+        },
+        "gpt-4.1": {
+          "stc": 1.3360634185657632,
+          "delta": -0.28603658143423694
+        },
+        "kimi-k2": {
+          "stc": 1.9792721347942412,
+          "delta": 0.35717213479424115
+        },
+        "mistral-large-3": {
+          "stc": 1.5627429743560004,
+          "delta": -0.059357025643999695
+        },
+        "qwen3.5-397b": {
+          "stc": 1.4777561839324656,
+          "delta": -0.14434381606753455
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7121494883784605,
+          "delta": 0.09004948837846039
+        }
+      }
+    },
+    "H042_ROW_035": {
+      "baseline_observed": 0.04729680924648199,
+      "baseline_chance": 0.03246534619045574,
+      "baseline_stc": 1.4363,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.751012393671233,
+          "delta": 0.31471239367123305
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3001593156328441,
+          "delta": -0.13614068436715576
+        },
+        "gemini-3-flash": {
+          "stc": 1.323007869640021,
+          "delta": -0.11329213035997898
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.5453453803566786,
+          "delta": 0.10904538035667866
+        },
+        "gpt-4.1": {
+          "stc": 1.4867604725708796,
+          "delta": 0.05046047257087971
+        },
+        "kimi-k2": {
+          "stc": 1.4976097525970524,
+          "delta": 0.061309752597052514
+        },
+        "mistral-large-3": {
+          "stc": 1.4737587743905012,
+          "delta": 0.03745877439050127
+        },
+        "qwen3.5-397b": {
+          "stc": 1.5858174150792295,
+          "delta": 0.14951741507922955
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2279923921619345,
+          "delta": -0.20830760783806546
+        }
+      }
+    },
+    "H043_ROW_036": {
+      "baseline_observed": 0.03948886634317705,
+      "baseline_chance": 0.03112809608323221,
+      "baseline_stc": 1.2537,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.2945124134449544,
+          "delta": 0.04081241344495434
+        },
+        "deepseek-v3.2": {
+          "stc": 1.501972970007037,
+          "delta": 0.24827297000703696
+        },
+        "gemini-3-flash": {
+          "stc": 1.2166760543809108,
+          "delta": -0.03702394561908928
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.3071956997066128,
+          "delta": 0.05349569970661272
+        },
+        "gpt-4.1": {
+          "stc": 1.4030180591984143,
+          "delta": 0.14931805919841423
+        },
+        "kimi-k2": {
+          "stc": 1.4262045555186784,
+          "delta": 0.17250455551867838
+        },
+        "mistral-large-3": {
+          "stc": 1.2451099955333127,
+          "delta": -0.00859000446668734
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0571693422083517,
+          "delta": -0.19653065779164836
+        },
+        "qwen3.6-27b": {
+          "stc": 0.8820875959134995,
+          "delta": -0.37161240408650054
+        }
+      }
+    },
+    "H044_ROW_037": {
+      "baseline_observed": 0.04899273265877876,
+      "baseline_chance": 0.04342330184700984,
+      "baseline_stc": 1.1324,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.01902804284248,
+          "delta": -0.11337195715752002
+        },
+        "deepseek-v3.2": {
+          "stc": 0.962075809186717,
+          "delta": -0.1703241908132831
+        },
+        "gemini-3-flash": {
+          "stc": 1.19854610541531,
+          "delta": 0.06614610541530985
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.018811195219252,
+          "delta": -0.11358880478074806
+        },
+        "gpt-4.1": {
+          "stc": 1.261110218736541,
+          "delta": 0.12871021873654098
+        },
+        "kimi-k2": {
+          "stc": 1.0228970035541929,
+          "delta": -0.10950299644580719
+        },
+        "mistral-large-3": {
+          "stc": 1.1471194599017271,
+          "delta": 0.014719459901727072
+        },
+        "qwen3.5-397b": {
+          "stc": 1.220517256136721,
+          "delta": 0.08811725613672095
+        },
+        "qwen3.6-27b": {
+          "stc": 1.169707885158724,
+          "delta": 0.03730788515872385
+        }
+      }
+    },
+    "H045_ROW_039": {
+      "baseline_observed": 0.32479730184162786,
+      "baseline_chance": 0.12909086988113583,
+      "baseline_stc": 2.5053,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.5362939878342425,
+          "delta": 0.030993987834242454
+        },
+        "deepseek-v3.2": {
+          "stc": 2.466908042492344,
+          "delta": -0.038391957507656116
+        },
+        "gemini-3-flash": {
+          "stc": 2.5568390153940848,
+          "delta": 0.051539015394084675
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.5080388584291513,
+          "delta": 0.0027388584291512252
+        },
+        "gpt-4.1": {
+          "stc": 2.5450589585941636,
+          "delta": 0.03975895859416356
+        },
+        "kimi-k2": {
+          "stc": 2.4378380473094645,
+          "delta": -0.06746195269053556
+        },
+        "mistral-large-3": {
+          "stc": 2.541225634022162,
+          "delta": 0.03592563402216209
+        },
+        "qwen3.5-397b": {
+          "stc": 2.507317196980279,
+          "delta": 0.0020171969802791345
+        },
+        "qwen3.6-27b": {
+          "stc": 2.561332435741277,
+          "delta": 0.05603243574127692
+        }
+      }
+    },
+    "H046_ROW_040": {
+      "baseline_observed": 0.04353053270328092,
+      "baseline_chance": 0.0363608002411869,
+      "baseline_stc": 1.2039,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3673910549896955,
+          "delta": 0.16349105498969552
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4148035055277854,
+          "delta": 0.21090350552778547
+        },
+        "gemini-3-flash": {
+          "stc": 0.8539980145694951,
+          "delta": -0.3499019854305049
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.3643573813498298,
+          "delta": 0.1604573813498298
+        },
+        "gpt-4.1": {
+          "stc": 1.2921559276257009,
+          "delta": 0.08825592762570089
+        },
+        "kimi-k2": {
+          "stc": 1.2202224856949906,
+          "delta": 0.01632248569499062
+        },
+        "mistral-large-3": {
+          "stc": 1.2248795839670739,
+          "delta": 0.02097958396707389
+        },
+        "qwen3.5-397b": {
+          "stc": 0.984814857982045,
+          "delta": -0.21908514201795493
+        },
+        "qwen3.6-27b": {
+          "stc": 0.9297701658846492,
+          "delta": -0.27412983411535075
+        }
+      }
+    },
+    "H047_ROW_041": {
+      "baseline_observed": 0.19303198052273238,
+      "baseline_chance": 0.10080228352972924,
+      "baseline_stc": 1.9406,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.882609262541852,
+          "delta": -0.05799073745814809
+        },
+        "deepseek-v3.2": {
+          "stc": 2.0887668067731195,
+          "delta": 0.14816680677311944
+        },
+        "gemini-3-flash": {
+          "stc": 1.993269883737011,
+          "delta": 0.05266988373701098
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.0620420297444144,
+          "delta": 0.12144202974441431
+        },
+        "gpt-4.1": {
+          "stc": 2.108797115985485,
+          "delta": 0.1681971159854847
+        },
+        "kimi-k2": {
+          "stc": 1.7227153246209272,
+          "delta": -0.21788467537907286
+        },
+        "mistral-large-3": {
+          "stc": 1.8678888480446825,
+          "delta": -0.07271115195531763
+        },
+        "qwen3.5-397b": {
+          "stc": 1.8422896846015229,
+          "delta": -0.09831031539847723
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8324064582178872,
+          "delta": -0.10819354178211293
+        }
+      }
+    },
+    "H048_ROW_042": {
+      "baseline_observed": 0.2705578224651083,
+      "baseline_chance": 0.08534542962362733,
+      "baseline_stc": 3.0949,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.9834261139976443,
+          "delta": -0.11147388600235564
+        },
+        "deepseek-v3.2": {
+          "stc": 2.984033627344719,
+          "delta": -0.11086637265528099
+        },
+        "gemini-3-flash": {
+          "stc": 2.9309809085527725,
+          "delta": -0.1639190914472275
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.2959729092692256,
+          "delta": 0.2010729092692256
+        },
+        "gpt-4.1": {
+          "stc": 2.9074169860700705,
+          "delta": -0.1874830139299295
+        },
+        "kimi-k2": {
+          "stc": 3.233298249421463,
+          "delta": 0.13839824942146306
+        },
+        "mistral-large-3": {
+          "stc": 3.412348194534235,
+          "delta": 0.3174481945342351
+        },
+        "qwen3.5-397b": {
+          "stc": 2.7902721930376533,
+          "delta": -0.3046278069623467
+        },
+        "qwen3.6-27b": {
+          "stc": 3.2590509520849067,
+          "delta": 0.1641509520849067
+        }
+      }
+    },
+    "H049_ROW_043": {
+      "baseline_observed": 0.06250021604101143,
+      "baseline_chance": 0.03833754972283995,
+      "baseline_stc": 1.607,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3761937187988003,
+          "delta": -0.23080628120119973
+        },
+        "deepseek-v3.2": {
+          "stc": 1.34436659698158,
+          "delta": -0.2626334030184201
+        },
+        "gemini-3-flash": {
+          "stc": 1.900835251452319,
+          "delta": 0.29383525145231904
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8010953663265847,
+          "delta": 0.19409536632658475
+        },
+        "gpt-4.1": {
+          "stc": 1.4551038653875663,
+          "delta": -0.15189613461243368
+        },
+        "kimi-k2": {
+          "stc": 1.7260669331432357,
+          "delta": 0.11906693314323569
+        },
+        "mistral-large-3": {
+          "stc": 1.3259147870637817,
+          "delta": -0.28108521293621824
+        },
+        "qwen3.5-397b": {
+          "stc": 1.8489225598350978,
+          "delta": 0.2419225598350978
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7792253596855134,
+          "delta": 0.17222535968551345
+        }
+      }
+    },
+    "H050_ROW_044": {
+      "baseline_observed": 0.03706283292088412,
+      "baseline_chance": 0.028085405415237102,
+      "baseline_stc": 1.3074,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4311081721667203,
+          "delta": 0.12370817216672036
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4268678169504627,
+          "delta": 0.11946781695046282
+        },
+        "gemini-3-flash": {
+          "stc": 0.9799548450151179,
+          "delta": -0.327445154984882
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.292294918087253,
+          "delta": -0.015105081912746954
+        },
+        "gpt-4.1": {
+          "stc": 1.3934802676775617,
+          "delta": 0.08608026767756183
+        },
+        "kimi-k2": {
+          "stc": 1.2123502861491264,
+          "delta": -0.09504971385087346
+        },
+        "mistral-large-3": {
+          "stc": 1.3049322338690863,
+          "delta": -0.0024677661309135956
+        },
+        "qwen3.5-397b": {
+          "stc": 1.4759942595618345,
+          "delta": 0.1685942595618346
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2347412170159415,
+          "delta": -0.07265878298405837
+        }
+      }
+    },
+    "H051_ROW_045": {
+      "baseline_observed": 0.1976402832103986,
+      "baseline_chance": 0.06891701420895563,
+      "baseline_stc": 2.7975,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.854921148473099,
+          "delta": 0.057421148473099315
+        },
+        "deepseek-v3.2": {
+          "stc": 2.6164452835653207,
+          "delta": -0.18105471643467919
+        },
+        "gemini-3-flash": {
+          "stc": 2.8662802172224233,
+          "delta": 0.06878021722242345
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.6336476019939354,
+          "delta": -0.16385239800606444
+        },
+        "gpt-4.1": {
+          "stc": 2.94212522715026,
+          "delta": 0.14462522715025994
+        },
+        "kimi-k2": {
+          "stc": 2.686783662569363,
+          "delta": -0.1107163374306368
+        },
+        "mistral-large-3": {
+          "stc": 2.8654578162492155,
+          "delta": 0.0679578162492156
+        },
+        "qwen3.5-397b": {
+          "stc": 3.0155319101070104,
+          "delta": 0.2180319101070105
+        },
+        "qwen3.6-27b": {
+          "stc": 2.9252600812554994,
+          "delta": 0.12776008125549954
+        }
+      }
+    },
+    "H052_ROW_046": {
+      "baseline_observed": 0.11193299245105609,
+      "baseline_chance": 0.08505372728351679,
+      "baseline_stc": 1.3308,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.311814511795123,
+          "delta": -0.018985488204877
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3063398453523805,
+          "delta": -0.024460154647619525
+        },
+        "gemini-3-flash": {
+          "stc": 1.167701430979067,
+          "delta": -0.163098569020933
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2142474430190278,
+          "delta": -0.11655255698097222
+        },
+        "gpt-4.1": {
+          "stc": 1.4076033426287726,
+          "delta": 0.07680334262877264
+        },
+        "kimi-k2": {
+          "stc": 1.379803683499533,
+          "delta": 0.0490036834995331
+        },
+        "mistral-large-3": {
+          "stc": 1.4523949574870796,
+          "delta": 0.1215949574870796
+        },
+        "qwen3.5-397b": {
+          "stc": 1.3940804239062359,
+          "delta": 0.0632804239062359
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2966792093943948,
+          "delta": -0.034120790605605134
+        }
+      }
+    },
+    "H053_ROW_047": {
+      "baseline_observed": 0.02824923880406092,
+      "baseline_chance": 0.025880481940974757,
+      "baseline_stc": 1.1092,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.270983296951026,
+          "delta": 0.161783296951026
+        },
+        "deepseek-v3.2": {
+          "stc": 0.9675270835378769,
+          "delta": -0.1416729164621231
+        },
+        "gemini-3-flash": {
+          "stc": 1.0714439013381936,
+          "delta": -0.0377560986618064
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.985856762976804,
+          "delta": -0.12334323702319594
+        },
+        "gpt-4.1": {
+          "stc": 1.2390959089215419,
+          "delta": 0.1298959089215419
+        },
+        "kimi-k2": {
+          "stc": 0.9582046702699565,
+          "delta": -0.15099532973004348
+        },
+        "mistral-large-3": {
+          "stc": 1.1014722317741248,
+          "delta": -0.007727768225875176
+        },
+        "qwen3.5-397b": {
+          "stc": 1.182645780471766,
+          "delta": 0.07344578047176609
+        },
+        "qwen3.6-27b": {
+          "stc": 1.145711871530155,
+          "delta": 0.036511871530155116
+        }
+      }
+    },
+    "H054_ROW_049": {
+      "baseline_observed": 0.13209249999999992,
+      "baseline_chance": 0.0425716885802469,
+      "baseline_stc": 3.0229,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 3.287829792728936,
+          "delta": 0.26492979272893624
+        },
+        "deepseek-v3.2": {
+          "stc": 2.561850318415023,
+          "delta": -0.46104968158497694
+        },
+        "gemini-3-flash": {
+          "stc": 3.8391178322295128,
+          "delta": 0.8162178322295128
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.745777183719313,
+          "delta": 0.7228771837193131
+        },
+        "gpt-4.1": {
+          "stc": 3.6161296814763535,
+          "delta": 0.5932296814763536
+        },
+        "kimi-k2": {
+          "stc": 2.7830356148351383,
+          "delta": -0.23986438516486164
+        },
+        "mistral-large-3": {
+          "stc": 3.5283760340747454,
+          "delta": 0.5054760340747455
+        },
+        "qwen3.5-397b": {
+          "stc": 2.7504755526455056,
+          "delta": -0.27242444735449434
+        },
+        "qwen3.6-27b": {
+          "stc": 2.34824462837351,
+          "delta": -0.67465537162649
+        }
+      }
+    },
+    "H055_ROW_050": {
+      "baseline_observed": 0.1742652988461605,
+      "baseline_chance": 0.09147771113925504,
+      "baseline_stc": 1.9058,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.7289417311018123,
+          "delta": -0.17685826889818768
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8812834432813637,
+          "delta": -0.024516556718636284
+        },
+        "gemini-3-flash": {
+          "stc": 1.9415422590175773,
+          "delta": 0.03574225901757733
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8736368379251145,
+          "delta": -0.032163162074885454
+        },
+        "gpt-4.1": {
+          "stc": 1.9450863625852586,
+          "delta": 0.03928636258525864
+        },
+        "kimi-k2": {
+          "stc": 2.120871513888891,
+          "delta": 0.21507151388889123
+        },
+        "mistral-large-3": {
+          "stc": 1.8373252479035214,
+          "delta": -0.06847475209647857
+        },
+        "qwen3.5-397b": {
+          "stc": 2.007984961565433,
+          "delta": 0.10218496156543311
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8879872443493628,
+          "delta": -0.017812755650637113
+        }
+      }
+    },
+    "H056_ROW_051": {
+      "baseline_observed": 0.2273302453982159,
+      "baseline_chance": 0.08886636994096576,
+      "baseline_stc": 2.5959,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.3946953670479236,
+          "delta": -0.20120463295207625
+        },
+        "deepseek-v3.2": {
+          "stc": 2.6220497821248134,
+          "delta": 0.02614978212481356
+        },
+        "gemini-3-flash": {
+          "stc": 2.414682196766529,
+          "delta": -0.18121780323347103
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1636916926091154,
+          "delta": -0.43220830739088445
+        },
+        "gpt-4.1": {
+          "stc": 2.7300180652748804,
+          "delta": 0.13411806527488057
+        },
+        "kimi-k2": {
+          "stc": 2.513392376544303,
+          "delta": -0.08250762345569695
+        },
+        "mistral-large-3": {
+          "stc": 2.954219809349511,
+          "delta": 0.35831980934951124
+        },
+        "qwen3.5-397b": {
+          "stc": 2.2768249442105533,
+          "delta": -0.3190750557894466
+        },
+        "qwen3.6-27b": {
+          "stc": 2.871350411700028,
+          "delta": 0.27545041170002804
+        }
+      }
+    },
+    "H057_ROW_052": {
+      "baseline_observed": 0.1710255935407561,
+      "baseline_chance": 0.08320917995642892,
+      "baseline_stc": 2.0618,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.38308639241119,
+          "delta": 0.32128639241118995
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8143249670065331,
+          "delta": -0.24747503299346674
+        },
+        "gemini-3-flash": {
+          "stc": 1.9741136180339984,
+          "delta": -0.08768638196600143
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8310131888736534,
+          "delta": -0.23078681112634647
+        },
+        "gpt-4.1": {
+          "stc": 2.0991087055235855,
+          "delta": 0.03730870552358567
+        },
+        "kimi-k2": {
+          "stc": 2.061465594006578,
+          "delta": -0.0003344059934220489
+        },
+        "mistral-large-3": {
+          "stc": 2.2366493611930913,
+          "delta": 0.17484936119309147
+        },
+        "qwen3.5-397b": {
+          "stc": 1.9194218408838024,
+          "delta": -0.14237815911619744
+        },
+        "qwen3.6-27b": {
+          "stc": 2.2593659208073857,
+          "delta": 0.1975659208073859
+        }
+      }
+    },
+    "H058_ROW_054": {
+      "baseline_observed": 0.21604884118158074,
+      "baseline_chance": 0.04828193756843458,
+      "baseline_stc": 4.595,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 4.427767732880878,
+          "delta": -0.16723226711912176
+        },
+        "deepseek-v3.2": {
+          "stc": 4.499133331456237,
+          "delta": -0.09586666854376258
+        },
+        "gemini-3-flash": {
+          "stc": 4.450125862162372,
+          "delta": -0.14487413783762815
+        },
+        "gemma-4-31b-it": {
+          "stc": 5.323184957732404,
+          "delta": 0.7281849577324042
+        },
+        "gpt-4.1": {
+          "stc": 4.340997521320826,
+          "delta": -0.25400247867917347
+        },
+        "kimi-k2": {
+          "stc": 4.3352527624128605,
+          "delta": -0.25974723758713925
+        },
+        "mistral-large-3": {
+          "stc": 4.444401310329897,
+          "delta": -0.15059868967010281
+        },
+        "qwen3.5-397b": {
+          "stc": 4.606715502670522,
+          "delta": 0.011715502670522682
+        },
+        "qwen3.6-27b": {
+          "stc": 4.87800107519471,
+          "delta": 0.2830010751947105
+        }
+      }
+    },
+    "H059_ROW_055": {
+      "baseline_observed": 0.04121154225305949,
+      "baseline_chance": 0.03817677451104282,
+      "baseline_stc": 1.0567,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.2314027192055341,
+          "delta": 0.17470271920553415
+        },
+        "deepseek-v3.2": {
+          "stc": 1.0221922427066414,
+          "delta": -0.03450775729335853
+        },
+        "gemini-3-flash": {
+          "stc": 0.9745603185456827,
+          "delta": -0.08213968145431727
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.8590210045577956,
+          "delta": -0.19767899544220435
+        },
+        "gpt-4.1": {
+          "stc": 1.0537158599765446,
+          "delta": -0.0029841400234553728
+        },
+        "kimi-k2": {
+          "stc": 1.047182040448561,
+          "delta": -0.00951795955143897
+        },
+        "mistral-large-3": {
+          "stc": 0.9838109020620305,
+          "delta": -0.0728890979379695
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2446493835216716,
+          "delta": 0.18794938352167168
+        },
+        "qwen3.6-27b": {
+          "stc": 1.1584734718260248,
+          "delta": 0.10177347182602481
+        }
+      }
+    },
+    "H060_ROW_056": {
+      "baseline_observed": 0.18423265100795652,
+      "baseline_chance": 0.09667264363492542,
+      "baseline_stc": 1.8531,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.7673280084543497,
+          "delta": -0.0857719915456503
+        },
+        "deepseek-v3.2": {
+          "stc": 1.9386169784099359,
+          "delta": 0.08551697840993588
+        },
+        "gemini-3-flash": {
+          "stc": 1.7303138434374787,
+          "delta": -0.12278615656252123
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8001340923471196,
+          "delta": -0.05296590765288034
+        },
+        "gpt-4.1": {
+          "stc": 2.0505911221508706,
+          "delta": 0.1974911221508706
+        },
+        "kimi-k2": {
+          "stc": 1.7629766541855831,
+          "delta": -0.09012334581441683
+        },
+        "mistral-large-3": {
+          "stc": 1.8217423084298583,
+          "delta": -0.03135769157014168
+        },
+        "qwen3.5-397b": {
+          "stc": 1.9574163956569224,
+          "delta": 0.10431639565692241
+        },
+        "qwen3.6-27b": {
+          "stc": 2.102069201209375,
+          "delta": 0.24896920120937516
+        }
+      }
+    },
+    "H061_ROW_057": {
+      "baseline_observed": 0.2406948176727201,
+      "baseline_chance": 0.012345683331549532,
+      "baseline_stc": 19.1767,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 18.758149084514002,
+          "delta": -0.4185509154859979
+        },
+        "deepseek-v3.2": {
+          "stc": 18.171359569869995,
+          "delta": -1.0053404301300048
+        },
+        "gemini-3-flash": {
+          "stc": 17.801792054479236,
+          "delta": -1.3749079455207642
+        },
+        "gemma-4-31b-it": {
+          "stc": 19.938103611835185,
+          "delta": 0.7614036118351848
+        },
+        "gpt-4.1": {
+          "stc": 19.834223878294036,
+          "delta": 0.657523878294036
+        },
+        "kimi-k2": {
+          "stc": 19.38700488910857,
+          "delta": 0.2103048891085706
+        },
+        "mistral-large-3": {
+          "stc": 19.090099869322277,
+          "delta": -0.08660013067772354
+        },
+        "qwen3.5-397b": {
+          "stc": 18.30277074246601,
+          "delta": -0.873929257533991
+        },
+        "qwen3.6-27b": {
+          "stc": 20.65950626296825,
+          "delta": 1.48280626296825
+        }
+      }
+    },
+    "H062_ROW_058": {
+      "baseline_observed": 0.0683069918532773,
+      "baseline_chance": 0.054986086333545604,
+      "baseline_stc": 1.2544,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.0633148059041497,
+          "delta": -0.19108519409585023
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1985505667461531,
+          "delta": -0.055849433253846836
+        },
+        "gemini-3-flash": {
+          "stc": 1.412403793379975,
+          "delta": 0.15800379337997494
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2785962047893844,
+          "delta": 0.024196204789384446
+        },
+        "gpt-4.1": {
+          "stc": 1.001388720851021,
+          "delta": -0.2530112791489789
+        },
+        "kimi-k2": {
+          "stc": 1.4925294936767624,
+          "delta": 0.2381294936767624
+        },
+        "mistral-large-3": {
+          "stc": 0.9577213580320677,
+          "delta": -0.29667864196793226
+        },
+        "qwen3.5-397b": {
+          "stc": 1.4823838330339347,
+          "delta": 0.22798383303393477
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2915895186643929,
+          "delta": 0.03718951866439291
+        }
+      }
+    },
+    "H063_ROW_059": {
+      "baseline_observed": 0.05644701717563283,
+      "baseline_chance": 0.06728627532175847,
+      "baseline_stc": 0.8359,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.8637861833417794,
+          "delta": 0.02788618334177939
+        },
+        "deepseek-v3.2": {
+          "stc": 0.8323422895189442,
+          "delta": -0.003557710481055798
+        },
+        "gemini-3-flash": {
+          "stc": 0.7728244539550785,
+          "delta": -0.0630755460449215
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.820264822796649,
+          "delta": -0.015635177203350947
+        },
+        "gpt-4.1": {
+          "stc": 0.8516238273841747,
+          "delta": 0.01572382738417477
+        },
+        "kimi-k2": {
+          "stc": 0.8966279062510446,
+          "delta": 0.06072790625104463
+        },
+        "mistral-large-3": {
+          "stc": 0.913672147335534,
+          "delta": 0.07777214733553406
+        },
+        "qwen3.5-397b": {
+          "stc": 0.7487338525819885,
+          "delta": -0.08716614741801143
+        },
+        "qwen3.6-27b": {
+          "stc": 0.7972257762165144,
+          "delta": -0.03867422378348562
+        }
+      }
+    },
+    "H064_ROW_060": {
+      "baseline_observed": 0.047072260274442855,
+      "baseline_chance": 0.03889694560147751,
+      "baseline_stc": 1.1945,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.357298819788322,
+          "delta": 0.1627988197883221
+        },
+        "deepseek-v3.2": {
+          "stc": 0.9165862951182845,
+          "delta": -0.2779137048817154
+        },
+        "gemini-3-flash": {
+          "stc": 1.132626201358327,
+          "delta": -0.06187379864167286
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.1217553712999964,
+          "delta": -0.07274462870000353
+        },
+        "gpt-4.1": {
+          "stc": 1.2538465427470957,
+          "delta": 0.05934654274709583
+        },
+        "kimi-k2": {
+          "stc": 1.252652117429384,
+          "delta": 0.0581521174293842
+        },
+        "mistral-large-3": {
+          "stc": 1.336318876356386,
+          "delta": 0.14181887635638613
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2073918779906123,
+          "delta": 0.012891877990612421
+        },
+        "qwen3.6-27b": {
+          "stc": 1.002271438037523,
+          "delta": -0.19222856196247684
+        }
+      }
+    },
+    "H065_ROW_061": {
+      "baseline_observed": 0.053419834416730004,
+      "baseline_chance": 0.043219133002599434,
+      "baseline_stc": 1.2042,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.190349903238804,
+          "delta": -0.013850096761195863
+        },
+        "deepseek-v3.2": {
+          "stc": 1.233962102809806,
+          "delta": 0.029762102809806068
+        },
+        "gemini-3-flash": {
+          "stc": 1.0824109682192486,
+          "delta": -0.12178903178075129
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.308876619411201,
+          "delta": 0.10467661941120099
+        },
+        "gpt-4.1": {
+          "stc": 1.3348699015137637,
+          "delta": 0.1306699015137638
+        },
+        "kimi-k2": {
+          "stc": 1.2586446438810743,
+          "delta": 0.054444643881074395
+        },
+        "mistral-large-3": {
+          "stc": 1.0485541435585053,
+          "delta": -0.15564585644149465
+        },
+        "qwen3.5-397b": {
+          "stc": 1.3029682405498633,
+          "delta": 0.09876824054986333
+        },
+        "qwen3.6-27b": {
+          "stc": 1.300867463443006,
+          "delta": 0.09666746344300603
+        }
+      }
+    },
+    "H066_ROW_062": {
+      "baseline_observed": 0.10479736035250115,
+      "baseline_chance": 0.03854375660758422,
+      "baseline_stc": 2.7059,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.394028560946067,
+          "delta": -0.3118714390539332
+        },
+        "deepseek-v3.2": {
+          "stc": 3.181832655079181,
+          "delta": 0.4759326550791809
+        },
+        "gemini-3-flash": {
+          "stc": 2.3680458874893544,
+          "delta": -0.3378541125106458
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.174871072774953,
+          "delta": -0.531028927225047
+        },
+        "gpt-4.1": {
+          "stc": 3.162496215308778,
+          "delta": 0.4565962153087777
+        },
+        "kimi-k2": {
+          "stc": 3.0493939605118703,
+          "delta": 0.3434939605118701
+        },
+        "mistral-large-3": {
+          "stc": 2.8926720862208977,
+          "delta": 0.18677208622089747
+        },
+        "qwen3.5-397b": {
+          "stc": 2.792325700606166,
+          "delta": 0.08642570060616572
+        },
+        "qwen3.6-27b": {
+          "stc": 2.3114967524425727,
+          "delta": -0.3944032475574275
+        }
+      }
+    },
+    "H067_ROW_063": {
+      "baseline_observed": 0.3473571645763761,
+      "baseline_chance": 0.13911494304683925,
+      "baseline_stc": 2.5107,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.4745272302957626,
+          "delta": -0.03617276970423733
+        },
+        "deepseek-v3.2": {
+          "stc": 2.566641039576035,
+          "delta": 0.055941039576035134
+        },
+        "gemini-3-flash": {
+          "stc": 2.4694363988992145,
+          "delta": -0.04126360110078542
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.6471545060350175,
+          "delta": 0.13645450603501752
+        },
+        "gpt-4.1": {
+          "stc": 2.680252693254953,
+          "delta": 0.16955269325495292
+        },
+        "kimi-k2": {
+          "stc": 2.5381469876816083,
+          "delta": 0.02744698768160836
+        },
+        "mistral-large-3": {
+          "stc": 2.2962569581328673,
+          "delta": -0.2144430418671326
+        },
+        "qwen3.5-397b": {
+          "stc": 2.2112866975535637,
+          "delta": -0.29941330244643627
+        },
+        "qwen3.6-27b": {
+          "stc": 2.593072868035244,
+          "delta": 0.08237286803524402
+        }
+      }
+    },
+    "H068_ROW_064": {
+      "baseline_observed": 0.103909450980844,
+      "baseline_chance": 0.0592200170232706,
+      "baseline_stc": 1.7505,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4545868182320363,
+          "delta": -0.29591318176796366
+        },
+        "deepseek-v3.2": {
+          "stc": 2.0976755428715417,
+          "delta": 0.34717554287154173
+        },
+        "gemini-3-flash": {
+          "stc": 1.4553693465887139,
+          "delta": -0.2951306534112861
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.6433660862232236,
+          "delta": -0.10713391377677639
+        },
+        "gpt-4.1": {
+          "stc": 1.8925865259140673,
+          "delta": 0.14208652591406734
+        },
+        "kimi-k2": {
+          "stc": 1.9485127724614733,
+          "delta": 0.1980127724614733
+        },
+        "mistral-large-3": {
+          "stc": 1.4859060329553748,
+          "delta": -0.2645939670446251
+        },
+        "qwen3.5-397b": {
+          "stc": 1.8010875420808647,
+          "delta": 0.0505875420808648
+        },
+        "qwen3.6-27b": {
+          "stc": 1.7980618802396175,
+          "delta": 0.047561880239617604
+        }
+      }
+    },
+    "H069_ROW_066": {
+      "baseline_observed": 0.09404757818231033,
+      "baseline_chance": 0.04614880944479085,
+      "baseline_stc": 2.0045,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.7415904596838063,
+          "delta": -0.26290954031619385
+        },
+        "deepseek-v3.2": {
+          "stc": 1.759924220772113,
+          "delta": -0.2445757792278871
+        },
+        "gemini-3-flash": {
+          "stc": 1.832978461325166,
+          "delta": -0.1715215386748341
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1060366350854394,
+          "delta": 0.1015366350854392
+        },
+        "gpt-4.1": {
+          "stc": 2.11155686148408,
+          "delta": 0.10705686148407967
+        },
+        "kimi-k2": {
+          "stc": 2.2417467162140254,
+          "delta": 0.23724671621402527
+        },
+        "mistral-large-3": {
+          "stc": 2.0513788197261333,
+          "delta": 0.04687881972613317
+        },
+        "qwen3.5-397b": {
+          "stc": 2.3463097342981794,
+          "delta": 0.3418097342981792
+        },
+        "qwen3.6-27b": {
+          "stc": 2.055702322110216,
+          "delta": 0.0512023221102158
+        }
+      }
+    },
+    "H070_ROW_067": {
+      "baseline_observed": 0.08974981685167406,
+      "baseline_chance": 0.07554169534778012,
+      "baseline_stc": 1.1999,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.233166847510195,
+          "delta": 0.03326684751019493
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1721037650049801,
+          "delta": -0.02779623499501982
+        },
+        "gemini-3-flash": {
+          "stc": 1.2630516803222023,
+          "delta": 0.06315168032220231
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2541882975372696,
+          "delta": 0.0542882975372696
+        },
+        "gpt-4.1": {
+          "stc": 1.1707401630302487,
+          "delta": -0.02915983696975122
+        },
+        "kimi-k2": {
+          "stc": 1.1559961291730279,
+          "delta": -0.04390387082697211
+        },
+        "mistral-large-3": {
+          "stc": 1.1925335211175703,
+          "delta": -0.0073664788824296945
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0572203372149849,
+          "delta": -0.1426796627850151
+        },
+        "qwen3.6-27b": {
+          "stc": 1.202746189822903,
+          "delta": 0.002846189822903078
+        }
+      }
+    },
+    "H071_ROW_068": {
+      "baseline_observed": 0.18634222770457426,
+      "baseline_chance": 0.08868360216251085,
+      "baseline_stc": 2.0963,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.047535132753171,
+          "delta": -0.048764867246828825
+        },
+        "deepseek-v3.2": {
+          "stc": 1.9231682163176091,
+          "delta": -0.17313178368239068
+        },
+        "gemini-3-flash": {
+          "stc": 2.07611991560955,
+          "delta": -0.020180084390450048
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.1179238758972434,
+          "delta": 0.021623875897243572
+        },
+        "gpt-4.1": {
+          "stc": 2.353557923830948,
+          "delta": 0.25725792383094825
+        },
+        "kimi-k2": {
+          "stc": 1.9146481331771283,
+          "delta": -0.1816518668228715
+        },
+        "mistral-large-3": {
+          "stc": 2.026327041120877,
+          "delta": -0.0699729588791227
+        },
+        "qwen3.5-397b": {
+          "stc": 1.9695947796611806,
+          "delta": -0.12670522033881926
+        },
+        "qwen3.6-27b": {
+          "stc": 2.2774638097153344,
+          "delta": 0.18116380971533452
+        }
+      }
+    },
+    "H072_ROW_069": {
+      "baseline_observed": 0.03926415143690441,
+      "baseline_chance": 0.02974977500863636,
+      "baseline_stc": 1.3231,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4796904790329064,
+          "delta": 0.15659047903290646
+        },
+        "deepseek-v3.2": {
+          "stc": 1.0979089930099375,
+          "delta": -0.22519100699006245
+        },
+        "gemini-3-flash": {
+          "stc": 1.3583324595834967,
+          "delta": 0.035232459583496745
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.4796744570927853,
+          "delta": 0.1565744570927854
+        },
+        "gpt-4.1": {
+          "stc": 1.3202731043195441,
+          "delta": -0.0028268956804557988
+        },
+        "kimi-k2": {
+          "stc": 1.3611116911151295,
+          "delta": 0.03801169111512959
+        },
+        "mistral-large-3": {
+          "stc": 1.354692725512343,
+          "delta": 0.031592725512343156
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0521746211183425,
+          "delta": -0.27092537888165746
+        },
+        "qwen3.6-27b": {
+          "stc": 1.3752649151145864,
+          "delta": 0.05216491511458643
+        }
+      }
+    },
+    "H073_ROW_071": {
+      "baseline_observed": 0.03255803807623407,
+      "baseline_chance": 0.022370875641828956,
+      "baseline_stc": 1.4539,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4452543150693684,
+          "delta": -0.008645684930631559
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1803673502910141,
+          "delta": -0.27353264970898583
+        },
+        "gemini-3-flash": {
+          "stc": 1.7984213237512017,
+          "delta": 0.3445213237512017
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.1065047794858056,
+          "delta": -0.34739522051419436
+        },
+        "gpt-4.1": {
+          "stc": 1.4375091136961502,
+          "delta": -0.016390886303849772
+        },
+        "kimi-k2": {
+          "stc": 1.4344447469289876,
+          "delta": -0.01945525307101237
+        },
+        "mistral-large-3": {
+          "stc": 1.3606832395134685,
+          "delta": -0.09321676048653149
+        },
+        "qwen3.5-397b": {
+          "stc": 1.7239533949233463,
+          "delta": 0.27005339492334635
+        },
+        "qwen3.6-27b": {
+          "stc": 1.3904767383715637,
+          "delta": -0.06342326162843626
+        }
+      }
+    },
+    "H074_ROW_072": {
+      "baseline_observed": 0.10757268190237904,
+      "baseline_chance": 0.07670590049272749,
+      "baseline_stc": 1.421,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.276176695195831,
+          "delta": -0.14482330480416894
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3269493679155973,
+          "delta": -0.09405063208440279
+        },
+        "gemini-3-flash": {
+          "stc": 1.3832167533114033,
+          "delta": -0.03778324668859678
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.4430525410637802,
+          "delta": 0.022052541063780184
+        },
+        "gpt-4.1": {
+          "stc": 1.650176952740818,
+          "delta": 0.22917695274081806
+        },
+        "kimi-k2": {
+          "stc": 1.4658588215378048,
+          "delta": 0.04485882153780474
+        },
+        "mistral-large-3": {
+          "stc": 1.432706644242307,
+          "delta": 0.011706644242307052
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2815737312216835,
+          "delta": -0.13942626877831654
+        },
+        "qwen3.6-27b": {
+          "stc": 1.288465852999199,
+          "delta": -0.13253414700080102
+        }
+      }
+    },
+    "H075_ROW_073": {
+      "baseline_observed": 0.07233328622091835,
+      "baseline_chance": 0.05608556437462855,
+      "baseline_stc": 1.2604,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.4435569637152996,
+          "delta": 0.18315696371529966
+        },
+        "deepseek-v3.2": {
+          "stc": 1.3883811165678177,
+          "delta": 0.12798111656781774
+        },
+        "gemini-3-flash": {
+          "stc": 0.9491340437725767,
+          "delta": -0.31126595622742326
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.1516980450662253,
+          "delta": -0.10870195493377466
+        },
+        "gpt-4.1": {
+          "stc": 1.3561274952693971,
+          "delta": 0.09572749526939717
+        },
+        "kimi-k2": {
+          "stc": 1.3030919447284353,
+          "delta": 0.042691944728435294
+        },
+        "mistral-large-3": {
+          "stc": 1.449555558632242,
+          "delta": 0.18915555863224198
+        },
+        "qwen3.5-397b": {
+          "stc": 1.134561068821968,
+          "delta": -0.1258389311780319
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2218751617561407,
+          "delta": -0.038524838243859216
+        }
+      }
+    },
+    "H076_ROW_074": {
+      "baseline_observed": 0.10373444219366856,
+      "baseline_chance": 0.11407930625467101,
+      "baseline_stc": 0.9098,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.9254766360859811,
+          "delta": 0.01567663608598102
+        },
+        "deepseek-v3.2": {
+          "stc": 0.8517828061206157,
+          "delta": -0.05801719387938431
+        },
+        "gemini-3-flash": {
+          "stc": 0.8555585236165089,
+          "delta": -0.054241476383491194
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.9081548842420335,
+          "delta": -0.0016451157579665532
+        },
+        "gpt-4.1": {
+          "stc": 0.9497637509423185,
+          "delta": 0.03996375094231841
+        },
+        "kimi-k2": {
+          "stc": 0.8936171190148463,
+          "delta": -0.016182880985153747
+        },
+        "mistral-large-3": {
+          "stc": 0.970722596984548,
+          "delta": 0.06092259698454794
+        },
+        "qwen3.5-397b": {
+          "stc": 0.9751080220913381,
+          "delta": 0.06530802209133801
+        },
+        "qwen3.6-27b": {
+          "stc": 0.8735299270806746,
+          "delta": -0.03627007291932549
+        }
+      }
+    },
+    "H077_ROW_075": {
+      "baseline_observed": 0.07092668651603015,
+      "baseline_chance": 0.06806019103563052,
+      "baseline_stc": 1.0493,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 0.9597411075561605,
+          "delta": -0.08955889244383941
+        },
+        "deepseek-v3.2": {
+          "stc": 1.0763593125342548,
+          "delta": 0.027059312534254865
+        },
+        "gemini-3-flash": {
+          "stc": 0.9114554940094801,
+          "delta": -0.13784450599051978
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.9407931607086746,
+          "delta": -0.10850683929132532
+        },
+        "gpt-4.1": {
+          "stc": 1.201033816970823,
+          "delta": 0.1517338169708231
+        },
+        "kimi-k2": {
+          "stc": 0.9709600138899228,
+          "delta": -0.07833998611007709
+        },
+        "mistral-large-3": {
+          "stc": 1.0789149034180971,
+          "delta": 0.02961490341809725
+        },
+        "qwen3.5-397b": {
+          "stc": 1.1459870704761326,
+          "delta": 0.09668707047613267
+        },
+        "qwen3.6-27b": {
+          "stc": 1.0693916237925398,
+          "delta": 0.020091623792539925
+        }
+      }
+    },
+    "H078_ROW_076": {
+      "baseline_observed": 0.03944256955368122,
+      "baseline_chance": 0.03693424445256738,
+      "baseline_stc": 1.0516,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.0006774573319106,
+          "delta": -0.05092254266808949
+        },
+        "deepseek-v3.2": {
+          "stc": 1.1378725138091539,
+          "delta": 0.0862725138091538
+        },
+        "gemini-3-flash": {
+          "stc": 0.8949404946616767,
+          "delta": -0.1566595053383234
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.7220606786323788,
+          "delta": -0.3295393213676213
+        },
+        "gpt-4.1": {
+          "stc": 1.161663283835971,
+          "delta": 0.11006328383597097
+        },
+        "kimi-k2": {
+          "stc": 1.225969854111124,
+          "delta": 0.17436985411112382
+        },
+        "mistral-large-3": {
+          "stc": 1.1296419270068523,
+          "delta": 0.0780419270068522
+        },
+        "qwen3.5-397b": {
+          "stc": 0.9953216952240532,
+          "delta": -0.056278304775946864
+        },
+        "qwen3.6-27b": {
+          "stc": 1.2673373515078992,
+          "delta": 0.21573735150789908
+        }
+      }
+    },
+    "H079_ROW_077": {
+      "baseline_observed": 0.20184688480309462,
+      "baseline_chance": 0.11053639053439408,
+      "baseline_stc": 1.8016,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.06727858932576,
+          "delta": 0.26567858932576005
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8975022651586966,
+          "delta": 0.09590226515869649
+        },
+        "gemini-3-flash": {
+          "stc": 1.664437546815365,
+          "delta": -0.13716245318463516
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.6299593957398881,
+          "delta": -0.17164060426011196
+        },
+        "gpt-4.1": {
+          "stc": 1.9713435755394477,
+          "delta": 0.16974357553944763
+        },
+        "kimi-k2": {
+          "stc": 1.7003926462510857,
+          "delta": -0.10120735374891443
+        },
+        "mistral-large-3": {
+          "stc": 2.084275662348692,
+          "delta": 0.2826756623486921
+        },
+        "qwen3.5-397b": {
+          "stc": 1.603585090603392,
+          "delta": -0.19801490939660815
+        },
+        "qwen3.6-27b": {
+          "stc": 1.6762200357286252,
+          "delta": -0.12537996427137488
+        }
+      }
+    },
+    "H080_ROW_078": {
+      "baseline_observed": 0.05424306593922176,
+      "baseline_chance": 0.03783883735955737,
+      "baseline_stc": 1.4548,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.5735404357331562,
+          "delta": 0.11874043573315607
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4777579907771543,
+          "delta": 0.022957990777154214
+        },
+        "gemini-3-flash": {
+          "stc": 1.3063527423999208,
+          "delta": -0.14844725760007926
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.7417455120577496,
+          "delta": 0.28694551205774954
+        },
+        "gpt-4.1": {
+          "stc": 1.5429642877469139,
+          "delta": 0.08816428774691376
+        },
+        "kimi-k2": {
+          "stc": 1.5109478699915777,
+          "delta": 0.056147869991577615
+        },
+        "mistral-large-3": {
+          "stc": 1.3571159746103436,
+          "delta": -0.09768402538965648
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0781902071724527,
+          "delta": -0.37660979282754736
+        },
+        "qwen3.6-27b": {
+          "stc": 1.278667920313668,
+          "delta": -0.17613207968633215
+        }
+      }
+    },
+    "H081_ROW_079": {
+      "baseline_observed": 0.04989493139119986,
+      "baseline_chance": 0.04461766828188278,
+      "baseline_stc": 1.1265,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.1942842627751766,
+          "delta": 0.06778426277517657
+        },
+        "deepseek-v3.2": {
+          "stc": 1.045876810917842,
+          "delta": -0.08062318908215804
+        },
+        "gemini-3-flash": {
+          "stc": 1.0100420470134785,
+          "delta": -0.1164579529865215
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.0342166305518663,
+          "delta": -0.09228336944813376
+        },
+        "gpt-4.1": {
+          "stc": 1.058261295406581,
+          "delta": -0.06823870459341896
+        },
+        "kimi-k2": {
+          "stc": 1.0560426949475457,
+          "delta": -0.0704573050524544
+        },
+        "mistral-large-3": {
+          "stc": 1.268893789012327,
+          "delta": 0.14239378901232702
+        },
+        "qwen3.5-397b": {
+          "stc": 1.1891174763190178,
+          "delta": 0.0626174763190177
+        },
+        "qwen3.6-27b": {
+          "stc": 1.239132060693522,
+          "delta": 0.11263206069352205
+        }
+      }
+    },
+    "H082_ROW_080": {
+      "baseline_observed": 0.06918366173731337,
+      "baseline_chance": 0.03914960146906233,
+      "baseline_stc": 1.7507,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.9617883728408791,
+          "delta": 0.21108837284087922
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8517502797338543,
+          "delta": 0.10105027973385439
+        },
+        "gemini-3-flash": {
+          "stc": 1.5503300606028112,
+          "delta": -0.20036993939718872
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.5590284074517708,
+          "delta": -0.19167159254822907
+        },
+        "gpt-4.1": {
+          "stc": 1.7285368196958912,
+          "delta": -0.022163180304108687
+        },
+        "kimi-k2": {
+          "stc": 1.7392505786375827,
+          "delta": -0.011449421362417223
+        },
+        "mistral-large-3": {
+          "stc": 1.5502494911836322,
+          "delta": -0.20045050881636772
+        },
+        "qwen3.5-397b": {
+          "stc": 1.8893118253259813,
+          "delta": 0.13861182532598137
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8820646012026554,
+          "delta": 0.13136460120265547
+        }
+      }
+    },
+    "H083_ROW_081": {
+      "baseline_observed": 0.09382272511454834,
+      "baseline_chance": 0.05116660871425052,
+      "baseline_stc": 1.841,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.760012788380123,
+          "delta": -0.08098721161987688
+        },
+        "deepseek-v3.2": {
+          "stc": 1.930097426148798,
+          "delta": 0.08909742614879801
+        },
+        "gemini-3-flash": {
+          "stc": 1.9466562865171224,
+          "delta": 0.10565628651712244
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.8235003784788053,
+          "delta": -0.017499621521194664
+        },
+        "gpt-4.1": {
+          "stc": 1.8862237010502703,
+          "delta": 0.04522370105027029
+        },
+        "kimi-k2": {
+          "stc": 1.6257564354035403,
+          "delta": -0.21524356459645966
+        },
+        "mistral-large-3": {
+          "stc": 1.4703130137746312,
+          "delta": -0.3706869862253688
+        },
+        "qwen3.5-397b": {
+          "stc": 2.225514271813027,
+          "delta": 0.3845142718130272
+        },
+        "qwen3.6-27b": {
+          "stc": 1.9193363074210206,
+          "delta": 0.0783363074210206
+        }
+      }
+    },
+    "H084_ROW_082": {
+      "baseline_observed": 0.09618162554973166,
+      "baseline_chance": 0.055032383452068935,
+      "baseline_stc": 1.7086,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.7508245410329626,
+          "delta": 0.04222454103296269
+        },
+        "deepseek-v3.2": {
+          "stc": 1.7091361537764387,
+          "delta": 0.0005361537764387858
+        },
+        "gemini-3-flash": {
+          "stc": 1.8447203475855598,
+          "delta": 0.1361203475855599
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.645866337356823,
+          "delta": -0.06273366264317692
+        },
+        "gpt-4.1": {
+          "stc": 1.6232924630668821,
+          "delta": -0.08530753693311777
+        },
+        "kimi-k2": {
+          "stc": 1.397189781616741,
+          "delta": -0.311410218383259
+        },
+        "mistral-large-3": {
+          "stc": 1.8162030382178416,
+          "delta": 0.10760303821784167
+        },
+        "qwen3.5-397b": {
+          "stc": 1.8058451481533055,
+          "delta": 0.09724514815330565
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8730127245081774,
+          "delta": 0.16441272450817745
+        }
+      }
+    },
+    "H085_ROW_083": {
+      "baseline_observed": 0.13424550105841346,
+      "baseline_chance": 0.11633566122846638,
+      "baseline_stc": 1.1571,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.1905661838344697,
+          "delta": 0.03346618383446964
+        },
+        "deepseek-v3.2": {
+          "stc": 1.187670420775591,
+          "delta": 0.030570420775591023
+        },
+        "gemini-3-flash": {
+          "stc": 1.1476012862496043,
+          "delta": -0.009498713750395682
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.2119131130661194,
+          "delta": 0.05481311306611936
+        },
+        "gpt-4.1": {
+          "stc": 1.235657898582964,
+          "delta": 0.07855789858296403
+        },
+        "kimi-k2": {
+          "stc": 1.0794116156752076,
+          "delta": -0.07768838432479241
+        },
+        "mistral-large-3": {
+          "stc": 1.1086673621897918,
+          "delta": -0.048432637810208234
+        },
+        "qwen3.5-397b": {
+          "stc": 1.2399887136028036,
+          "delta": 0.08288871360280359
+        },
+        "qwen3.6-27b": {
+          "stc": 1.0540438668258445,
+          "delta": -0.10305613317415552
+        }
+      }
+    },
+    "H086_ROW_084": {
+      "baseline_observed": 0.030174992838479093,
+      "baseline_chance": 0.031213015517924804,
+      "baseline_stc": 0.9446,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.1440682309717989,
+          "delta": 0.1994682309717989
+        },
+        "deepseek-v3.2": {
+          "stc": 0.8972184160806751,
+          "delta": -0.0473815839193249
+        },
+        "gemini-3-flash": {
+          "stc": 0.8268284366705136,
+          "delta": -0.11777156332948635
+        },
+        "gemma-4-31b-it": {
+          "stc": 0.9119041565477741,
+          "delta": -0.03269584345222587
+        },
+        "gpt-4.1": {
+          "stc": 1.0459035624034985,
+          "delta": 0.10130356240349847
+        },
+        "kimi-k2": {
+          "stc": 1.0107358412531358,
+          "delta": 0.06613584125313576
+        },
+        "mistral-large-3": {
+          "stc": 0.879741707252678,
+          "delta": -0.06485829274732202
+        },
+        "qwen3.5-397b": {
+          "stc": 0.9357180169044639,
+          "delta": -0.008881983095536117
+        },
+        "qwen3.6-27b": {
+          "stc": 0.842319876227661,
+          "delta": -0.10228012377233897
+        }
+      }
+    },
+    "H087_ROW_085": {
+      "baseline_observed": 0.0345324846555722,
+      "baseline_chance": 0.03410176783125162,
+      "baseline_stc": 1.0059,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.0091723184560386,
+          "delta": 0.003272318456038592
+        },
+        "deepseek-v3.2": {
+          "stc": 0.906217642998719,
+          "delta": -0.09968235700128103
+        },
+        "gemini-3-flash": {
+          "stc": 0.8711941896819005,
+          "delta": -0.13470581031809947
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.1277381657613925,
+          "delta": 0.1218381657613925
+        },
+        "gpt-4.1": {
+          "stc": 1.1550934994877173,
+          "delta": 0.14919349948771732
+        },
+        "kimi-k2": {
+          "stc": 0.8597022371404639,
+          "delta": -0.14619776285953612
+        },
+        "mistral-large-3": {
+          "stc": 0.8961881508349875,
+          "delta": -0.10971184916501253
+        },
+        "qwen3.5-397b": {
+          "stc": 1.0975356381732706,
+          "delta": 0.09163563817327058
+        },
+        "qwen3.6-27b": {
+          "stc": 1.0690045537969304,
+          "delta": 0.06310455379693036
+        }
+      }
+    },
+    "H088_ROW_086": {
+      "baseline_observed": 0.11530566033243736,
+      "baseline_chance": 0.04098267065980022,
+      "baseline_stc": 2.8919,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 3.2074703892040164,
+          "delta": 0.31557038920401626
+        },
+        "deepseek-v3.2": {
+          "stc": 3.0312818340747136,
+          "delta": 0.1393818340747135
+        },
+        "gemini-3-flash": {
+          "stc": 3.4440865437109665,
+          "delta": 0.5521865437109663
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.044157580271759,
+          "delta": 0.15225758027175873
+        },
+        "gpt-4.1": {
+          "stc": 2.5513977077629075,
+          "delta": -0.3405022922370926
+        },
+        "kimi-k2": {
+          "stc": 2.892793967742249,
+          "delta": 0.0008939677422490355
+        },
+        "mistral-large-3": {
+          "stc": 2.4317814710846077,
+          "delta": -0.4601185289153924
+        },
+        "qwen3.5-397b": {
+          "stc": 2.268237230734602,
+          "delta": -0.623662769265398
+        },
+        "qwen3.6-27b": {
+          "stc": 2.7631709980182357,
+          "delta": -0.1287290019817644
+        }
+      }
+    },
+    "H089_ROW_087": {
+      "baseline_observed": 0.1813501906747642,
+      "baseline_chance": 0.11481205639367321,
+      "baseline_stc": 1.5809,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.558511311409166,
+          "delta": -0.022388688590833983
+        },
+        "deepseek-v3.2": {
+          "stc": 1.500942950701115,
+          "delta": -0.07995704929888503
+        },
+        "gemini-3-flash": {
+          "stc": 1.5134363219561469,
+          "delta": -0.06746367804385311
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.5981458166187252,
+          "delta": 0.017245816618725263
+        },
+        "gpt-4.1": {
+          "stc": 1.677703521771303,
+          "delta": 0.09680352177130302
+        },
+        "kimi-k2": {
+          "stc": 1.6916762533140945,
+          "delta": 0.11077625331409457
+        },
+        "mistral-large-3": {
+          "stc": 1.6075258618308597,
+          "delta": 0.026625861830859687
+        },
+        "qwen3.5-397b": {
+          "stc": 1.409529457569929,
+          "delta": -0.17137054243007088
+        },
+        "qwen3.6-27b": {
+          "stc": 1.5674607404356438,
+          "delta": -0.01343925956435621
+        }
+      }
+    },
+    "H090_ROW_088": {
+      "baseline_observed": 0.2529959778409861,
+      "baseline_chance": 0.09763330432435709,
+      "baseline_stc": 2.6605,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.6136215278340518,
+          "delta": -0.04687847216594809
+        },
+        "deepseek-v3.2": {
+          "stc": 2.698043521586758,
+          "delta": 0.03754352158675811
+        },
+        "gemini-3-flash": {
+          "stc": 2.681439433725034,
+          "delta": 0.02093943372503393
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.5037626892934464,
+          "delta": -0.1567373107065535
+        },
+        "gpt-4.1": {
+          "stc": 2.5362742125004543,
+          "delta": -0.1242257874995456
+        },
+        "kimi-k2": {
+          "stc": 2.591248314062151,
+          "delta": -0.0692516859378487
+        },
+        "mistral-large-3": {
+          "stc": 2.4788161124787886,
+          "delta": -0.18168388752121123
+        },
+        "qwen3.5-397b": {
+          "stc": 2.7232845181506575,
+          "delta": 0.06278451815065766
+        },
+        "qwen3.6-27b": {
+          "stc": 2.7265785393986754,
+          "delta": 0.06607853939867558
+        }
+      }
+    },
+    "H091_ROW_089": {
+      "baseline_observed": 0.19642611344222824,
+      "baseline_chance": 0.0787114571377139,
+      "baseline_stc": 2.4658,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.3341221213653145,
+          "delta": -0.13167787863468572
+        },
+        "deepseek-v3.2": {
+          "stc": 2.5754611698525913,
+          "delta": 0.10966116985259111
+        },
+        "gemini-3-flash": {
+          "stc": 2.7515717342796706,
+          "delta": 0.2857717342796704
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.4716796944421944,
+          "delta": 0.005879694442194161
+        },
+        "gpt-4.1": {
+          "stc": 2.431951894367937,
+          "delta": -0.03384810563206342
+        },
+        "kimi-k2": {
+          "stc": 2.9892539392459234,
+          "delta": 0.5234539392459232
+        },
+        "mistral-large-3": {
+          "stc": 2.4581485427838423,
+          "delta": -0.0076514572161578975
+        },
+        "qwen3.5-397b": {
+          "stc": 2.252427907470736,
+          "delta": -0.21337209252926437
+        },
+        "qwen3.6-27b": {
+          "stc": 2.248922524646491,
+          "delta": -0.2168774753535092
+        }
+      }
+    },
+    "H092_ROW_090": {
+      "baseline_observed": 0.1630958481319408,
+      "baseline_chance": 0.05170899454071803,
+      "baseline_stc": 3.1644,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 3.0115522993748156,
+          "delta": -0.1528477006251845
+        },
+        "deepseek-v3.2": {
+          "stc": 4.208976999462822,
+          "delta": 1.0445769994628216
+        },
+        "gemini-3-flash": {
+          "stc": 2.9513907817407024,
+          "delta": -0.21300921825929775
+        },
+        "gemma-4-31b-it": {
+          "stc": 3.3214810541118975,
+          "delta": 0.15708105411189743
+        },
+        "gpt-4.1": {
+          "stc": 2.9441939091653984,
+          "delta": -0.22020609083460174
+        },
+        "kimi-k2": {
+          "stc": 2.7995435879894783,
+          "delta": -0.36485641201052177
+        },
+        "mistral-large-3": {
+          "stc": 2.9556830883274237,
+          "delta": -0.20871691167257644
+        },
+        "qwen3.5-397b": {
+          "stc": 3.3721961866663555,
+          "delta": 0.20779618666635535
+        },
+        "qwen3.6-27b": {
+          "stc": 2.8164295557186967,
+          "delta": -0.3479704442813034
+        }
+      }
+    },
+    "H093_ROW_091": {
+      "baseline_observed": 0.10800362030394757,
+      "baseline_chance": 0.06856182161743023,
+      "baseline_stc": 1.536,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.6125969237958602,
+          "delta": 0.07659692379586014
+        },
+        "deepseek-v3.2": {
+          "stc": 1.4887410156144125,
+          "delta": -0.04725898438558751
+        },
+        "gemini-3-flash": {
+          "stc": 1.675593344743422,
+          "delta": 0.1395933447434219
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.6544350452827803,
+          "delta": 0.11843504528278026
+        },
+        "gpt-4.1": {
+          "stc": 1.4425213301521007,
+          "delta": -0.09347866984789932
+        },
+        "kimi-k2": {
+          "stc": 1.3583787814077157,
+          "delta": -0.1776212185922843
+        },
+        "mistral-large-3": {
+          "stc": 1.6582453755311801,
+          "delta": 0.12224537553118009
+        },
+        "qwen3.5-397b": {
+          "stc": 1.4087925799696084,
+          "delta": -0.12720742003039165
+        },
+        "qwen3.6-27b": {
+          "stc": 1.5643494795912307,
+          "delta": 0.028349479591230686
+        }
+      }
+    },
+    "H094_ROW_092": {
+      "baseline_observed": 0.2176390852858876,
+      "baseline_chance": 0.02171606389651757,
+      "baseline_stc": 9.7244,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 8.782805114316353,
+          "delta": -0.9415948856836458
+        },
+        "deepseek-v3.2": {
+          "stc": 8.525911959055112,
+          "delta": -1.1984880409448877
+        },
+        "gemini-3-flash": {
+          "stc": 11.086076087656306,
+          "delta": 1.3616760876563063
+        },
+        "gemma-4-31b-it": {
+          "stc": 11.674328936161105,
+          "delta": 1.9499289361611059
+        },
+        "gpt-4.1": {
+          "stc": 11.402029907303914,
+          "delta": 1.6776299073039151
+        },
+        "kimi-k2": {
+          "stc": 8.46600558646349,
+          "delta": -1.258394413536509
+        },
+        "mistral-large-3": {
+          "stc": 10.758281759324184,
+          "delta": 1.033881759324185
+        },
+        "qwen3.5-397b": {
+          "stc": 9.116800131332536,
+          "delta": -0.6075998686674637
+        },
+        "qwen3.6-27b": {
+          "stc": 10.733554178664326,
+          "delta": 1.0091541786643266
+        }
+      }
+    },
+    "H095_ROW_093": {
+      "baseline_observed": 0.10581607986931561,
+      "baseline_chance": 0.052123914985232604,
+      "baseline_stc": 2.0378,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.1392354499174955,
+          "delta": 0.10143544991749565
+        },
+        "deepseek-v3.2": {
+          "stc": 2.089725123546887,
+          "delta": 0.051925123546887164
+        },
+        "gemini-3-flash": {
+          "stc": 1.771422057136277,
+          "delta": -0.26637794286372274
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.6940699877254242,
+          "delta": -0.34373001227457567
+        },
+        "gpt-4.1": {
+          "stc": 2.31390574409626,
+          "delta": 0.27610574409626
+        },
+        "kimi-k2": {
+          "stc": 1.8491322625714044,
+          "delta": -0.18866773742859544
+        },
+        "mistral-large-3": {
+          "stc": 2.2270339528172385,
+          "delta": 0.18923395281723865
+        },
+        "qwen3.5-397b": {
+          "stc": 2.4770312069631193,
+          "delta": 0.43923120696311946
+        },
+        "qwen3.6-27b": {
+          "stc": 1.8786249622298845,
+          "delta": -0.15917503777011532
+        }
+      }
+    },
+    "H096_ROW_094": {
+      "baseline_observed": 0.287009982374544,
+      "baseline_chance": 0.12150321774108164,
+      "baseline_stc": 2.3403,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.3941387607000117,
+          "delta": 0.0538387607000117
+        },
+        "deepseek-v3.2": {
+          "stc": 2.2648196601577735,
+          "delta": -0.07548033984222657
+        },
+        "gemini-3-flash": {
+          "stc": 2.2447421761897752,
+          "delta": -0.09555782381022482
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.2597574314894473,
+          "delta": -0.08054256851055275
+        },
+        "gpt-4.1": {
+          "stc": 2.2003681339113683,
+          "delta": -0.13993186608863173
+        },
+        "kimi-k2": {
+          "stc": 2.2915438572670657,
+          "delta": -0.04875614273293438
+        },
+        "mistral-large-3": {
+          "stc": 2.548103187399635,
+          "delta": 0.2078031873996351
+        },
+        "qwen3.5-397b": {
+          "stc": 2.4457851378354594,
+          "delta": 0.10548513783545932
+        },
+        "qwen3.6-27b": {
+          "stc": 2.233844954505831,
+          "delta": -0.10645504549416884
+        }
+      }
+    },
+    "H097_ROW_095": {
+      "baseline_observed": 0.1025712727321153,
+      "baseline_chance": 0.08770021414501755,
+      "baseline_stc": 1.1972,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.223416136605126,
+          "delta": 0.026216136605125895
+        },
+        "deepseek-v3.2": {
+          "stc": 1.2315869645933846,
+          "delta": 0.03438696459338453
+        },
+        "gemini-3-flash": {
+          "stc": 1.1324276914214733,
+          "delta": -0.06477230857852678
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.36892154929719,
+          "delta": 0.17172154929718997
+        },
+        "gpt-4.1": {
+          "stc": 1.2513946965348375,
+          "delta": 0.05419469653483744
+        },
+        "kimi-k2": {
+          "stc": 1.1742902108040745,
+          "delta": -0.022909789195925567
+        },
+        "mistral-large-3": {
+          "stc": 1.1110941004732884,
+          "delta": -0.08610589952671166
+        },
+        "qwen3.5-397b": {
+          "stc": 1.1066903962694092,
+          "delta": -0.0905096037305908
+        },
+        "qwen3.6-27b": {
+          "stc": 1.0870970489492227,
+          "delta": -0.11010295105077739
+        }
+      }
+    },
+    "H098_ROW_096": {
+      "baseline_observed": 0.1010382192940718,
+      "baseline_chance": 0.06499275760239308,
+      "baseline_stc": 1.548,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.3389623000467288,
+          "delta": -0.20903769995327126
+        },
+        "deepseek-v3.2": {
+          "stc": 1.7014900256072094,
+          "delta": 0.15349002560720937
+        },
+        "gemini-3-flash": {
+          "stc": 1.5655573062018913,
+          "delta": 0.01755730620189122
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.4256004053529092,
+          "delta": -0.12239959464709083
+        },
+        "gpt-4.1": {
+          "stc": 1.3588625525281175,
+          "delta": -0.18913744747188255
+        },
+        "kimi-k2": {
+          "stc": 1.6070260739162028,
+          "delta": 0.05902607391620274
+        },
+        "mistral-large-3": {
+          "stc": 1.7383856831577151,
+          "delta": 0.1903856831577151
+        },
+        "qwen3.5-397b": {
+          "stc": 1.6647377408353679,
+          "delta": 0.11673774083536781
+        },
+        "qwen3.6-27b": {
+          "stc": 1.4900732893084765,
+          "delta": -0.05792671069152355
+        }
+      }
+    },
+    "H099_ROW_098": {
+      "baseline_observed": 0.09523223635623121,
+      "baseline_chance": 0.053568688760249145,
+      "baseline_stc": 1.7994,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 1.660759638206786,
+          "delta": -0.13864036179321415
+        },
+        "deepseek-v3.2": {
+          "stc": 1.8932538471558882,
+          "delta": 0.09385384715588807
+        },
+        "gemini-3-flash": {
+          "stc": 1.6765474311589557,
+          "delta": -0.12285256884104445
+        },
+        "gemma-4-31b-it": {
+          "stc": 1.6496864935674933,
+          "delta": -0.1497135064325068
+        },
+        "gpt-4.1": {
+          "stc": 1.7947298768532869,
+          "delta": -0.004670123146713223
+        },
+        "kimi-k2": {
+          "stc": 1.9031489415603526,
+          "delta": 0.10374894156035253
+        },
+        "mistral-large-3": {
+          "stc": 1.7994248600646356,
+          "delta": 2.4860064635534584e-05
+        },
+        "qwen3.5-397b": {
+          "stc": 1.9870944381259807,
+          "delta": 0.18769443812598063
+        },
+        "qwen3.6-27b": {
+          "stc": 1.6485195284714806,
+          "delta": -0.15088047152851947
+        }
+      }
+    },
+    "H100_ROW_099": {
+      "baseline_observed": 0.20176128723332482,
+      "baseline_chance": 0.0775424057765596,
+      "baseline_stc": 2.6258,
+      "loo": {
+        "claude-sonnet-4-6": {
+          "stc": 2.69763060390466,
+          "delta": 0.0718306039046599
+        },
+        "deepseek-v3.2": {
+          "stc": 2.726183650004368,
+          "delta": 0.100383650004368
+        },
+        "gemini-3-flash": {
+          "stc": 2.4791784236943193,
+          "delta": -0.14662157630568062
+        },
+        "gemma-4-31b-it": {
+          "stc": 2.3540610462195057,
+          "delta": -0.2717389537804942
+        },
+        "gpt-4.1": {
+          "stc": 2.4016358475373183,
+          "delta": -0.22416415246268162
+        },
+        "kimi-k2": {
+          "stc": 2.8963707907153426,
+          "delta": 0.27057079071534273
+        },
+        "mistral-large-3": {
+          "stc": 2.5992966366398313,
+          "delta": -0.026503363360168564
+        },
+        "qwen3.5-397b": {
+          "stc": 2.7437707805239033,
+          "delta": 0.11797078052390342
+        },
+        "qwen3.6-27b": {
+          "stc": 2.5795584680456503,
+          "delta": -0.04624153195434966
+        }
+      }
+    }
+  }
+}
