@@ -1,12 +1,14 @@
 # Extraction Prompt and Worked Example
 
-This note documents the concept-extraction step used after models produce ranked free lists. It gives the extraction prompt, the unit-of-analysis rule, and one worked example from raw response to extracted item and codebook cluster.
+This supplementary methods note documents the concept-extraction step used to convert raw ranked-list generations into CHOIR concept items.
 
-## 1. The extraction prompt
+## 1. Extractor Configuration
 
-The extractor is **Claude Haiku 4.5** (`anthropic/claude-haiku-4.5` via OpenRouter, with `claude-haiku-4-5` direct Anthropic API as a parallel provider for load splitting). Temperature 0.0. JSON mode. The system prompt for the direct-Anthropic provider is: *"You are a JSON extraction assistant. You always respond with valid JSON and nothing else. Never use markdown code blocks. Never add commentary before or after the JSON."*
+The extractor is Claude Haiku 4.5, run at temperature 0.0 in JSON mode. The system instruction was:
 
-The user prompt is exactly:
+> You are a JSON extraction assistant. You always respond with valid JSON and nothing else. Never use markdown code blocks. Never add commentary before or after the JSON.
+
+The user prompt was:
 
 > You are a segmentation assistant. Your only job is to copy items verbatim from a numbered list.
 >
@@ -54,97 +56,58 @@ The user prompt is exactly:
 > }
 > ```
 
-Two design constraints are especially important:
+## 2. Extraction Unit
 
-- Items joined by commas within a single numbered entry are deliberately not split. Free-list elicitation treats each numbered entry as one atomic concept, not as a comma-separated bag.
-- Justification text (when the model wraps its answer in `[Justification: …]`) is preserved in a separate field so it can be used for downstream analysis without contaminating the concept text.
+The extraction unit is one numbered response entry. Comma-separated phrases, parenthetical elaborations, and examples inside a single numbered entry are deliberately preserved as one concept item. This follows the free-list elicitation logic: a numbered response is treated as the respondent's item, not as a bag of subphrases.
 
-## 2. Worked example
+Justification text, when present in `[Justification: ...]` wrappers, is preserved in a separate field and excluded from the concept text used for salience and overlap analyses.
 
-**Input.** A single Claude Sonnet 4.6 response to **Q_CTRL** (the control question: *"What should a patient know before starting a new prescription medication? List up to 25 key points."*) at temperature 1.0, template A, generation 1.
+## 3. Worked Example
 
-The raw model output begins (lightly trimmed for space):
+Control prompt:
 
-```
-# 25 Most Important Things to Know About a Medication Before Taking It for the First Time
+> What should a patient know before starting a new prescription medication? List up to 25 key points.
 
-**1. What the medication is for and whether it is appropriate for your specific condition.**
-[Justification: Taking a medication for the wrong indication exposes you to risk
-with no benefit. Confirming the indication also helps catch prescription errors
-early.]
+Raw model entry:
 
-**2. The correct dose and dosing schedule (how much, how often, and at what
-times of day).**
+```text
+2. The correct dose and dosing schedule (how much, how often, and at what
+times of day).
 [Justification: Underdosing reduces effectiveness; overdosing can be immediately
 dangerous. More medication errors occur at this step than almost any other.]
-
-**3. All serious and life-threatening side effects, including signs of allergic
-reaction (anaphylaxis).**
-[Justification: Knowing warning signs like throat swelling, difficulty breathing,
-or severe rash allows you to seek emergency care before a reaction becomes fatal.]
-
-(... 22 more numbered items ...)
 ```
 
-**Output.** Haiku produces this JSON (first 3 items shown):
+Extracted JSON item:
 
 ```json
 {
-  "items": [
-    {
-      "rank": 1,
-      "text": "What the medication is for and whether it is appropriate for your specific condition.",
-      "justification": "Taking a medication for the wrong indication exposes you to risk with no benefit. Confirming the indication also helps catch prescription errors early.",
-      "extraction_uncertain": false
-    },
-    {
-      "rank": 2,
-      "text": "The correct dose and dosing schedule (how much, how often, and at what times of day).",
-      "justification": "Underdosing reduces effectiveness; overdosing can be immediately dangerous. More medication errors occur at this step than almost any other.",
-      "extraction_uncertain": false
-    },
-    {
-      "rank": 3,
-      "text": "All serious and life-threatening side effects, including signs of allergic reaction (anaphylaxis).",
-      "justification": "Knowing warning signs like throat swelling, difficulty breathing, or severe rash allows you to seek emergency care before a reaction becomes fatal.",
-      "extraction_uncertain": false
-    }
-  ],
-  "total_items_found": 25,
-  "deflection_response": false,
-  "extraction_notes": null
+  "rank": 2,
+  "text": "The correct dose and dosing schedule (how much, how often, and at what times of day).",
+  "justification": "Underdosing reduces effectiveness; overdosing can be immediately dangerous. More medication errors occur at this step than almost any other.",
+  "extraction_uncertain": false
 }
 ```
 
-Things to note in this single example:
+This example illustrates three rules:
 
-- The headline ("# 25 Most Important Things…") is silently dropped — only numbered entries become items.
-- The `[Justification: …]` block is split into the `justification` field and the core text is preserved in `text`.
-- Item 2's comma-separated parenthetical *(how much, how often, and at what times of day)* is preserved as **one** item, not three.
-- Item 3's terminal parenthetical *(anaphylaxis)* is preserved verbatim.
+- The numbered entry becomes one concept item.
+- The parenthetical phrase about amount, frequency, and timing is not split into separate concepts.
+- The justification is stored separately and does not enter the concept text.
 
-## 3. From extracted concept to codebook cluster
+## 4. Codebook Mapping
 
-The extracted concepts then flow into the per-question codebook. For Q_CTRL, the codebook has **413 clusters** over **8,250 total items** across the 9-model corpus.
+After extraction, concept items are embedded and clustered into a per-question codebook. The example item above maps to the medication-dose and dosing-schedule concept family. Related phrasings such as:
 
-Item #1 from this generation — *"What the medication is for and whether it is appropriate for your specific condition."* — maps to **cluster 281**, which has 23 members. The 23 members are all near-identical phrasings of the same concept; the first five (one of which is the worked-example item itself) read:
+> The correct dose and dosing schedule, including what to do if a dose is missed.
 
-> *What the medication is for and whether it is appropriate for your specific condition.*
-> *What the medication is for and whether it is appropriate for your specific condition.*
-> *What the medication is for and whether it is appropriate for your specific condition.*
-> *What the medication is for and whether it is appropriate for your specific condition.*
-> *What the medication is for and whether it is appropriate for your specific condition.*
+and:
 
-(These five are exact-duplicate appearances of the item — the same response sentence emerging across multiple generations and templates within Claude Sonnet 4.6. The cluster also pulls near-paraphrases from other models — e.g. "What condition the medication is treating and whether it's the right drug for you" — which is the cluster's "near-synonym recall" doing the work.)
+> The correct dose, dosing interval, and what to do if you miss a dose.
 
-Item #2 — *"The correct dose and dosing schedule (how much, how often, and at what times of day)."* — maps to **cluster 362**, which has 7 members. A few of those members:
+are clustered as near-synonymous members of the same concept family. Signal-to-chance, RBO, persona identifiability, and codebook-level permutation tests operate over these cluster-level concept IDs rather than over raw model paragraphs.
 
-> *The correct dose and dosing schedule, including what to do if a dose is missed*
-> *The correct dose, dosing interval, and what to do if you miss a dose*
-> *The correct dose and dosing schedule — including what to do if you miss a dose*
+## 5. Extractor Selection and Calibration
 
-Here you can see the clustering pulling together the same concept across small surface differences ("dose and dosing schedule" vs "dose, dosing interval," varying punctuation, different parenthetical elaborations).
+Three candidate extractors were spot-checked on a balanced 50-file sample drawn across model and question cells. The selection criterion was minimum concept-splitting error rate: the fraction of sampled responses where the extractor either split a single numbered entry into multiple items or merged two numbered entries into one. Claude Haiku 4.5 had the lowest observed error rate in this spot-check sample.
 
-Item #3 — *"All serious and life-threatening side effects, including signs of allergic reaction (anaphylaxis)."* — does not have a near-duplicate cluster (n ≥ 2 members) at the chosen HDBSCAN density threshold. It is recorded as noise. The corpus contains many surface variants of "side effects" but most disagree about specificity (cluster on "common side effects," cluster on "tolerability and how to recognize problems," cluster on "what counts as an emergency reaction") rather than converging on one shared formulation.
-
-This is the granularity at which the rest of the pipeline operates: signal-to-chance, RBO, persona identifiability, and the chi-square/permutation checks use the cluster-level concept IDs rather than treating every raw string as a separate concept.
+As an item-count calibration, Haiku produced a mean of 24.7 items per response on a 1,000-file random sample, against an expected ceiling of 25. An earlier segmentation rule that split comma-separated phrases produced a mean of 40.1 items per response on the same sample, indicating substantial over-segmentation. The analyses reported in the revised draft use the one-numbered-entry-one-item extraction rule documented above.
