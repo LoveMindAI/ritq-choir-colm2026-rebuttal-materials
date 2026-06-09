@@ -11,18 +11,21 @@ Audit note: `parity_progress.jsonl` contains one aborted redundant `phase=all` s
 - LOO STC sensitivity completed for **100** questions; median max abs delta under leave-one-model-out = **0.270**, max = **4.397**.
 - Codebook-level model-cluster permutation: **97/97** questions significant at p < .05; **96/97** at p < .001.
 - Nearest-centroid recoverability over Hivemind conditioned cells: persona accuracy **0.101**; model accuracy **0.877**.
+- Within-model leave-one-question-out persona recoverability: accuracy **0.323** [95% CI 0.309, 0.337] against five-way chance of 0.200.
 - Question-level embedding leakage vs conditioned multiplier: Spearman rho **0.311**.
 - Per-model embedding leakage vs persona recoverability: Spearman rho **0.800**.
+- Width vs relative lift is denominator-coupled because both use unconditioned RBO; absolute same-persona RBO and relative lift should be interpreted together.
 
 ## What This Means
 
-The external Hivemind prompts do not merely reproduce one narrow behaviour. They let us test the same basic CHOIR claims on an external prompt bank: model labels predict which clusters appear, model identity remains strongly recoverable from conditioned-output centroids, and persona conditioning is most useful on wider prompts. The leakage result is more cautious than in the original RITQ corpus: profile-proximate language appears to carry some persona-surface signal, but stripping that content does not collapse the model-signature result.
+The external Hivemind prompts do not merely reproduce one narrow behaviour. They let us test the same basic CHOIR claims on an external prompt bank: model labels predict which clusters appear, model identity remains strongly recoverable from conditioned-output centroids, and persona conditioning produces measurable salience shifts. The prompt-width analysis is now bounded more carefully: relative persona lift is useful as baseline-normalised behaviour, but it is not independent validation of width because it shares the unconditioned RBO denominator. The leakage result is also more cautious than in the original RITQ corpus: profile-proximate language appears to carry some persona-surface signal, but stripping that content does not collapse the model-signature result.
 
 ## Files
 
 - `LOO_SENSITIVITY.md`
 - `CODEBOOK_PERMUTATION_TESTS.md`
 - `RECOVERABILITY.md`
+- `WIDTH_LIFT_DENOMINATOR_AUDIT_20260609.md` in this packet records the post-check that led to the revised width/lift interpretation.
 - `STRIPPED_RECOVERABILITY.md`
 - `LEAKAGE_CHECKS.md`
 - `HUMAN_FRIENDLY_HIGH_WIDTH_SHORTLIST.md`

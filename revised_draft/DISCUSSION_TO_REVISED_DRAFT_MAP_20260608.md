@@ -8,18 +8,20 @@ Associated draft in this materials packet: `revised_draft/CHOIR_COLM2026_DISCUSS
 
 This document maps the review-discussion concerns to the revised discussion-stage draft and supporting materials. It is intended to make the response to reviewer concerns inspectable without requiring readers to reconstruct the full OpenReview exchange.
 
-The revised draft clarifies the paper's scientific object: CHOIR is a portable free-list elicitation and concept-salience method for measuring the answer space beneath first-pass LLM responses. The RITQ prompts are targeted diagnostic probes. Infinity-Chat 100 is the external prompt bank used to test portability and prompt-width behaviour.
+The revised draft clarifies the paper's scientific object: CHOIR is a portable free-list elicitation and concept-salience method for measuring the answer space beneath first-pass LLM responses. The original RITQ-labelled questions are now framed as targeted diagnostic probes, with legacy IDs retained only for reproducibility. Infinity-Chat 100 is the external prompt bank used to test portability and prompt-width behaviour.
 
 ## High-Level Changes
 
-1. **Method/instrument separation.** CHOIR is framed as the method; the RITQ question bank is framed as a diagnostic probe set, not a validated scale or universal inventory.
-2. **External prompt-bank spine.** Infinity-Chat 100 is used as an external test bed from recent open-ended homogeneity work; the RITQ probes are retained as a mechanism-isolating diagnostic set.
+1. **Method/instrument separation.** CHOIR is framed as the method; the targeted question bank is framed as a diagnostic probe set, not a validated scale or universal inventory.
+2. **External prompt-bank spine.** Infinity-Chat 100 is used as an external test bed from recent open-ended homogeneity work; the targeted probes are retained as a mechanism-isolating diagnostic set.
 3. **Research-question structure.** Related Work ends in four explicit research questions; Results and Discussion answer those same questions in order.
 4. **Clearer implications.** The Introduction, Discussion, and Conclusion state why the method matters for false plurality, ensemble auditing, prompt-width diagnosis, candidate triage, and rare-but-stable concept discovery.
 5. **Narrower persona claim.** Persona conditioning is treated as a salience-shifting intervention, not as evidence that profiles overwrite base-model identity or create new knowledge.
 6. **Ranking narrowed to triage.** Source-blind LLM ranking is described as algorithmic candidate filtering for later validation, not as human preference, truth, or practical usefulness.
-7. **Improved inspectability.** The appendix includes elicitation templates, RITQ probe stems, Infinity-Chat 100 prompts, extraction rules, a worked raw-to-codebook example, the ranking protocol, and the human calibration summary.
+7. **Improved inspectability.** The appendix includes elicitation templates, targeted probe stems with legacy IDs, Infinity-Chat 100 prompts, extraction rules, a worked raw-to-codebook example, the ranking protocol, and the human calibration summary.
 8. **Supporting evidence made findable.** The materials packet includes compact evidence summaries for the external run, prompt anchoring, human calibration, codebook permutation tests, leakage checks, and classifier uncertainty.
+9. **Width/lift interpretation repaired.** A post-check found that the relative persona-lift ratio shares the unconditioned RBO denominator used in the prompt-width heuristic. The draft now reports absolute unconditioned and same-persona RBO beside relative lift and treats lift as baseline-normalised descriptive behaviour, not as independent validation of prompt width.
+10. **Persona recoverability and leakage bounded.** The draft now adds a within-model leave-one-question-out persona classifier and explicitly reports profile-proximate language leakage on the external prompt bank. Persona conditioning is therefore described as profile-induced salience shift, not profile-independent identity adoption.
 
 ## Draft Location Map
 
@@ -29,13 +31,13 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 | Related-work positioning | Related Work: open-ended homogeneity and diversity; log probabilities; free-list elicitation; persona conditioning | CHOIR is positioned inside the homogeneity/diversity literature while distinguishing it from diversity-maximisation methods and token-level log-probability analysis. |
 | Explicit research questions | End of Related Work | Four research questions now define prompt width, model/persona signatures, mechanism checks, and candidate triage. |
 | CHOIR as framework | Method: The CHOIR algorithm | The draft adds a compact algorithm table: elicit, extract, codebook, score, compare, diagnose. |
-| Question inventory status | Method: Prompt banks, study roles, and models; Appendix: Prompt Materials and Question Banks | RITQ probes are explicitly described as diagnostic probes, not a validated scale; exact RITQ and Infinity-Chat prompts are included. |
+| Question inventory status | Method: Prompt banks, study roles, and models; Appendix: Prompt Materials and Question Banks | Targeted probes are explicitly described as diagnostic probes, not a validated scale; exact legacy-ID probe stems and Infinity-Chat prompts are included. |
 | Extraction and codebooks | Method: Extraction, codebook construction, and salience; Appendix: Concept extraction unit and worked example; `methods/EXTRACTION_PROMPT_AND_WORKED_EXAMPLE.md` | The draft and supplement document the extraction unit, the worked example, clustering details, and the exact extraction prompt. |
-| External portability | Method; Results RQ1; Figure 1; Table 3 | CHOIR is run on all 100 Infinity-Chat seed prompts at full elicitation depth and reports prompt-width results. |
-| Persona conditioning scope | Results RQ2; Discussion RQ2 | The draft states that model identity dominates the full output signature while persona prompts shift salience without overwriting model voice. |
-| Prompt-vocabulary echo | Results RQ3; Appendix: Additional Diagnostic and Ranking Figures | The draft reports both the targeted RITQ matched cue-word result and an external six-pair cue-stripping extension. |
+| External portability | Method; Results RQ1; Figure 1; Table 3 | CHOIR is run on all 100 Infinity-Chat seed prompts at full elicitation depth. Prompt-width results now report absolute RBO alongside relative lift and include the denominator-coupling caveat. |
+| Persona conditioning scope | Results RQ2; Discussion RQ2; Appendix: Additional Recoverability and Leakage Checks | The draft states that model identity dominates the full output signature while persona prompts shift salience without overwriting model voice. It adds a within-model persona classifier and profile-leakage caveat. |
+| Prompt-vocabulary echo | Results RQ3; Appendix: Additional Diagnostic and Ranking Figures | The draft reports both the targeted matched cue-word result and an external six-pair cue-stripping extension. |
 | Ranking interpretation | Results RQ4; Appendix: Ranking Protocol and Human Calibration | Ranking is reframed as candidate triage and the human calibration is treated cautiously. |
-| Limitations | Discussion: Limitations | The draft names the prompt-width heuristic, English-only scope, long persona profiles, small human calibration, and the fact that CHOIR is not a fixed benchmark. |
+| Limitations | Discussion: Limitations | The draft names the prompt-width heuristic, width/lift denominator coupling, English-only scope, long persona profiles, profile-proximate leakage, small human calibration, and the fact that CHOIR is not a fixed benchmark. |
 
 ## Reviewer Concern Map
 
@@ -64,13 +66,14 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 **Response in the revised draft and materials.**
 
 - **LLM-judge circularity.** Ranking is narrowed to candidate triage, not validation. The human calibration appears only as a small directional check: participants more often matched the conditioned AI cohort winner, but conditioned-source selection itself was near within-question chance.
-- **Vocabulary leakage.** Persona conditioning is treated as an output-level salience intervention, with leakage and stripping analyses supplied in the supporting materials:
+- **Vocabulary leakage.** Persona conditioning is treated as an output-level salience intervention, with leakage, stripping, and within-model recoverability analyses supplied in the supporting materials:
   - `supporting_results/RESULTS_AT_A_GLANCE.md`
   - `external_infinity_chat_100/parity_analysis/LEAKAGE_CHECKS.md`
   - `external_infinity_chat_100/parity_analysis/STRIPPED_RECOVERABILITY.md`
+- **Width/lift denominator coupling.** The draft no longer treats relative persona lift as independent validation of prompt width. Because relative lift divides by unconditioned RBO and the width score also uses unconditioned RBO, the paper now reports absolute unconditioned RBO, absolute same-persona RBO, and relative lift together.
 - **Model replacement.** The revised draft reports a clean nine-model corpus including Gemma 4 31B and Qwen 3.6 27B in the intended open-weight design slot. The refreshed claim set is based on this replacement corpus.
-- **Question-level heterogeneity.** The draft foregrounds per-question and prompt-width analysis rather than leaning on broad domain averages. Infinity-Chat 100 supplies a larger external prompt universe; RITQ supplies targeted probes.
-- **Persona/model tension.** The apparent tension is now the finding: persona prompts shift surfaced content priorities, but the full output signature remains dominated by base model.
+- **Question-level heterogeneity.** The draft foregrounds per-question and prompt-width analysis rather than leaning on broad domain averages. Infinity-Chat 100 supplies a larger external prompt universe; the legacy RITQ-labelled items supply targeted probes.
+- **Persona/model tension.** The apparent tension is now the finding: persona prompts shift surfaced content priorities, but the full output signature remains dominated by base model. A within-model leave-one-question-out classifier confirms that persona signal is detectable once model identity is held fixed, while remaining much weaker than model identity.
 
 **Scope limit.** The paper does not claim a mechanistic account of persona conditioning. It reports behavioural salience shifts and recoverability patterns.
 
@@ -81,13 +84,13 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 **Response in the revised draft and materials.**
 
 - CHOIR is defined as an elicitation-and-analysis method with explicit stages.
-- The RITQ inventory is described as a diagnostic probe set, not a new measure or psychometric instrument.
+- The targeted probe inventory is described as a diagnostic probe set, not a new measure or psychometric instrument.
 - Infinity-Chat 100 supplies the external prompt-bank test, so the method is not dependent on the paper's own questions.
 - Related Work explicitly positions CHOIR relative to homogeneity and diversity-extraction work, including diverse-perspective extraction and multilingual prompting.
 - The log-probability comparison clarifies why CHOIR works at concept level rather than as a token-local probability analysis.
 - Results and Discussion follow the same research-question structure, so the reader can see question, test, result, and implication in sequence.
 
-**Scope limit.** The paper does not claim that the RITQ inventory is a validated cognitive instrument. It claims CHOIR can be applied to open-ended prompt banks and can reveal which prompts behave as narrow, broad, lexically scaffolded, or persona-sensitive.
+**Scope limit.** The paper does not claim that the targeted probe inventory is a validated cognitive instrument. It claims CHOIR can be applied to open-ended prompt banks and can reveal which prompts behave as narrow, broad, lexically scaffolded, or persona-sensitive.
 
 ### Inspectability of Questions, Templates, and Extraction
 
@@ -97,7 +100,7 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 
 - The appendix includes Template A, Template B, and Template C wording.
 - The appendix includes a worked extraction example from raw model entry to JSON item to codebook cluster.
-- The appendix includes the full targeted RITQ diagnostic probe bank.
+- The appendix includes the full targeted diagnostic probe bank with legacy IDs.
 - The appendix includes the full Infinity-Chat 100 prompt table with descriptive taxonomy labels.
 - The exact extraction prompt and fuller worked example are included at `methods/EXTRACTION_PROMPT_AND_WORKED_EXAMPLE.md`.
 
@@ -112,6 +115,9 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 | `external_infinity_chat_100/README.md` | External 100-prompt CHOIR summary | Infinity-Chat 100 portability and prompt-width framing. |
 | `external_infinity_chat_100/width_taxonomy/HIVEMIND100_WIDTH_TAXONOMY.csv` | Prompt-width table | RQ1 prompt-width taxonomy and Figure 1. |
 | `external_infinity_chat_100/parity_analysis/PARITY_ANALYSIS_SUMMARY.md` | External parity checks | Recoverability, codebook permutation, LOO sensitivity, leakage summaries for Infinity-Chat 100. |
+| `external_infinity_chat_100/parity_analysis/RECOVERABILITY.md` | Global and within-model recoverability checks | Model identity remains dominant; persona signal is detectable when model identity is held fixed. |
+| `external_infinity_chat_100/parity_analysis/WIDTH_LIFT_DENOMINATOR_AUDIT_20260609.md` | Prompt-width and relative-lift denominator audit | Why relative lift is now interpreted as baseline-normalised behaviour rather than independent width validation. |
+| `external_infinity_chat_100/parity_analysis/LEAKAGE_CHECKS.md` | Profile-proximate language checks | Why persona effects are framed as salience shifts partly supported by profile-adjacent language. |
 | `external_infinity_chat_100/taxonomy_alignment/TAXONOMY_ALIGNMENT_INTERPRETATION_20260607.md` | Infinity-Chat/RITQ taxonomy alignment | Why Infinity-Chat and RITQ play different study roles. |
 | `external_infinity_chat_100/anchoring_probe/ANCHORING_PROBE_RESULTS.md` | Six original-vs-cue-stripped external prompt pairs | External extension of prompt-vocabulary echo diagnostics. |
 | `external_infinity_chat_100/contest_subset/HIVEMIND100_CONTEST_APPROVED12_20260607.md` | Source-blind ranking on 12 external prompts | RQ4 candidate-triage result. |
@@ -122,12 +128,12 @@ The revised draft clarifies the paper's scientific object: CHOIR is a portable f
 
 ## Claims Deliberately Not Made
 
-- The RITQ prompt bank is not presented as a validated scale.
+- The targeted probe bank is not presented as a validated scale.
 - Infinity-Chat 100 is not treated as exhaustive of open-ended prompting.
 - Persona prompts are not claimed to create new identities or overwrite base-model signatures.
 - LLM ranking is not treated as human preference, factual accuracy, or practical usefulness.
 - The human calibration is not presented as a complete solution to LLM-judge circularity.
-- The prompt-width score is not presented as a finished benchmark metric.
+- The prompt-width score is not presented as a finished benchmark metric, and relative persona lift is not presented as an independent validation of width.
 - No mechanistic claim is made about model activations.
 
 ## One-Sentence Trace
