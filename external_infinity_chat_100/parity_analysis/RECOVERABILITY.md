@@ -48,3 +48,9 @@ Overall persona accuracy: **0.323** [95% bootstrap CI 0.309, 0.337] against five
 | qwen3.6-27b | 0.302 |
 
 Reading: persona information is present once model identity is held fixed, but the stronger organizing signature remains model identity. This supports the paper's bounded interpretation of persona conditioning as a salience-shifting intervention rather than evidence that profile prompts overwrite base-model voice.
+
+## Leakage-Stripped Within-Model Persona Recoverability
+
+We also reran the within-model leave-one-question-out persona classifier after removing profile-proximate concepts and recomputing cell centroids. Accuracy decreases but remains above five-way chance under all three stripping thresholds: **0.318** at `< 0.5`, **0.303** at `< 0.4`, and **0.284** at `< 0.3`, compared with **0.323** without stripping.
+
+Reading: profile-adjacent vocabulary contributes to persona recoverability, but it does not fully explain the within-model persona signal.

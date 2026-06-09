@@ -31,3 +31,5 @@ Per-model embedding leakage vs persona recoverability: Pearson r = **0.830**, Sp
 Per-model token overlap vs persona recoverability: Pearson r = **0.237**, Spearman rho = **0.067**.
 
 Reading: leakage is measurable, and on Hivemind-100 it is more entangled with persona recoverability than it was in the original RITQ rebuttal corpus. The cautious interpretation is that profile-proximate language contributes to persona-surface signal here, while the stripping analysis tests whether the stronger model-signature result collapses when that surface-proximate content is removed.
+
+Companion check: `STRIPPED_WITHIN_MODEL_PERSONA_RECOVERABILITY.md` applies the same stripping to the within-model persona classifier. Accuracy remains above five-way chance after all three cuts (0.318, 0.303, 0.284), so profile-proximate language contributes to but does not exhaust the within-model persona signal.
