@@ -8,6 +8,7 @@ The question bank is not presented as a standard benchmark or as a claim that th
 
 ## Start Here
 
+- **Freshness note for ACs/meta-reviewers:** the revised draft and concern map were most recently updated on **2026-06-09** at commit `bc5d7d2` to incorporate a leakage-stripped within-model persona recoverability check and to synchronise the prompt-width table with the current figure artifact. If referencing the revised draft during meta-review, please briefly refresh this repository or confirm that the PDF is the latest copy.
 - `GLOBAL_SUMMARY.md` gives the one-page map of what changed and why.
 - `revised_draft/CHOIR_COLM2026_DISCUSSION_STAGE_REVISED_DRAFT_20260608.pdf` is the revised discussion-stage manuscript draft.
 - `revised_draft/DISCUSSION_TO_REVISED_DRAFT_MAP_20260608.md` maps review-discussion concerns to draft locations and supporting files.
